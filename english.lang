@@ -48,6 +48,7 @@
 	<string name="playermenu.tooltip.exp.rate">RATE:</string>
 	<string name="playermenu.tooltip.potion.title">%num% / %total% CHARGES</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% HP\n+ %mana% MANA</string>
+	<string name="playermenu.tooltip.tax">TAX</string>
 
 	<string name="playermenu.character.health">HEALTH</string>
 	<string name="playermenu.character.mana">MANA</string>
@@ -64,6 +65,7 @@
 	<string name="playermenu.character.attackdamage">ATTACK EFFECTS</string>
 	<string name="playermenu.character.spelldamage">SKILL EFFECTS</string>
 	<string name="playermenu.character.movespeed">MOVE SPEED</string>
+	<string name="playermenu.character.goldgain">GOLD GAIN</string>
 
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
@@ -248,7 +250,7 @@
 	<string name="endofgame.newgameplus">NEW GAME+</string>
 	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
 	<string name="endofgame.title">THE END</string>
-	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.\n\n(You can now choose to return to town on the same difficulty with the same hero, OR be the better person and step up your game in NEW GAME PLUS! All Your upgrades and progress will continue into whatever choise you make.)</string>
+	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.\n\n(You can now choose to return to town on the same difficulty with the same hero, OR be the better person and step up your game in NEW GAME PLUS! All Your upgrades and progress will continue into whatever choice you make.)</string>
 	<string name="endofgame.confirm.town">Are you sure you want to go back to town without activating New Game+?</string>
 	<string name="endofgame.confirm.plus">Are you sure you want to activate New Game+?</string>
 
@@ -936,7 +938,7 @@
 
 
 	<!-- misc -->
-	<string name="fountain.question">Do you wish to toss some coints into the fountain?</string>
+	<string name="fountain.question">Do you wish to toss some coins into the fountain?</string>
 	<string name="shop.menu.soldout">I'm all out of stuff right now.</string>
 
 	<!-- shop names -->
@@ -2292,7 +2294,7 @@
 	<string name="dialogue.sign.townhall">Town Hall</string>
 	<string name="dialogue.sign.guild">The Broken\nAce</string>
 	<string name="dialogue.sign.tavern">The Old\nDrunkard</string>
-	<string name="dialogue.sign.magic">Wizard's\nWares</string>
+	<string name="dialogue.sign.magic">The Pointy\nHat</string>
 	<string name="dialogue.sign.general">Darren's\nSupplies</string>
 	<string name="dialogue.sign.mines">Outlook\nMines</string>
 	<string name="dialogue.doll.normal">Looks\nplain</string>
@@ -2416,9 +2418,9 @@
 
 	<string name="bestiary.name.bosses.golem">Stone Guardian</string>
 	<string name="bestiary.name.bosses.warden">The Warden</string>
-	<string name="bestiary.name.bosses.wraith_scythe">Counselor of War</string>
-	<string name="bestiary.name.bosses.wraith_staff">Counselor of Wisdom</string>
-	<string name="bestiary.name.bosses.wraith_mage">Counselor of Magic</string>
+	<string name="bestiary.name.bosses.wraith_scythe">Councilor of War</string>
+	<string name="bestiary.name.bosses.wraith_staff">Councilor of Wisdom</string>
+	<string name="bestiary.name.bosses.wraith_mage">Councilor of Magic</string>
 	<string name="bestiary.name.bosses.eye">Watcher</string>
 	<string name="bestiary.name.bosses.dragon">Thundersnow</string>
 	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
