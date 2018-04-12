@@ -413,6 +413,12 @@
 	<string name="ui_draw_plr_names_real">REAL PLAYER NAMES</string>
 	<string name="ui_draw_plr_names_real.help">Show real player names instead of hero names in multiplayer.</string>
 
+	<string name="ui_minimap_size">SMALL MINIMAP</string>
+	<string name="ui_minimap_size.help">Enable a small map in the top right of your screen.</string>
+	<string name="ui_minimap_size.small">SMALL</string>
+	<string name="ui_minimap_size.medium">MEDIUM</string>
+	<string name="ui_minimap_size.big">BIG</string>
+
 	<!-- Gambling -->
 	<string name="gambling.house">House</string>
 	<string name="gambling.you">You</string>
@@ -521,6 +527,8 @@
 	<string name="menu.controls.potion">POTION</string>
 	<string name="menu.controls.playermenu">PLAYER MENU</string>
 	<string name="menu.controls.guildmenu">GUILD HALL</string>
+	<string name="menu.controls.mapoverlay">OVERLAY MAP</string>
+	<string name="menu.controls.ping">PING</string>
 
 	<string name="menu.mplayer">MULTIPLAYER</string>
 	<string name="menu.mplayer.clobby">CREATE LOBBY</string>
@@ -534,7 +542,6 @@
 	<string name="menu.accept">ACCEPT</string>
 	<string name="menu.yes">YES</string>
 	<string name="menu.no">NO</string>
-	<string name="menu.controls.mapoverlay">OVERLAY MAP</string>
 
 	<!-- options -> * -->
 	<string name="menu.o.game">GAME</string>
@@ -772,6 +779,11 @@
 	<string name="menu.lobby.missing.level">MISSING LEVEL</string>
 	<string name="menu.lobby.chat.missing.you">You don't have "%scenario%".</string>
 
+	<string name="mainmenu.lobbyplayers.title">PLAYER LIST</string>
+	<string name="mainmenu.lobbyplayers.title.multiple">PLAYER LIST (%count% PLAYERS)</string>
+	<string name="mainmenu.lobbyplayers.kick.prompt">Are you sure you want to kick %name%?</string>
+	<string name="mainmenu.lobbyplayers.profile.tooltip">Open this player's profile.</string>
+	<string name="mainmenu.lobbyplayers.kick.tooltip">Kick this player.</string>
 
 	<!-- server list -->
 	<string name="menu.serverlist.refresh">REFRESH</string>
