@@ -1253,7 +1253,7 @@
 	<string name="shop.generalstore.keygold.name">Gold Key</string>
 	<string name="shop.generalstore.keygold.desc">Used to open gold chests.</string>
 
-	<string name="shop.generalstore.reroll">REROLL - %cost%</string>
+	<string name="shop.generalstore.reroll">REROLL %cost%</string>
 	<string name="shop.generalstore.rerolldisabled">REROLL</string>
 
 
@@ -2016,7 +2016,7 @@
 
 
 	<string name="item.amulet-of-kings.name">Amulet of Kings</string>
-	<string name="item.amulet-of-kings.desc">+%res% Magic Resistance.</string>
+	<string name="item.amulet-of-kings.desc">+%res% Resistance.</string>
 
 	<string name="item.amulet-of-vengeance.name">Amulet of Vengeance</string>
 	<string name="item.amulet-of-vengeance.desc">%chance%% to trigger Combo when taking damage.</string>
@@ -2540,6 +2540,8 @@
 	<string name="bestiary.type.aberration">ABERRATIONS</string>
 	<string name="bestiary.type.construct">CONSTRUCTS</string>
 
+	<string name="bestiary.expreward">Experience reward</string>
+
 	<string name="bestiary.name.bosses.golem">Stone Guardian</string>
 	<string name="bestiary.name.bosses.warden">The Warden</string>
 	<string name="bestiary.name.bosses.wraith_scythe">Councilor of War</string>
@@ -2619,6 +2621,7 @@
 	<!-- itemiary -->
 	<string name="itemiary.header.items">ITEMS</string>
 	<string name="itemiary.header.drinks">DRINKS</string>
+	<string name="itemiary.itemcount">Amount found</string>
 
 
 
