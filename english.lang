@@ -331,7 +331,7 @@
 	<string name="random_buff.no_gold">The inscription reads:\nSacrifice %amount%% gold gain. Do you agree?</string>
 	<string name="random_buff.lower_hp_regen">The inscription reads:\nSacrifice %amount% health regen. Do you agree?</string>
 	<string name="random_buff.lower_mp_regen">The inscription reads:\nSacrifice %amount% mana regen. Do you agree?</string>
-	<string name="random_buff.take_damage">The inscription reads:\nSacrifice %amount% health. Do you agree?</string>
+	<string name="random_buff.take_damage">The inscription reads:\nTake %amount% damage. Do you agree?</string>
 	<string name="random_buff.lower_damage">The inscription reads:\nSacrifice %amount%% damage. Do you agree?</string>
 
 	<string name="random_buff.more_hp">The shrine rewards you with %amount%% max health.</string>
@@ -816,7 +816,7 @@
 
 	<string name="v_forced_aspect_ratio">ASPECT RATIO</string>
 
-	<string name="rg_brightness.help">Increase or decrease bightness.</string>
+	<string name="rg_brightness.help">Increase or decrease brightness.</string>
 	<string name="rg_gamma.help">Increase or decrease gamma.</string>
 	<string name="rg_contrast.help">Increase or decrease contrast.</string>
 	<string name="rg_crt_curve.help">Emulate a CRT monitors curvature.</string>
@@ -1093,16 +1093,16 @@
 	<string name="shop.townhall.tavern-3.desc">Gambling.</string>
 
 	<string name="shop.townhall.treasury-1.name">Treasury I</string>
-	<string name="shop.townhall.treasury-1.desc">Lowers tax rate.</string>
+	<string name="shop.townhall.treasury-1.desc">50% tax rate at 10000 total gold.</string>
 
 	<string name="shop.townhall.treasury-2.name">Treasury II</string>
-	<string name="shop.townhall.treasury-2.desc">Lowers tax rate.</string>
+	<string name="shop.townhall.treasury-2.desc">50% tax rate at 15000 total gold.</string>
 
 	<string name="shop.townhall.treasury-3.name">Treasury III</string>
-	<string name="shop.townhall.treasury-3.desc">Lowers tax rate.</string>
+	<string name="shop.townhall.treasury-3.desc">50% tax rate at 20000 total gold.</string>
 
 	<string name="shop.townhall.treasury-4.name">Treasury IV</string>
-	<string name="shop.townhall.treasury-4.desc">Lowers tax rate.</string>
+	<string name="shop.townhall.treasury-4.desc">50% tax rate at 25000 total gold.</string>
 
 
 	<!-- apothecary -->
@@ -1399,11 +1399,11 @@
 	<string name="skills.paladin.shield.5">Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 25 Physical or Magical damage.</string>
 
 	<string name="skills.paladin.stunning-blows">Stunning Blows</string>
-	<string name="skills.paladin.stunning-blows.create">Primary attack have a chance of stunning enemies for a few seconds.</string>
-	<string name="skills.paladin.stunning-blows.1">Your primary attacks have a 10% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.2">Your primary attacks have a 15% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.3">Your primary attacks have a 20% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.4">Your primary attacks have a 25% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.create">Primary attack has a chance of stunning enemies for a few seconds.</string>
+	<string name="skills.paladin.stunning-blows.1">Primary attack has a 10% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.2">Primary attack has a 15% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.3">Primary attack has a 20% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.4">Primary attack has a 25% chance to stun enemies for 2.5 seconds.</string>
 
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
@@ -1436,20 +1436,20 @@
 
 	<string name="skills.priest.holy-light">Holy Light</string>
 	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
-	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 Magical damage and will heal allies for 3.</string>
+	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 Magical damage and will heal allies for 2.</string>
 	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 18 Magical damage and will heal allies for 3.</string>
 	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 4.</string>
-	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 30 Magical damage and will heal allies for 4.</string>
-	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 36 Magical damage and will heal allies for 5.</string>
-	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 42 Magical damage and will heal allies for 5.</string>
+	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 30 Magical damage and will heal allies for 5.</string>
+	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 36 Magical damage and will heal allies for 6.</string>
+	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 42 Magical damage and will heal allies for 7.</string>
 
 	<string name="skills.priest.divine-protection">Divine Protection</string>
 	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
-	<string name="skills.priest.divine-protection.1">The shield absorbs 40% of incoming damage for a cost of 4 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.2">The shield absorbs 45% of incoming damage for a cost of 2 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.3">The shield absorbs 50% of incoming damage for a cost of 1 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.4">The shield absorbs 55% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.5">The shield absorbs 60% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.1">The shield absorbs 30% of incoming damage for a cost of 4 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.2">The shield absorbs 35% of incoming damage for a cost of 2 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.3">The shield absorbs 40% of incoming damage for a cost of 1 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.4">The shield absorbs 45% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.5">The shield absorbs 50% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
 
 	<string name="skills.priest.remedy">Remedy</string>
 	<string name="skills.priest.remedy.create">The Priest regains health more effectively from all sources.</string>
@@ -1505,11 +1505,11 @@
 	<string name="skills.ranger.dodge.5">Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.ranger.deadly-aim">Deadly Aim</string>
-	<string name="skills.ranger.deadly-aim.create">Primary attack have a chance of dealing critical strikes.</string>
-	<string name="skills.ranger.deadly-aim.1">Primary attacks have a 5% chance to be critical hits.</string>
-	<string name="skills.ranger.deadly-aim.2">Primary attacks have a 10% chance to be critical hits.</string>
-	<string name="skills.ranger.deadly-aim.3">Primary attacks have a 15% chance to be critical hits.</string>
-	<string name="skills.ranger.deadly-aim.4">Primary attacks have a 20% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.create">Primary attack has a chance of dealing critical strikes.</string>
+	<string name="skills.ranger.deadly-aim.1">Primary attack has a 5% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.2">Primary attack has a 10% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.3">Primary attack has a 15% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.4">Primary attack has a 20% chance to be critical hits.</string>
 
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
 	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes and reduces armor of enemies.</string>
@@ -1612,10 +1612,10 @@
 
 	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
 	<string name="skills.thief.slice-and-dice.create">With each kill the Thief gains a temporary attack speed bonus.</string>
-	<string name="skills.thief.slice-and-dice.1">Each kill grants the Thief a temporary attack speed bonus that stacks up to 4 times.</string>
-	<string name="skills.thief.slice-and-dice.2">Each kill grants the Thief a temporary attack speed bonus that stacks up to 7 times.</string>
-	<string name="skills.thief.slice-and-dice.3">Each kill grants the Thief a temporary attack speed bonus that stacks up to 10 times.</string>
-	<string name="skills.thief.slice-and-dice.4">Each kill grants the Thief a temporary attack speed bonus that stacks up to 13 times.</string>
+	<string name="skills.thief.slice-and-dice.1">Each kill grants the Thief a temporary attack speed bonus that stacks up to 4 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.2">Each kill grants the Thief a temporary attack speed bonus that stacks up to 7 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.3">Each kill grants the Thief a temporary attack speed bonus that stacks up to 10 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.4">Each kill grants the Thief a temporary attack speed bonus that stacks up to 13 times. Each stack lasts for 1.5 seconds.</string>
 
 	<string name="skills.thief.grappling-hook">Grappling Hook</string>
 	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact stunning all enemies in its path.</string>
@@ -1672,10 +1672,10 @@
 
 	<string name="skills.warlock.summon-gargoyle">Summon Gargoyle</string>
 	<string name="skills.warlock.summon-gargoyle.create">Summons a stationary gargoyle that fires bolts of lightning and stuns nearby enemies.</string>
-	<string name="skills.warlock.summon-gargoyle.1">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 24 Magical damage. The gargoyle lasts for 4 seconds.</string>
-	<string name="skills.warlock.summon-gargoyle.2">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 28 Magical damage. The gargoyle lasts for 5 seconds.</string>
-	<string name="skills.warlock.summon-gargoyle.3">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 32 Magical damage. The gargoyle lasts for 6 seconds.</string>
-	<string name="skills.warlock.summon-gargoyle.4">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 36 Magical damage. The gargoyle lasts for 7 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.1">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 24 Magical damage. The gargoyle lasts for 6 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.2">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 28 Magical damage. The gargoyle lasts for 8 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.3">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 32 Magical damage. The gargoyle lasts for 10 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.4">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 36 Magical damage. The gargoyle lasts for 12 seconds.</string>
 
 	<string name="skills.warlock.eye-of-the-storm">Eye of the Storm</string>
 	<string name="skills.warlock.eye-of-the-storm.create">Generates an electrical storm that follows the Warlock and strikes enemies with bolts of lightning.</string>
@@ -1711,10 +1711,10 @@
 	<string name="skills.wizard.combustion">Combustion</string>
 	<string name="skills.wizard.combustion.create">All Wizard skills inflict a Magical damage over time effect on enemies.</string>
 	<string name="skills.wizard.combustion.1">All Wizard skills inflict a burning over time dealing 4 Magical damage per second for 2 seconds.</string>
-	<string name="skills.wizard.combustion.2">All Wizard skills inflict a burning over time dealing 8 Magical damage per 0.5 seconds for 2.5 seconds.</string>
-	<string name="skills.wizard.combustion.3">All Wizard skills inflict a burning over time dealing 12 Magical damage per 0.5 seconds for 3 seconds.</string>
-	<string name="skills.wizard.combustion.4">All Wizard skills inflict a burning over time dealing 16 Magical damage per 0.5 seconds for 3.5 seconds.</string>
-	<string name="skills.wizard.combustion.5">All Wizard skills inflict a burning over time dealing 20 Magical damage per 0.5 seconds for 4 seconds.</string>
+	<string name="skills.wizard.combustion.2">All Wizard skills inflict a burning over time dealing 8 Magical damage per second for 2.5 seconds.</string>
+	<string name="skills.wizard.combustion.3">All Wizard skills inflict a burning over time dealing 12 Magical damage per second for 3 seconds.</string>
+	<string name="skills.wizard.combustion.4">All Wizard skills inflict a burning over time dealing 16 Magical damage per second for 3.5 seconds.</string>
+	<string name="skills.wizard.combustion.5">All Wizard skills inflict a burning over time dealing 20 Magical damage per second for 4 seconds.</string>
 
 	<string name="skills.wizard.flame-shield">Flame Shield</string>
 	<string name="skills.wizard.flame-shield.create">Gives the Wizard a chance to halve incoming damage and apply Combustion to the attacker.</string>
