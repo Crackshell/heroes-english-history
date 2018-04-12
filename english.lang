@@ -489,6 +489,7 @@
 	<string name="mainmenu.host.title">HOST</string>
 	<string name="mainmenu.host.public">Public</string>
 	<string name="mainmenu.host.private">Private</string>
+	<string name="mainmenu.host.name">%name%'s lobby</string>
 	<string name="mainmenu.serverlist.title">SERVERLIST</string>
 
 	<!-- character selection -->
