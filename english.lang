@@ -173,11 +173,11 @@
 	<string name="stats.key-found-1">Silver keys found</string>
 	<string name="stats.key-found-2">Gold keys found</string>
 	<string name="stats.key-found-3">Ace keys found</string>
-	<string name="stats.boss-1-killed">First boss killed</string>
-	<string name="stats.boss-2-killed">Second boss killed</string>
-	<string name="stats.boss-3-killed">Third boss killed</string>
-	<string name="stats.boss-4-killed">Fourth boss killed</string>
-	<string name="stats.boss-5-killed">Fifth boss killed</string>
+	<string name="stats.boss-1-killed">Stone Guardian killed</string>
+	<string name="stats.boss-2-killed">Warden killed</string>
+	<string name="stats.boss-3-killed">Three Councilors killed</string>
+	<string name="stats.boss-4-killed">Watcher killed</string>
+	<string name="stats.boss-5-killed">Thundersnow killed</string>
 	<string name="stats.aberration-killed">Aberrations killed</string>
 	<string name="stats.beast-killed">Beasts killed</string>
 	<string name="stats.construct-killed">Constructs killed</string>
@@ -261,7 +261,6 @@
 	<string name="dead.gameover">GAME OVER</string>
 	<string name="dead.restart.countdown">Restarting in %countdown%</string>
 	<string name="concept.continue">BEGIN MISSION...</string>
-	<string name="concept.wolf">GET PSYCHED!</string>
 
 	<string name="levelend.quit">Exit to menu</string>
 	<string name="levelend.finished">COMPLETED</string>
@@ -863,7 +862,6 @@
 	<string name="menu.notifier.joinfailed.host">Failed to create lobby.</string>
 	<string name="menu.loading">LOADING</string>
 
-	<string name="menu.mplayer.splitscreen">SPLITSCREEN</string>
 	<string name="menu.splitscreen.newgame">NEW GAME</string>
 	<string name="menu.splitscreen.noplayers">You can't start without any players!</string>
 	<string name="menu.splitscreen.prompt">PRESS BACK TO LEAVE</string>
@@ -1330,16 +1328,11 @@
 	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
 
 	<!-- ore trader -->
-	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
-	<string name="shop.oretrader.ore-gold-1.desc">Buy 1 ore for 1500 gold.</string>
-	<string name="shop.oretrader.ore-gold-2.desc">Buy 1 ore for 1250 gold.</string>
-	<string name="shop.oretrader.ore-gold-3.desc">Buy 1 ore for 1000 gold.</string>
+	<string name="shop.oretrader.ore-gold.name">Buy %ore% ore</string>
+	<string name="shop.oretrader.ore-gold.desc">Buy %ore% ore for %gold% gold.</string>
 
-	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
-	<string name="shop.oretrader.gold-ore-1.desc">Sell 1 ore for 200 gold.</string>
-	<string name="shop.oretrader.gold-ore-2.desc">Sell 1 ore for 350 gold.</string>
-	<string name="shop.oretrader.gold-ore-3.desc">Sell 1 ore for 500 gold.</string>
-
+	<string name="shop.oretrader.gold-ore.name">Sell %ore% ore</string>
+	<string name="shop.oretrader.gold-ore.desc">Sell %ore% ore for %gold% gold.</string>
 
 
 	<!-- fountain -->
@@ -1773,7 +1766,7 @@
 	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% movement speed buff for %dur% seconds.</string>
 
 	<string name="item.circlet-of-willpower.name">Circlet of Willpower</string>
-	<string name="item.circlet-of-willpower.desc">When below %health%% Health, spells are %scost%% cheaper to cast.</string>
+	<string name="item.circlet-of-willpower.desc">When below %health%% Health, skills cost %scost%% less mana.</string>
 
 	<string name="item.chainmail.name">Chainmail</string>
 	<string name="item.chainmail.desc">+%armor% Armor.</string>
@@ -1848,7 +1841,7 @@
 	<string name="item.sandals-swiftness.desc">+%mspeed% Movement Speed and +%evasion%% Evasion.</string>
 
 	<string name="item.scroll-of-magic-missile.name">Scroll of Magic Missile</string>
-	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when casting a spell. The missile has a cooldown of 2 seconds.</string>
+	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when using a skill. The missile has a cooldown of 2 seconds.</string>
 
 	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
 	<string name="item.serrated-scimitar.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
@@ -1968,7 +1961,7 @@
 	<string name="item.sphere-of-nova.desc">During Combo a nova is unleashed every second dealing %dmg% Magical damage.</string>
 
 	<string name="item.staff-of-unstable-casting.name">Staff of Unstable Casting</string>
-	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
+	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
 
 	<string name="item.stinger.name">Stinger</string>
 	<string name="item.stinger.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
@@ -2029,7 +2022,7 @@
 	<string name="item.magebane.desc">%chance%% chance to lower enemies Resistance by %res%% for %sec% seconds on Primary Attack.</string>
 
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
-	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
+	<string name="item.ring-of-arcane-powers.desc">Skill cost %scost%% less mana.</string>
 
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
@@ -2041,7 +2034,7 @@
 	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
 
 	<string name="item.staff-of-volatile-casting.name">Staff of Volatile Casting</string>
-	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
+	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
 
 	<string name="item.stormcaller.name">Stormcaller</string>
 	<string name="item.stormcaller.desc">%chance%% chance to release a chain lightning on your primary attack, dealing %dmg% Magical damage.</string>
@@ -2105,7 +2098,7 @@
 	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
 	<string name="item.sets.disciples-arcana.desc.1">+%res% resistance</string>
 	<string name="item.sets.disciples-arcana.desc.2">+%skill% skill power</string>
-	<string name="item.sets.disciples-arcana.desc.3">spells are %cost%% cheaper to cast</string>
+	<string name="item.sets.disciples-arcana.desc.3">skills cost %cost%% less mana</string>
 
 	<string name="item.sets.spheres-of-power.name">Spheres of Power</string>
 	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
@@ -2331,13 +2324,13 @@
 	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
 	<string name="guildhall.stats.lifetime">LIFETIME</string>
 	<string name="guildhall.stats.classtitles">CLASS TITLES</string>
-	<string name="guildhall.stats.armor">+%amount% armor to all heroes</string>
-	<string name="guildhall.stats.resistance">+%amount% resistance to all heroes</string>
-	<string name="guildhall.stats.attackpower">+%amount% attack power to all heroes</string>
-	<string name="guildhall.stats.spellpower">+%amount% spell power to all heroes</string>
-	<string name="guildhall.stats.healthregen">+%amount% health regen to all heroes</string>
-	<string name="guildhall.stats.manaregen">+%amount% mana regen to all heroes</string>
-	<string name="guildhall.stats.goldgain">+%amount% gold gained by all heroes</string>
+	<string name="guildhall.stats.armor">+%amount% Armor to all heroes</string>
+	<string name="guildhall.stats.resistance">+%amount% Resistance to all heroes</string>
+	<string name="guildhall.stats.attackpower">+%amount% Attack Power to all heroes</string>
+	<string name="guildhall.stats.spellpower">+%amount% Skill Power to all heroes</string>
+	<string name="guildhall.stats.healthregen">+%amount% Health regen to all heroes</string>
+	<string name="guildhall.stats.manaregen">+%amount% Mana regen to all heroes</string>
+	<string name="guildhall.stats.goldgain">+%amount% Gold gained by all heroes</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2501,24 +2494,24 @@
 	<string name="guildhall.accomplishments.bosses">BOSSES</string>
 	<string name="guildhall.accomplishments.boss-1">STONE GUARDIAN</string>
 	<string name="guildhall.accomplishments.boss-2">WARDEN</string>
-	<string name="guildhall.accomplishments.boss-3">THE THREE WRAITHS</string>
+	<string name="guildhall.accomplishments.boss-3">THE THREE COUNCILORS</string>
 	<string name="guildhall.accomplishments.boss-4">WATCHER</string>
 	<string name="guildhall.accomplishments.boss-5">THUNDERSNOW</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
-	<string name="accomplishment.boss-1-killed-class.desc">Kill the 1st Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-1-killed-class.desc">Kill the Stone Guardian with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-2-killed-class.name">Breakers of Chains %lvl%</string>
-	<string name="accomplishment.boss-2-killed-class.desc">Kill the 2nd Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-2-killed-class.desc">Kill the Warden with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-3-killed-class.name">Abolishers of Evil %lvl%</string>
-	<string name="accomplishment.boss-3-killed-class.desc">Kill the 3rd Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-3-killed-class.desc">Kill the Three Councilors with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-4-killed-class.name">Establishers of Order %lvl%</string>
-	<string name="accomplishment.boss-4-killed-class.desc">Kill the 4th Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-4-killed-class.desc">Kill the Watcher with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-5-killed-class.name">Restorers of Peace %lvl%</string>
-	<string name="accomplishment.boss-5-killed-class.desc">Kill the 5th Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-5-killed-class.desc">Kill the Thundersnow with %requirement% different classes.</string>
 
 	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
