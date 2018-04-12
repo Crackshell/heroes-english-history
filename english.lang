@@ -398,6 +398,7 @@
 	<string name="modifier.list.player.upgrades">Upgrades</string>
 	<string name="modifier.list.player.buffs">Buffs</string>
 	<string name="modifier.list.player.titles">Class titles</string>
+	<string name="modifier.list.player.tavern_drinks">Drinks</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -784,6 +785,7 @@
 	<string name="mainmenu.lobbyplayers.kick.prompt">Are you sure you want to kick %name%?</string>
 	<string name="mainmenu.lobbyplayers.profile.tooltip">Open this player's profile.</string>
 	<string name="mainmenu.lobbyplayers.kick.tooltip">Kick this player.</string>
+	<string name="mainmenu.lobbyplayers.level">level %level%</string>
 
 	<!-- server list -->
 	<string name="menu.serverlist.refresh">REFRESH</string>
@@ -1251,6 +1253,9 @@
 	<string name="shop.generalstore.keygold.name">Gold Key</string>
 	<string name="shop.generalstore.keygold.desc">Used to open gold chests.</string>
 
+	<string name="shop.generalstore.reroll">REROLL - %cost%</string>
+	<string name="shop.generalstore.rerolldisabled">REROLL</string>
+
 
 	<!-- chapel -->
 	<string name="shop.chapel.convert">CONVERT - %cost%</string>
@@ -1380,6 +1385,13 @@
 	<string name="shop.skills.respec.tooltip.title">Retrain</string>
 	<string name="shop.skills.respec.tooltip">Reset all your skills with gold. You will get %skillpoints% skillpoints back.</string>
 	<string name="shop.skills.respec.prompt">Are you sure you want to retrain for %gold% gold?</string>
+
+	<!-- drinks -->
+	<string name="shop.drinks">TAPSTER RICHARD HAMMER</string>
+	<string name="shop.drinks.message.single">I'm afraid we can only serve you one drink right now.</string>
+	<string name="shop.drinks.message.plural">I'm afraid we can only serve you %num% drinks right now.</string>
+	<string name="shop.drinks.message.enough">You've had enough!</string>
+	<string name="shop.drinks.message.empty">All drinks are out of stock, you have to find more in the tower!</string>
 
 
 
@@ -2136,6 +2148,98 @@
 
 
 
+	<!-- DRINKS -->
+
+
+
+	<!-- COMMON -->
+
+
+	<string name="drink.a-strong-arm.name">A Strong Arm</string>
+	<string name="drink.a-strong-arm.desc">%pos% Attack Power.\n%neg% Armor.</string>
+
+	<string name="drink.ancient-spirit.name">Ancient Spirit</string>
+	<string name="drink.ancient-spirit.desc">%pos% Skill Power.\n%neg% Resistance.</string>
+
+	<string name="drink.crazy-eye.name">Crazy Eye</string>
+	<string name="drink.crazy-eye.desc">%pos%% chance to score a Critical Hit on Primary Attack.\n%neg% Armor.</string>
+
+	<string name="drink.double-thriller.name">Double Thriller</string>
+	<string name="drink.double-thriller.desc">%pos%% damage dealt.\n%neg%% damage taken.</string>
+
+	<string name="drink.homemade-hazard.name">Homemade Hazard</string>
+	<string name="drink.homemade-hazard.desc">%pos%% Critical Damage on your Primary attack.\n%neg%% damage taken.</string>
+
+	<string name="drink.ladys-blessing.name">Lady's Blessing</string>
+	<string name="drink.ladys-blessing.desc">%pos% Health Regen.\n%neg%% Skill Power.</string>
+
+	<string name="drink.lazy-stroll.name">Lazy Stroll</string>
+	<string name="drink.lazy-stroll.desc">%pos%% Experience gain.\n%neg% Movement Speed.</string>
+
+	<string name="drink.mellow-mist.name">Mellow Mist</string>
+	<string name="drink.mellow-mist.desc">%pos%% damage taken.\n%neg% Movement Speed.</string>
+
+	<string name="drink.on-the-run.name">On the Run</string>
+	<string name="drink.on-the-run.desc">%pos% Movement Speed.\n%neg%% Gold gain.</string>
+
+	<string name="drink.smelly-old-man.name">Smelly Old Man</string>
+	<string name="drink.smelly-old-man.desc">%pos% Mana Regen.\n%neg%% max Health.</string>
+
+	<string name="drink.starlight-stinger.name">Starlight Stinger</string>
+	<string name="drink.starlight-stinger.desc">%pos%% chance to score a Critical Hit with Skills.\n%neg%% max Mana.</string>
+
+	<string name="drink.the-groovy-ghost.name">The Groovy Ghost</string>
+	<string name="drink.the-groovy-ghost.desc">%pos%% Evasion.\n%neg% Attack Power.</string>
+
+
+	<!-- UNCOMMON -->
+
+
+	<string name="drink.a-fools-errand.name">A Fool's Errand</string>
+	<string name="drink.a-fools-errand.desc">%pos%% Gold gain.\n%neg% Health Regen while standing still.</string>
+
+	<string name="drink.elemental-bruiser.name">Elemental Bruiser</string>
+	<string name="drink.elemental-bruiser.desc">%pos%% Skill damage.\n%neg%% Skill cost.</string>
+
+	<string name="drink.miners-delight.name">Miners Delight</string>
+	<string name="drink.miners-delight.desc">%pos%% Ore gain.\n%neg%% Gold gain.</string>
+
+	<string name="drink.last-stand.name">Last Stand</string>
+	<string name="drink.last-stand.desc">+%pos%% damage dealt and -50% damage taken while standing still.\n%neg%% Movement Speed.</string>
+
+	<string name="drink.the-last-sin.name">The Last Sin</string>
+	<string name="drink.the-last-sin.desc">%pos%% Critical Damage with Skills\n%neg% Mana Regen.</string>
+
+
+
+	<!-- RARE -->
+
+
+	<string name="drink.crimson-death.name">Crimson Death</string>
+	<string name="drink.crimson-death.desc">%pos%% Lifesteal on all damage.\nLose health while moving.</string>
+
+	<string name="drink.hammer-time.name">Hammer Time</string>
+	<string name="drink.hammer-time.desc">%pos% Attack Power.\n%neg%% Armor.</string>
+
+	<string name="drink.incendiary-demise.name">Incendiary Demise</string>
+	<string name="drink.incendiary-demise.desc">%pos% Magical damage on Primary Attack.\nYou start burning when dealing damage with your Primary Attack.</string>
+
+	<string name="drink.the-mad-proposal.name">The Mad Proposal</string>
+	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Confusion.</string>
+
+	<string name="drink.unbalanced-essence.name">Unbalanced Essence</string>
+	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\n%neg%% Resistance.</string>
+
+	<string name="drink.wicked-sickness.name">Wicked Sickness</string>
+	<string name="drink.wicked-sickness.desc">%pos%% damage dealt during Combo.\n%neg% Health Regen while out of Combo.</string>
+
+
+
+
+
+
+
+
 	<!-- Dialogue -->
 
 
@@ -2345,6 +2449,7 @@
 	<string name="guildhall.tab.stats">GUILD & HEROES</string>
 	<string name="guildhall.tab.accomplishments">ACCOMPLISHMENTS</string>
 	<string name="guildhall.tab.beastiary">BESTIARY</string>
+	<string name="guildhall.tab.itemiary">ITEMIARY</string>
 	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
 	<string name="guildhall.stats.lifetime">LIFETIME</string>
 	<string name="guildhall.stats.classtitles">CLASS TITLES</string>
@@ -2355,6 +2460,7 @@
 	<string name="guildhall.stats.healthregen">+%amount% Health regen to all heroes</string>
 	<string name="guildhall.stats.manaregen">+%amount% Mana regen to all heroes</string>
 	<string name="guildhall.stats.goldgain">+%amount% Gold gained by all heroes</string>
+
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2509,6 +2615,10 @@
 	<string name="bestiary.name.wisp_1">Blue Wisp</string>
 	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
 	<string name="bestiary.name.wisp_2">Red Wisp</string>
+
+	<!-- itemiary -->
+	<string name="itemiary.header.items">ITEMS</string>
+	<string name="itemiary.header.drinks">DRINKS</string>
 
 
 
