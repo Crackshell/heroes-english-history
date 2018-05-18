@@ -163,6 +163,10 @@
 	<string name="stats.chests-opened">Chests opened</string>
 	<string name="stats.elevator-used">Elevators used</string>
 	<string name="stats.fountain-used">Fountain used</string>
+	<string name="stats.fountain-deposited">Fountain gold deposited</string>
+	<string name="stats.fountain-paid">Fountain gold spent</string>
+	<string name="stats.fountain-favor-good">Fountain good favor</string>
+	<string name="stats.fountain-favor-bad">Fountain bad favor</string>
 	<string name="stats.well-used">Well used</string>
 	<string name="stats.gold-found">Gold found</string>
 	<string name="stats.ore-found">Ore found</string>
@@ -911,8 +915,8 @@
 	<string name="menu.splitscreen.join.gp">PRESS ANY BUTTON FOR CONTROLLER</string>
 	<string name="menu.splitscreen.gameoptions">GAME OPTIONS</string>
 
-
-
+	<string name="menu.discord">Join the official Hammerwatch Discord</string>
+	<string name="menu.wiki">Visit the official Heroes of Hammerwatch wiki</string>
 
 
 
@@ -1063,10 +1067,10 @@
 	<string name="shop.townhall.chapel-3.desc">Donate money to receive a permanent blessing.</string>
 
 	<string name="shop.townhall.fountain-1.name">Fountain I</string>
-	<string name="shop.townhall.fountain-1.desc">Throw gold in the fountain to have something happen (good or bad, amazing or terrible).</string>
+	<string name="shop.townhall.fountain-1.desc">Customize your run by wishing for positive and negative effects.</string>
 
 	<string name="shop.townhall.fountain-2.name">Fountain II</string>
-	<string name="shop.townhall.fountain-2.desc">Higher chance of something good happening.</string>
+	<string name="shop.townhall.fountain-2.desc">Unlocks more effects.</string>
 
 	<string name="shop.townhall.generalstore-1.name">General Store I</string>
 	<string name="shop.townhall.generalstore-1.desc">Buy Keys and Items (3 common).</string>
@@ -1383,11 +1387,14 @@
 
 
 	<!-- fountain -->
-	<string name="fountain.good">Something good happened.</string>
-	<string name="fountain.bad">Something bad happened.</string>
-	<string name="fountain.something">Something happened.</string>
-	<string name="fountain.great">Something great happened.</string>
-	<string name="fountain.horrible">Something horrible happened.</string>
+	<string name="fountain.positive">POSITIVE</string>
+	<string name="fountain.negative">NEGATIVE</string>
+	<string name="fountain.favor">FAVOR</string>
+	<string name="fountain.acceptresult">Accept result:</string>
+	<string name="fountain.lockedin">LOCKED IN!</string>
+	<string name="fountain.favorcount">Favor %favor%</string>
+	<string name="fountain.throwninto">has been thrown into the fountain.</string>
+	<string name="fountain.requiredlevel">Required fountain level %level%</string>
 
 	<!-- gambling -->
 	<string name="town.cardgame.goldfrom">Your %num%</string>
@@ -1423,6 +1430,7 @@
 	<string name="shop.forge.attune.description">Attune this item to double its effect.</string>
 	<string name="shop.forge.craft">Craft</string>
 	<string name="shop.forge.craft.description">Craft this item.</string>
+	<string name="shop.forge.found">Found: %num% / %total%</string>
 
 
 
@@ -1818,7 +1826,7 @@
 	<string name="item.apothecarys-herbs.desc">Drinking your Potion triggers a %mspeed%% Movement Speed buff for %dur% seconds.</string>
 
 	<string name="item.blackjack.name">Blackjack</string>
-	<string name="item.blackjack.desc">%chance%% to stun enemies for %dur% seconds on Primary Attack.</string>
+	<string name="item.blackjack.desc">%chance%% chance to stun enemies for %dur% seconds on Primary Attack.</string>
 
 	<string name="item.book-of-enlightenment.name">Book of Enlightenment</string>
 	<string name="item.book-of-enlightenment.desc">+%exp%% Experience gained.</string>
@@ -1839,7 +1847,7 @@
 	<string name="item.chainmail.desc">+%armor% Armor.</string>
 
 	<string name="item.cowl-of-protection.name">Cowl of Protection</string>
-	<string name="item.cowl-of-protection.desc">%chance%% to Block %block% Magical damage.</string>
+	<string name="item.cowl-of-protection.desc">%chance%% chance to Block %block% Magical damage.</string>
 
 	<string name="item.curios-box.name">Curio's Box</string>
 	<string name="item.curios-box.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
@@ -1851,10 +1859,10 @@
 	<string name="item.enchanted-dirk.desc">+%dmg% Magical and Physical damage on Primary Attack.</string>
 
 	<string name="item.firm-buckler.name">Firm Buckler</string>
-	<string name="item.firm-buckler.desc">%chance%% to Block %block% Physical damage.</string>
+	<string name="item.firm-buckler.desc">%chance%% chance to Block %block% Physical damage.</string>
 
 	<string name="item.gladiators-net.name">Gladiator's Net</string>
-	<string name="item.gladiators-net.desc">%chance%% to disarm enemies for %dur% seconds on Primary Attack.</string>
+	<string name="item.gladiators-net.desc">%chance%% chance to disarm enemies for %dur% seconds on Primary Attack.</string>
 
 	<string name="item.glowing-staff.name">Glowing Staff</string>
 	<string name="item.glowing-staff.desc">%power% Skill Power and %dmg% Magical Damage on Primary Attack.</string>
@@ -2080,13 +2088,13 @@
 	<string name="item.amulet-of-kings.desc">+%res% Resistance.</string>
 
 	<string name="item.amulet-of-vengeance.name">Amulet of Vengeance</string>
-	<string name="item.amulet-of-vengeance.desc">%chance%% to trigger Combo when taking damage.</string>
+	<string name="item.amulet-of-vengeance.desc">%chance%% chance to trigger Combo when taking damage.</string>
 
 	<string name="item.armor-of-kings.name">Armor of Kings</string>
 	<string name="item.armor-of-kings.desc">+%armor% Armor.</string>
 
 	<string name="item.cape-of-the-flamewalker.name">Cape of the Flamewalker</string>
-	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage per second.</string>
+	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage.</string>
 
 	<string name="item.curios-coffer.name">Curio's Coffer</string>
 	<string name="item.curios-coffer.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
@@ -2311,7 +2319,7 @@
 	<string name="drink.incendiary-demise.desc">%pos% Magical damage on Primary Attack.\nYou start burning when dealing damage with your Primary Attack.</string>
 
 	<string name="drink.the-mad-proposal.name">The Mad Proposal</string>
-	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Confusion.</string>
+	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Vertigo.</string>
 
 	<string name="drink.unbalanced-essence.name">Unbalanced Essence</string>
 	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\n%neg%% Resistance.</string>
@@ -2323,6 +2331,130 @@
 
 
 
+
+
+
+	<!-- FOUNTAIN -->
+
+
+
+	<!-- GOOD -->
+
+
+	<string name="fountain.effect.bigger_levels.name">Expanded Floors</string>
+	<string name="fountain.effect.bigger_levels.description">Bigger floors.</string>
+
+	<string name="fountain.effect.glass_walks.name">Glass Walks</string>
+	<string name="fountain.effect.glass_walks.description">Enables Glass Walks.</string>
+
+	<string name="fountain.effect.more_chest_rooms.name">Treasure Hunt</string>
+	<string name="fountain.effect.more_chest_rooms.description">Chance for additional chest rooms.</string>
+
+	<string name="fountain.effect.amazing_pickups.name">Exceptional Consumables</string>
+	<string name="fountain.effect.amazing_pickups.description">Health and mana pickups are 500% more effective.</string>
+
+	<string name="fountain.effect.infinite_wells.name">Unlimited Springs</string>
+	<string name="fountain.effect.infinite_wells.description">Wells have unlimited uses.</string>
+
+	<string name="fountain.effect.keep_all_gold.name">Offshore Account</string>
+	<string name="fountain.effect.keep_all_gold.description">Tax reduction.</string>
+
+	<string name="fountain.effect.more_shop_items.name">Abundant Shops</string>
+	<string name="fountain.effect.more_shop_items.description">Shops have 2 more items in stock.</string>
+
+	<string name="fountain.effect.reduced_trap_damage.name">Gentle Traps</string>
+	<string name="fountain.effect.reduced_trap_damage.description">Traps deal 50% less damage.</string>
+
+	<string name="fountain.effect.better_loot.name">Quality Loot</string>
+	<string name="fountain.effect.better_loot.description"></string>
+
+	<string name="fountain.effect.no_towers.name">Toppled Towers</string>
+	<string name="fountain.effect.no_towers.description">All towers are destroyed.</string>
+
+	<string name="fountain.effect.no_pathway_traps.name">Safe Corridors</string>
+	<string name="fountain.effect.no_pathway_traps.description">All traps in corridors are disabled.</string>
+
+	<string name="fountain.effect.no_spawners.name">Demolished Spawners</string>
+	<string name="fountain.effect.no_spawners.description">All spawners are destroyed.</string>
+
+	<string name="fountain.effect.ace_key.name">Ace Key</string>
+	<string name="fountain.effect.ace_key.description">Receive 1 Ace Key.</string>
+
+	<string name="fountain.effect.less_great_threat.name">Infrequent Threats</string>
+	<string name="fountain.effect.less_great_threat.description">Great threats are less frequent.</string>
+
+	<string name="fountain.effect.more_shrines.name">Mysterious Guidance</string>
+	<string name="fountain.effect.more_shrines.description">Increased chance of finding Monoliths.</string>
+
+	<string name="fountain.effect.more_imps.name">Plentiful Gifts</string>
+	<string name="fountain.effect.more_imps.description">Increased chance of finding Imps.</string>
+
+	<string name="fountain.effect.faster_enemies.name">Agile Adversaries</string>
+	<string name="fountain.effect.faster_enemies.description">Enemy movement speed increased by 50%.</string>
+
+	<string name="fountain.effect.minibosses_everywhere.name">Enemy Overseers</string>
+	<string name="fountain.effect.minibosses_everywhere.description">Mini bosses spawn on every floor.</string>
+
+
+	<!-- BAD -->
+
+
+	<string name="fountain.effect.more_enemies.name">Enemy Reinforcements</string>
+	<string name="fountain.effect.more_enemies.description">More enemies.</string>
+
+	<string name="fountain.effect.no_prison_button.name">Lock Up</string>
+	<string name="fountain.effect.no_prison_button.description">Prison button is stuck.</string>
+
+	<string name="fountain.effect.more_elites.name">Elite Reinforcements</string>
+	<string name="fountain.effect.more_elites.description">More elite enemies.</string>
+
+	<string name="fountain.effect.bad_pickups.name">Lousy Consumables</string>
+	<string name="fountain.effect.bad_pickups.description">Health and mana pickups are 50% less effective.</string>
+
+	<string name="fountain.effect.shitty_items.name">Worn Out Items</string>
+	<string name="fountain.effect.shitty_items.description">Small chance of receiving a worthless item.</string>
+
+	<string name="fountain.effect.random_earthquakes.name">Earthquakes</string>
+	<string name="fountain.effect.random_earthquakes.description">Random earthquakes will occur.</string>
+
+	<string name="fountain.effect.enemy_invasion.name">Enemy Invasion</string>
+	<string name="fountain.effect.enemy_invasion.description"></string>
+
+	<string name="fountain.effect.no_dropped_loot.name">Empty Pockets</string>
+	<string name="fountain.effect.no_dropped_loot.description">Enemies will not drop any loot.</string>
+
+	<string name="fountain.effect.no_secrets.name">Sealed Cracks</string>
+	<string name="fountain.effect.no_secrets.description">No secrets will spawn.</string>
+
+	<string name="fountain.effect.potion_confuse.name">Spicy Potions</string>
+	<string name="fountain.effect.potion_confuse.description">Become confused for 2.5 seconds when drinking a potion charge.</string>
+
+	<string name="fountain.effect.container_bombs.name">Explosive Surprises</string>
+	<string name="fountain.effect.container_bombs.description">More bombs in containers.</string>
+
+	<string name="fountain.effect.no_wells.name">Dry Springs</string>
+	<string name="fountain.effect.no_wells.description">Wells are unusable.</string>
+
+	<string name="fountain.effect.no_shops.name">Public Holiday</string>
+	<string name="fountain.effect.no_shops.description">No dungeon shopkeepers.</string>
+
+	<string name="fountain.effect.no_ore.name">Exhausted Ore Veins</string>
+	<string name="fountain.effect.no_ore.description">No Ore spawns.</string>
+
+	<string name="fountain.effect.more_trap_damage.name">Lethal Traps</string>
+	<string name="fountain.effect.more_trap_damage.description">Traps deal 200% more damage.</string>
+
+	<string name="fountain.effect.1_hp.name">Instant Death</string>
+	<string name="fountain.effect.1_hp.description">Your base health is set to 1.</string>
+
+	<string name="fountain.effect.more_great_threat.name">Relentless Threats</string>
+	<string name="fountain.effect.more_great_threat.description">Great threats are more frequent.</string>
+
+	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
+	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
+
+	<string name="fountain.effect.rare_item.name">Rare Reward</string>
+	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
 
 
 
