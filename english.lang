@@ -227,6 +227,7 @@
 	<string name="stats.drinks-consumed">Drinks consumed</string>
 	<string name="stats.drinks-found">Drinks found</string>
 	<string name="stats.blueprints-found">Blueprints found</string>
+	<string name="stats.dyes-found">Dyes found</string>
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -243,6 +244,7 @@
 	<string name="misc.elevator.ore">Ore</string>
 	<string name="misc.store.gold">Sent %num% gold to town</string>
 	<string name="misc.soulslinked">SOULS LINKED</string>
+	<string name="misc.soulsunlinked">SOULS UNLINKED</string>
 
 	<string name="item.key">KEY</string>
 	<string name="item.key.plural">%num% KEYS</string>
@@ -255,6 +257,12 @@
 	<string name="item.diamond.red-small">DIAMOND</string>
 	<string name="item.diamond.gold">DIAMOND</string>
 	<string name="item.diamond.gold-small">DIAMOND</string>
+
+	<string name="quality.common">Common</string>
+	<string name="quality.uncommon">Uncommon</string>
+	<string name="quality.rare">Rare</string>
+	<string name="quality.epic">Epic</string>
+	<string name="quality.legendary">Legendary</string>
 
 	<!-- intro -->
 	<string name="intro.title">THE OUTLOOK</string>
@@ -545,7 +553,10 @@
 	<string name="mainmenu.character.colors.title">COLORS</string>
 	<string name="mainmenu.character.delete.text">Really delete '%name%'?</string>
 	<string name="menu.restart.tooltip">Return to town. This will count as a death!</string>
-
+	<string name="mainmenu.character.customize.title">CHARACTER CUSTOMIZATION</string>
+	<string name="mainmenu.character.customize.finish">Modify appearance for %cost% gold?</string>
+	<string name="mainmenu.character.free">Your first makeover is on the house!</string>
+	<string name="mainmenu.character.create.next">NEXT</string>
 
 	<!-- options > controls -->
 	<string name="menu.controls.attack1">ACTIVE SKILL 1</string>
@@ -778,6 +789,7 @@
 	<string name="menu.lobby.title.joining">Lobby</string>
 
 	<string name="menu.lobby.chat.revive">%reviver% revived %revivee%. Their souls are now linked.</string>
+	<string name="menu.lobby.chat.soulsunlinked">All souls are now unlinked.</string>
 
 	<string name="menu.lobby.ready">READY</string>
 	<string name="menu.lobby.unready">UNREADY</string>
@@ -1004,6 +1016,7 @@
 	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
 	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
 	<string name="shop.oretrader">OLIVER, THE ORE TRADER</string>
+	<string name="shop.tailor">THE TAILOR</string>
 
 	<string name="town.building.townhall">Town hall</string>
 	<string name="town.building.guildhall">Guild hall</string>
@@ -2299,7 +2312,7 @@
 	<string name="drink.miners-delight.desc">%pos%% Ore gain.\n%neg%% Gold gain.</string>
 
 	<string name="drink.last-stand.name">Last Stand</string>
-	<string name="drink.last-stand.desc">+%pos%% damage dealt and -50% damage taken while standing still.\n%neg%% Movement Speed.</string>
+	<string name="drink.last-stand.desc">+%pos%% damage dealt and %neg%% damage taken while standing still.\n%mov%% Movement Speed.</string>
 
 	<string name="drink.the-last-sin.name">The Last Sin</string>
 	<string name="drink.the-last-sin.desc">%pos%% Critical Damage with Skills\n%neg% Mana Regen.</string>
@@ -2389,11 +2402,11 @@
 	<string name="fountain.effect.more_imps.name">Plentiful Gifts</string>
 	<string name="fountain.effect.more_imps.description">Increased chance of finding Imps.</string>
 
-	<string name="fountain.effect.faster_enemies.name">Agile Adversaries</string>
-	<string name="fountain.effect.faster_enemies.description">Enemy movement speed increased by 50%.</string>
+	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
+	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
 
-	<string name="fountain.effect.minibosses_everywhere.name">Enemy Overseers</string>
-	<string name="fountain.effect.minibosses_everywhere.description">Mini bosses spawn on every floor.</string>
+	<string name="fountain.effect.rare_item.name">Rare Reward</string>
+	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
 
 
 	<!-- BAD -->
@@ -2450,11 +2463,11 @@
 	<string name="fountain.effect.more_great_threat.name">Relentless Threats</string>
 	<string name="fountain.effect.more_great_threat.description">Great threats are more frequent.</string>
 
-	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
-	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
+	<string name="fountain.effect.faster_enemies.name">Agile Adversaries</string>
+	<string name="fountain.effect.faster_enemies.description">Enemy movement speed increased by 50%.</string>
 
-	<string name="fountain.effect.rare_item.name">Rare Reward</string>
-	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
+	<string name="fountain.effect.minibosses_everywhere.name">Enemy Overseers</string>
+	<string name="fountain.effect.minibosses_everywhere.description">Mini bosses spawn on every floor.</string>
 
 
 
@@ -2872,7 +2885,7 @@
 	<string name="accomplishment.boss-5-killed-class.name">Restorers of Peace %lvl%</string>
 	<string name="accomplishment.boss-5-killed-class.desc">Kill the Thundersnow with %requirement% different classes.</string>
 
-	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
+	<string name="accomplishment.aberration-killed.name">Exorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
 
 	<string name="accomplishment.beast-killed.name">Beast Slayers %lvl%</string>
@@ -3030,6 +3043,94 @@
 
 	<string name="accomplishment.drinks-consumed.name">Quenchers %lvl%</string>
 	<string name="accomplishment.drinks-consumed.desc">Consume %requirement% tavern drinks.</string>
+
+
+
+	<!-- Tailor -->
+
+
+	<!-- materials -->
+	<string name="materials.skin">Skin</string>
+	<string name="materials.hair">Hair</string>
+	<string name="materials.cloth">Cloth</string>
+	<string name="materials.metal">Metal</string>
+	<string name="materials.leather">Leather</string>
+	<string name="materials.wood">Wood</string>
+
+	<!-- paladin -->
+	<string name="materials.paladin.category.1">Breastplate</string>
+	<string name="materials.paladin.category.2">Adornments</string>
+	<string name="materials.paladin.category.3">Shield</string>
+	<string name="materials.paladin.category.4">Helmet</string>
+
+	<!-- priest -->
+	<string name="materials.priest.category.1">Robe</string>
+	<string name="materials.priest.category.2">Cape</string>
+	<string name="materials.priest.category.3">Mitra</string>
+	<string name="materials.priest.category.4">Cane</string>
+
+	<!-- ranger -->
+	<string name="materials.ranger.category.1">Hood</string>
+	<string name="materials.ranger.category.2">Cloak</string>
+	<string name="materials.ranger.category.3">Pauldrons</string>
+	<string name="materials.ranger.category.4">Bow</string>
+
+	<!-- sorcerer -->
+	<string name="materials.sorcerer.category.1">Hat</string>
+	<string name="materials.sorcerer.category.2">Robe</string>
+	<string name="materials.sorcerer.category.3">Trim</string>
+
+	<!-- thief -->
+	<string name="materials.thief.category.1">Mask</string>
+	<string name="materials.thief.category.2">Tunic</string>
+	<string name="materials.thief.category.3">Pauldrons</string>
+	<string name="materials.thief.category.4">Boots</string>
+
+	<!-- warlock -->
+	<string name="materials.warlock.category.1">Helmet</string>
+	<string name="materials.warlock.category.2">Robe</string>
+	<string name="materials.warlock.category.3">Staff</string>
+
+	<!-- wizard -->
+	<string name="materials.wizard.category.1">Robe</string>
+	<string name="materials.wizard.category.2">Trim</string>
+	<string name="materials.wizard.category.3">Staff</string>
+
+	<!-- colors -->
+	<string name="materials.color.skin.shade.1">Shade 1</string>
+	<string name="materials.color.skin.shade.2">Shade 2</string>
+	<string name="materials.color.skin.shade.3">Shade 3</string>
+	<string name="materials.color.skin.shade.4">Shade 4</string>
+	<string name="materials.color.blonde">Blonde</string>
+	<string name="materials.color.brown">Brown</string>
+	<string name="materials.color.black">Black</string>
+	<string name="materials.color.gray">Gray</string>
+	<string name="materials.color.dark_gray">Dark Gray</string>
+	<string name="materials.color.red">Red</string>
+	<string name="materials.color.green">Green</string>
+	<string name="materials.color.blue">Blue</string>
+	<string name="materials.color.pink">Pink</string>
+	<string name="materials.color.teal">Teal</string>
+	<string name="materials.color.white">White</string>
+	<string name="materials.color.violet">Violet</string>
+	<string name="materials.color.gold">Gold</string>
+	<string name="materials.color.light_blue">Light Blue</string>
+	<string name="materials.color.dark_blue">Dark Blue</string>
+	<string name="materials.color.rust">Rust</string>
+	<string name="materials.color.light_brown">Light Brown</string>
+	<string name="materials.color.dark_brown">Dark Brown</string>
+	<string name="materials.color.tan">Tan</string>
+	<string name="materials.color.ash">Ash</string>
+	<string name="materials.color.moss">Moss</string>
+	<string name="materials.color.aqua">Aqua</string>
+	<string name="materials.color.forest">Forest</string>
+	<string name="materials.color.scarlet">Scarlet</string>
+	<string name="materials.color.lime">Lime</string>
+	<string name="materials.color.orange">Orange</string>
+	<string name="materials.color.jade">Jade</string>
+	<string name="materials.color.lilac">Lilac</string>
+	<string name="materials.color.iridescent">Iridescent</string>
+	<string name="materials.color.garnet">Garnet</string>
 
 
 
