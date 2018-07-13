@@ -536,6 +536,8 @@
 	<string name="mainmenu.host.maxlevel">Max hero level</string>
 	<string name="mainmenu.host.minlevel">Min hero level</string>
 	<string name="mainmenu.host.ngp">Start on NG+</string>
+	<string name="mainmenu.host.downscaling">Downscaling</string>
+	<string name="mainmenu.host.downscaling.description">Scales class title bonuses and hero level stats down to the current NG+.</string>
 	<string name="mainmenu.serverlist.title">SERVERLIST</string>
 	<string name="mainmenu.serverlist.level-restriction.both">Required hero level: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">Minimum hero level: %min%</string>
@@ -1484,11 +1486,11 @@
 	<string name="skills.paladin.shield.5">Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 25 Physical damage.</string>
 
 	<string name="skills.paladin.stunning-blows">Stunning Blows</string>
-	<string name="skills.paladin.stunning-blows.create">Sword has a chance of stunning enemies for a few seconds.</string>
-	<string name="skills.paladin.stunning-blows.1">Sword has a 10% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.2">Sword has a 15% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.3">Sword has a 20% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.4">Sword has a 25% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.create">\caac8ffSword\d has a chance of stunning enemies for a few seconds.</string>
+	<string name="skills.paladin.stunning-blows.1">\caac8ffSword\d has a 10% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.2">\caac8ffSword\d has a 15% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.3">\caac8ffSword\d has a 20% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.4">\caac8ffSword\d has a 25% chance to stun enemies for 2.5 seconds.</string>
 
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
@@ -1504,9 +1506,9 @@
 	<string name="skills.paladin.whirlwind.3">A spinning attack that deals 50 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5 seconds.</string>
 
 	<string name="skills.paladin.flames-of-devotion">Flames of Devotion</string>
-	<string name="skills.paladin.flames-of-devotion.create">Each hit with Sword adds Magical damage to all the Paladin's skills.</string>
-	<string name="skills.paladin.flames-of-devotion.1">Each hit with Sword adds 1 Magical damage to all of Paladin's skills. Stacks up to 12 times, each stack lasts for 1 second.</string>
-	<string name="skills.paladin.flames-of-devotion.2">Each hit with Sword adds 1 Magical damage to all of Paladin's skills. Stacks up to 24 times, each stack lasts for 1 second.</string>
+	<string name="skills.paladin.flames-of-devotion.create">Each hit with \caac8ffSword\d adds Magical damage to all the Paladin's skills.</string>
+	<string name="skills.paladin.flames-of-devotion.1">Each hit with \caac8ffSword\d adds 1 Magical damage to all of the Paladin's skills. Stacks up to 12 times, each stack lasts for 1 second.</string>
+	<string name="skills.paladin.flames-of-devotion.2">Each hit with \caac8ffSword\d adds 1 Magical damage to all of the Paladin's skills. Stacks up to 24 times, each stack lasts for 1 second.</string>
 
 
 	<!-- Priest -->
@@ -1557,9 +1559,9 @@
 	<string name="skills.priest.aura-of-purification.3">The Priest activates an aura that slows and lowers the resistance of all nearby enemies by 40%. All allies in the area also take 30% less damage. The aura lasts for 8 seconds.</string>
 
 	<string name="skills.priest.celestial-orb">Celestial Orbs</string>
-	<string name="skills.priest.celestial-orb.create">Orbs rotate around the priest that fire small beams of holy light at nearby enemies. The orbs will automatically fire at the same target as Holy Light.</string>
-	<string name="skills.priest.celestial-orb.1">Two orbs rotate around the Priest that fire small beams of holy light, dealing 8 Magical damage. The orbs will automatically fire at the same target as Holy Light.</string>
-	<string name="skills.priest.celestial-orb.2">Three orbs rotate around the Priest that fire small beams of holy light, dealing 12 Magical damage. The orbs will automatically fire at the same target as Holy Light.</string>
+	<string name="skills.priest.celestial-orb.create">Orbs rotate around the priest that fire small beams of holy light at nearby enemies. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+	<string name="skills.priest.celestial-orb.1">Two orbs rotate around the Priest that fire small beams of holy light, dealing 8 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+	<string name="skills.priest.celestial-orb.2">Three orbs rotate around the Priest that fire small beams of holy light, dealing 12 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
 
 
 	<!-- Ranger -->
@@ -1574,12 +1576,12 @@
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in all directions.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around and fires 24 arrows of your current level of Bow Shot.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around and fires 32 arrows of your current level of Bow Shot.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around and fires 40 arrows of your current level of Bow Shot.</string>
-	<string name="skills.ranger.flurry-of-arrows.4">The Ranger spins around and fires 48 arrows of your current level of Bow Shot.</string>
-	<string name="skills.ranger.flurry-of-arrows.5">The Ranger spins around and fires 56 arrows of your current level of Bow Shot.</string>
-	<string name="skills.ranger.flurry-of-arrows.6">The Ranger spins around and fires 64 arrows of your current level of Bow Shot.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around and fires 24 arrows of your current level of \caac8ffBow Shot\d.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around and fires 32 arrows of your current level of \caac8ffBow Shot\d.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around and fires 40 arrows of your current level of \caac8ffBow Shot\d.</string>
+	<string name="skills.ranger.flurry-of-arrows.4">The Ranger spins around and fires 48 arrows of your current level of \caac8ffBow Shot\d.</string>
+	<string name="skills.ranger.flurry-of-arrows.5">The Ranger spins around and fires 56 arrows of your current level of \caac8ffBow Shot\d.</string>
+	<string name="skills.ranger.flurry-of-arrows.6">The Ranger spins around and fires 64 arrows of your current level of \caac8ffBow Shot\d.</string>
 
 	<string name="skills.ranger.on-the-prowl">On the Prowl</string>
 	<string name="skills.ranger.on-the-prowl.create">When casting a skill the Ranger receives a movement and evasion buff that lasts for a few seconds.</string>
@@ -1590,11 +1592,11 @@
 	<string name="skills.ranger.on-the-prowl.5">When casting a skill the Ranger receives a buff that lasts for 4.5 seconds. The buff increases movement speed by 25% and grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.ranger.deadly-aim">Marked Prey</string>
-	<string name="skills.ranger.deadly-aim.create">Bow Shot has a chance of marking enemies. Marked targets have a chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.1">Bow Shot has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.2">Bow Shot has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 10% chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.3">Bow Shot has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 15% chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.4">Bow Shot has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 20% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.create">\caac8ffBow Shot\d has a chance of marking enemies. Marked targets have a chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.1">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.2">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 10% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.3">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 15% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.4">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 20% chance to receive critical damage from all sources of damage.</string>
 
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
 	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes and reduces armor of enemies.</string>
@@ -1611,8 +1613,8 @@
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.1">Arrows from Bow Shot have a 25% chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.2">Arrows from Bow Shot have a 40% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Arrows from \caac8ffBow Shot\d have a 25% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Arrows from \caac8ffBow Shot\d have a 40% chance of splitting and seeking a new target.</string>
 
 
 	<!-- Sorcerer -->
@@ -1696,11 +1698,11 @@
 	<string name="skills.thief.sidestep.5">Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
-	<string name="skills.thief.slice-and-dice.create">Each hit with Twin Daggers grants an attack speed bonus that lasts for a few seconds.</string>
-	<string name="skills.thief.slice-and-dice.1">Each hit with Twin Daggers grants a 2% attack speed bonus that stacks up to 8 times. All stacks are lost after 2.5 seconds of not attacking.</string>
-	<string name="skills.thief.slice-and-dice.2">Each hit with Twin Daggers grants a 2% attack speed bonus that stacks up to 16 times. All stacks are lost after 2.5 seconds of not attacking.</string>
-	<string name="skills.thief.slice-and-dice.3">Each hit with Twin Daggers grants a 2% attack speed bonus that stacks up to 24 times. All stacks are lost after 2.5 seconds of not attacking.</string>
-	<string name="skills.thief.slice-and-dice.4">Each hit with Twin Daggers grants a 2% attack speed bonus that stacks up to 32 times. All stacks are lost after 2.5 seconds of not attacking.</string>
+	<string name="skills.thief.slice-and-dice.create">Each hit with \caac8ffTwin Daggers\d grants an attack speed bonus that lasts for a few seconds.</string>
+	<string name="skills.thief.slice-and-dice.1">Each hit with \caac8ffTwin Daggers\d grants a 2% attack speed bonus that stacks up to 8 times. All stacks are lost after 2.5 seconds of not attacking.</string>
+	<string name="skills.thief.slice-and-dice.2">Each hit with \caac8ffTwin Daggers\d grants a 2% attack speed bonus that stacks up to 16 times. All stacks are lost after 2.5 seconds of not attacking.</string>
+	<string name="skills.thief.slice-and-dice.3">Each hit with \caac8ffTwin Daggers\d grants a 2% attack speed bonus that stacks up to 24 times. All stacks are lost after 2.5 seconds of not attacking.</string>
+	<string name="skills.thief.slice-and-dice.4">Each hit with \caac8ffTwin Daggers\d grants a 2% attack speed bonus that stacks up to 32 times. All stacks are lost after 2.5 seconds of not attacking.</string>
 
 	<string name="skills.thief.grappling-hook">Grappling Hook</string>
 	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact and stuns enemies for a short time.</string>
@@ -1710,15 +1712,15 @@
 	<string name="skills.thief.grappling-hook.4">Fires a grappling hook and travels to the point of impact, stunning enemies for 1.25 seconds. The Thief has 100% evasion while traveling with the grappling hook. Increased range.</string>
 
 	<string name="skills.thief.smoke-bomb">Smoke Bomb</string>
-	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies. The bomb also a provides a smoke cloud that grants evasion to all allies in the area.</string>
+	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies. The bomb also provides a smoke cloud that grants evasion to all allies in the area.</string>
 	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a large area for 2 seconds. The bomb also provides a smoke cloud that grants all allies 10% evasion in the area.</string>
 	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a large area for 3 seconds. The bomb also provides a smoke cloud that grants all allies 20% evasion in the area.</string>
 	<string name="skills.thief.smoke-bomb.3">The Thief throws a smoke bomb that stuns all enemies in a large area for 4 seconds. The bomb also provides a smoke cloud that grants all allies 30% evasion in the area.</string>
 
 	<string name="skills.thief.vicious-cuts">Vicious Cuts</string>
-	<string name="skills.thief.vicious-cuts.create">Each hit with Twin Daggers have a chance of lowering the targets current health by a percentage.</string>
-	<string name="skills.thief.vicious-cuts.1">Each hit with Twin Daggers have a 5% chance of lowering the targets current health by 5%.</string>
-	<string name="skills.thief.vicious-cuts.2">Each hit with Twin Daggers have a 10% chance of lowering the targets current health by 5%.</string>
+	<string name="skills.thief.vicious-cuts.create">Each hit with \caac8ffTwin Daggers\d have a chance of lowering the targets current health by a percentage.</string>
+	<string name="skills.thief.vicious-cuts.1">Each hit with \caac8ffTwin Daggers\d have a 5% chance of lowering the targets current health by 5%.</string>
+	<string name="skills.thief.vicious-cuts.2">Each hit with \caac8ffTwin Daggers\d have a 10% chance of lowering the targets current health by 5%.</string>
 
 
 	<!-- Warlock -->
