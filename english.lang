@@ -45,13 +45,13 @@
 	<string name="playermenu.character.base.capped">Base: %value% (Level: %level%)</string>
 
 	<string name="playermenu.tooltip.exp">EXPERIENCE</string>
-	<string name="playermenu.tooltip.exp.total">TOTAL:</string>
-	<string name="playermenu.tooltip.exp.left">LEFT:</string>
-	<string name="playermenu.tooltip.exp.rate">RATE:</string>
+	<string name="playermenu.tooltip.exp.total">Total:</string>
+	<string name="playermenu.tooltip.exp.left">Left:</string>
+	<string name="playermenu.tooltip.exp.rate">Rate:</string>
 	<string name="playermenu.tooltip.potion.title">%num% / %total% CHARGES</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% HP\n+ %mana% MANA</string>
 	<string name="playermenu.tooltip.tax">TAX</string>
-	<string name="playermenu.tooltip.exp.levelcap">LEVEL CAP:</string>
+	<string name="playermenu.tooltip.exp.levelcap">Level Cap:</string>
 
 	<string name="playermenu.character.health">HEALTH</string>
 	<string name="playermenu.character.mana">MANA</string>
@@ -65,8 +65,8 @@
 	<string name="playermenu.character.attackpower.description">Increases damage done by primary attack by %value%%.</string>
 	<string name="playermenu.character.spellpower">SKILL POWER</string>
 	<string name="playermenu.character.spellpower.description">Increases damage done by skills and items by %value%%.</string>
-	<string name="playermenu.character.attackdamage">ATTACK EFFECTS</string>
-	<string name="playermenu.character.spelldamage">SKILL EFFECTS</string>
+	<string name="playermenu.character.physicaladd">Physical Add: +%amount%</string>
+	<string name="playermenu.character.magicaladd">Magical Add: +%amount%</string>
 	<string name="playermenu.character.movespeed">MOVE SPEED</string>
 	<string name="playermenu.character.goldgain">GOLD GAIN</string>
 	<string name="playermenu.character.oregain">ORE GAIN</string>
@@ -78,6 +78,7 @@
 	<string name="playermenu.character.spellchances">Skill crit chances</string>
 	<string name="playermenu.character.lifesteal">LIFESTEAL</string>
 	<string name="playermenu.character.lifesteal.description">Primary Attack: %value%%\n%lists%\n\nSkills: %value-spell%%\n%lists-spell%</string>
+	<string name="playermenu.dead">%player% is dead.</string>
 
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
@@ -89,8 +90,9 @@
 	<string name="world.acts.2">ARMORY</string>
 	<string name="world.acts.3">ARCHIVES</string>
 	<string name="world.acts.4">CHAMBERS</string>
-	<string name="world.acts.5">TOP</string>
-
+	<string name="world.acts.5">BATTLEMENTS</string>
+	<string name="world.acts.6">BRIDGE</string>
+	<string name="world.acts.7">TOP</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">YOU DIED</string>
@@ -197,6 +199,7 @@
 	<string name="stats.boss-3-killed">Three Councilors killed</string>
 	<string name="stats.boss-4-killed">Watcher killed</string>
 	<string name="stats.boss-5-killed">Thundersnow killed</string>
+	<string name="stats.boss-6-killed">Vampire Lord killed</string>
 	<string name="stats.aberration-killed">Aberrations killed</string>
 	<string name="stats.beast-killed">Beasts killed</string>
 	<string name="stats.construct-killed">Constructs killed</string>
@@ -314,6 +317,7 @@
 	<string name="meta.info.passage">A secret passage has been revealed…</string>
 	<string name="meta.info.exitrevealed">The exit has been revealed!</string>
 	<string name="meta.info.threatspawned">A great threat was spawned!</string>
+	<string name="meta.info.impspawned">An unexpected gift is waiting for you!</string>
 	<string name="meta.info.gatherparty">You must gather your party before venturing forth.</string>
 	<string name="meta.info.ritual.gather">You must gather your party before starting the ritual.</string>
 	<string name="meta.info.ritual.start">…and the great abomination\n was summoned!</string>
@@ -374,6 +378,7 @@
 	<string name="temp_buff.damage">The monolith imbues you with incredible strength!</string>
 	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
 	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
+	<string name="temp_buff.gold">The monolith imbues you with gold fever!</string>
 
 	<string name="levelcredits.prompt">%level% by %author%</string>
 
@@ -544,6 +549,12 @@
 	<string name="mainmenu.serverlist.level-restriction.max">Maximum hero level: %max%</string>
 	<string name="mainmenu.serverlist.ngp">NG+: \cffc400+%ngp%</string>
 	<string name="mainmenu.serverlist.charname">%name%, a level %lvl% %class%</string>
+	<string name="mainmenu.serverlist.downscaling">Downscaling enabled.</string>
+	<string name="mainmenu.serverlist.mods.one">1 mod</string>
+	<string name="mainmenu.serverlist.mods.plural">%num% mods</string>
+	<string name="mainmenu.serverlist.mods.dontmatch">Your enabled mods don't match!</string>
+	<string name="mainmenu.multiplayer.disabled">Multiplayer is currently unavailabe, try again later.</string>
+	<string name="mainmenu.multiplayer.disabled.mods">Multiplayer is disabled due to having an unpacked mod enabled.</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">CHOOSE HERO</string>
@@ -564,6 +575,20 @@
 	<string name="mainmenu.character.customize.finish">Modify appearance for %cost% gold?</string>
 	<string name="mainmenu.character.free">Your first makeover is on the house!</string>
 	<string name="mainmenu.character.create.next">NEXT</string>
+
+	<!-- save slots -->
+	<string name="mainmenu.slots.title">Choose profile</string>
+	<string name="mainmenu.slots.create">Create a new profile</string>
+	<string name="mainmenu.slots.name">Profile %num%</string>
+	<string name="mainmenu.slots.clone">Clone this profile</string>
+	<string name="mainmenu.slots.clone.prompt">Really clone the town in profile %num% to slot %newnum%?</string>
+	<string name="mainmenu.slots.edit">Change mods</string>
+	<string name="mainmenu.slots.edit.prompt">Enabling mods in a profile will permanently mark it as modded. Are you sure you want to continue enabling mods for profile %num%?</string>
+	<string name="mainmenu.slots.delete">Delete this profile</string>
+	<string name="mainmenu.slots.delete.prompt">Really delete this town in profile %num%? It can not be recovered.</string>
+	<string name="mainmenu.slots.switch">Switch to this profile</string>
+	<string name="mainmenu.editslot.title">Select mods</string>
+	<string name="mainmenu.editslot.saving">Profile is saving...</string>
 
 	<!-- options > controls -->
 	<string name="menu.controls.attack1">ACTIVE SKILL 1</string>
@@ -588,6 +613,7 @@
 	<string name="menu.accept">ACCEPT</string>
 	<string name="menu.yes">YES</string>
 	<string name="menu.no">NO</string>
+	<string name="menu.profiles">PROFILES</string>
 
 	<!-- options -> * -->
 	<string name="menu.o.game">GAME</string>
@@ -796,7 +822,11 @@
 	<string name="menu.lobby.title.joining">Lobby</string>
 
 	<string name="menu.lobby.chat.revive">%reviver% revived %revivee%. Their souls are now linked.</string>
+	<string name="menu.lobby.chat.revive.free">%revivee% was revived.</string>
 	<string name="menu.lobby.chat.soulsunlinked">All souls are now unlinked.</string>
+	<string name="menu.lobby.chat.soullinkdeath">%name% died from being soul linked with %killer%.</string>
+	<string name="menu.lobby.chat.death">%name% died from %killer%.</string>
+	<string name="menu.lobby.chat.suicide">%name% died.</string>
 
 	<string name="menu.lobby.ready">READY</string>
 	<string name="menu.lobby.unready">UNREADY</string>
@@ -840,6 +870,8 @@
 	<!-- hud overlay -->
 	<string name="menu.notifier.saved">CURRENT PROGRESS SAVED</string>
 	<string name="menu.notifier.lostconnection">Connection lost.</string>
+	<string name="menu.notifier.joinfailed.mods">Failed to join lobby because you don't have the same mods enabled. The host has enabled %num%: %mods%</string>
+	<string name="menu.notifier.joinfailed.level">Failed to join lobby because the character is outside of the level requirements. (Minimum %min%, maximum %max%)</string>
 
 	<string name="misc.autosave">Autosave</string>
 	<string name="misc.timeletters.hours">h</string>
@@ -937,11 +969,13 @@
 	<string name="menu.discord">Join the official Hammerwatch Discord</string>
 	<string name="menu.wiki">Visit the official Heroes of Hammerwatch wiki</string>
 
-
-
-
-
-
+	<string name="mods.by">By %author%</string>
+	<string name="mods.count">%num% mods</string>
+	<string name="mods.count.1">1 mod</string>
+	<string name="mods.listitem">%name% by %author%</string>
+	<string name="mods.unpacked">Note: This mod is unpacked!</string>
+	<string name="mods.help.modded">Profiles remain tagged as modded even after all mods are disabled.</string>
+	<string name="shop.modding">KELLY THE MODDER</string>
 
 
 
@@ -1450,6 +1484,10 @@
 	<string name="shop.forge.craft">Craft</string>
 	<string name="shop.forge.craft.description">Craft this item.</string>
 	<string name="shop.forge.found">Found: %num% / %total%</string>
+	<string name="shop.forge.respec">RESPEC</string>
+	<string name="shop.forge.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
+	<string name="shop.forge.respec.tooltip.title">Respec</string>
+	<string name="shop.forge.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
 
 
 
@@ -1593,10 +1631,10 @@
 
 	<string name="skills.ranger.deadly-aim">Marked Prey</string>
 	<string name="skills.ranger.deadly-aim.create">\caac8ffBow Shot\d has a chance of marking enemies. Marked targets have a chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.1">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.2">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 10% chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.3">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 15% chance to receive critical damage from all sources of damage.</string>
-	<string name="skills.ranger.deadly-aim.4">\caac8ffBow Shot\d has a 10% chance to Mark an enemy for 2.5 seconds. Marked targets have a 20% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.1">\caac8ffBow Shot\d has a 5% chance to crit and apply Mark to enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.2">\caac8ffBow Shot\d has a 7.5% chance to crit and apply Mark to enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.3">\caac8ffBow Shot\d has a 10% chance to crit and apply Mark to enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+	<string name="skills.ranger.deadly-aim.4">\caac8ffBow Shot\d has a 12.5% chance to crit and apply Mark to enemy for 2.5 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
 
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
 	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes and reduces armor of enemies.</string>
@@ -1620,12 +1658,12 @@
 	<!-- Sorcerer -->
 	<string name="skills.sorcerer.frost-shard">Frost Shard</string>
 	<string name="skills.sorcerer.frost-shard.create">Fires a frost shard that ricochets off walls and enemies.</string>
-	<string name="skills.sorcerer.frost-shard.1">Fire a frost shard that deal 6 Hybrid damage. Frost shards ricochet 1 time.</string>
-	<string name="skills.sorcerer.frost-shard.2">Fire a frost shard that deal 8 Hybrid damage. Frost shards ricochet up to 2 times.</string>
-	<string name="skills.sorcerer.frost-shard.3">Fire a frost shard that deal 10 Hybrid damage. Frost shards ricochet up to 3 times.</string>
-	<string name="skills.sorcerer.frost-shard.4">Fire a frost shard that deal 12 Hybrid damage. Frost shards ricochet up to 4 times.</string>
-	<string name="skills.sorcerer.frost-shard.5">Fire a frost shard that deal 14 Hybrid damage. Frost shards ricochet up to 5 times.</string>
-	<string name="skills.sorcerer.frost-shard.6">Fire a frost shard that deal 16 Hybrid damage. Frost shards ricochet up to 6 times.</string>
+	<string name="skills.sorcerer.frost-shard.1">Fire a frost shard that deal 6 Hybrid damage. Frost shards ricochet 1 time. Damage is increased by 10% per bounce.</string>
+	<string name="skills.sorcerer.frost-shard.2">Fire a frost shard that deal 8 Hybrid damage. Frost shards ricochet up to 2 times. Damage is increased by 10% per bounce.</string>
+	<string name="skills.sorcerer.frost-shard.3">Fire a frost shard that deal 10 Hybrid damage. Frost shards ricochet up to 3 times. Damage is increased by 10% per bounce.</string>
+	<string name="skills.sorcerer.frost-shard.4">Fire a frost shard that deal 12 Hybrid damage. Frost shards ricochet up to 4 times. Damage is increased by 10% per bounce.</string>
+	<string name="skills.sorcerer.frost-shard.5">Fire a frost shard that deal 14 Hybrid damage. Frost shards ricochet up to 5 times. Damage is increased by 10% per bounce.</string>
+	<string name="skills.sorcerer.frost-shard.6">Fire a frost shard that deal 16 Hybrid damage. Frost shards ricochet up to 6 times. Damage is increased by 10% per bounce.</string>
 
 	<string name="skills.sorcerer.comet">Comet</string>
 	<string name="skills.sorcerer.comet.create">Summons a comet to strike in front of the Sorcerer that damages and freezes enemies on impact.</string>
@@ -1638,11 +1676,11 @@
 
 	<string name="skills.sorcerer.biting-chill">Biting Chill</string>
 	<string name="skills.sorcerer.biting-chill.create">All Sorcerer skills apply slow and have a chance of freezing enemies for a few seconds.</string>
-	<string name="skills.sorcerer.biting-chill.1">Sorcerer's skills slows enemies by 20% for 2 seconds. They also have a 5% chance to freeze enemies in place for 1.25 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.2">Sorcerer's skills slows enemies by 25% for 2.5 seconds. They also have a 5% chance to freeze enemies in place for 1.5 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.3">Sorcerer's skills slows enemies by 30% for 3 seconds. They also have a 5% chance to freeze enemies in place for 1.75 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.4">Sorcerer's skills slows enemies by 35% for 3.5 seconds. They also have a 5% chance to freeze enemies in place for 2 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.5">Sorcerer's skills slows enemies by 40% for 4 seconds. They also have a 5% chance to freeze enemies in place for 2.25 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.1">Sorcerer's skills slows enemies by 20% for 2 seconds. They also have a 7.5% chance to freeze enemies in place for 1.25 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.2">Sorcerer's skills slows enemies by 25% for 2.5 seconds. They also have a 7.5% chance to freeze enemies in place for 1.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.3">Sorcerer's skills slows enemies by 30% for 3 seconds. They also have a 7.5% chance to freeze enemies in place for 1.75 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.4">Sorcerer's skills slows enemies by 35% for 3.5 seconds. They also have a 7.5% chance to freeze enemies in place for 2 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.5">Sorcerer's skills slows enemies by 40% for 4 seconds. They also have a 7.5% chance to freeze enemies in place for 2.25 seconds.</string>
 
 	<string name="skills.sorcerer.ice-barrier">Ice Barrier</string>
 	<string name="skills.sorcerer.ice-barrier.create">When casting a skill a protective barrier is conjured that lowers damage taken by one damage instance.</string>
@@ -1691,11 +1729,11 @@
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
-	<string name="skills.thief.sidestep.1">Grants 5% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.2">Grants 10% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.3">Grants 15% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.4">Grants 20% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.5">Grants 25% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.1">Grants 5% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 5 seconds.</string>
+	<string name="skills.thief.sidestep.2">Grants 10% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 4.5 seconds.</string>
+	<string name="skills.thief.sidestep.3">Grants 15% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 4 seconds.</string>
+	<string name="skills.thief.sidestep.4">Grants 20% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 3.5 seconds.</string>
+	<string name="skills.thief.sidestep.5">Grants 25% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 3 seconds.</string>
 
 	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
 	<string name="skills.thief.slice-and-dice.create">Each hit with \caac8ffTwin Daggers\d grants an attack speed bonus that lasts for a few seconds.</string>
@@ -1726,12 +1764,12 @@
 	<!-- Warlock -->
 	<string name="skills.warlock.soul-dagger">Soul Dagger</string>
 	<string name="skills.warlock.soul-dagger.create">Short ranged attack that applies Soul Consumption dealing Magical damage over time. The Warlock gains a small amount of health and mana based on the damage done by Soul Consumption.</string>
-	<string name="skills.warlock.soul-dagger.1">Short ranged attack that applies Soul Consumption which deals 12 Magical damage per second for 2.5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
-	<string name="skills.warlock.soul-dagger.2">Short ranged attack that applies Soul Consumption which deals 14 Magical damage per second for 3 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
-	<string name="skills.warlock.soul-dagger.3">Short ranged attack that applies Soul Consumption which deals 16 Magical damage per second for 3.5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
-	<string name="skills.warlock.soul-dagger.4">Short ranged attack that applies Soul Consumption which deals 18 Magical damage per second for 4 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
-	<string name="skills.warlock.soul-dagger.5">Short ranged attack that applies Soul Consumption which deals 20 Magical damage per second for 4.5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
-	<string name="skills.warlock.soul-dagger.6">Short ranged attack that applies Soul Consumption which deals 22 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+	<string name="skills.warlock.soul-dagger.1">Short ranged attack that applies Soul Consumption which deals 10 Magical damage per second for 2.5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+	<string name="skills.warlock.soul-dagger.2">Short ranged attack that applies Soul Consumption which deals 12 Magical damage per second for 3 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+	<string name="skills.warlock.soul-dagger.3">Short ranged attack that applies Soul Consumption which deals 14 Magical damage per second for 3.5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+	<string name="skills.warlock.soul-dagger.4">Short ranged attack that applies Soul Consumption which deals 16 Magical damage per second for 4 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+	<string name="skills.warlock.soul-dagger.5">Short ranged attack that applies Soul Consumption which deals 18 Magical damage per second for 4.5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+	<string name="skills.warlock.soul-dagger.6">Short ranged attack that applies Soul Consumption which deals 20 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
 
 	<string name="skills.warlock.lightning-bolt">Lightning Bolt</string>
 	<string name="skills.warlock.lightning-bolt.create">Fires a bolt of lightning that jumps to several targets upon impact.</string>
@@ -1779,12 +1817,12 @@
 	<!-- Wizard -->
 	<string name="skills.wizard.fireball">Fireball</string>
 	<string name="skills.wizard.fireball.create">Ranged attack that deals Magical damage in a small area.</string>
-	<string name="skills.wizard.fireball.1">Launch a fireball that deals 8 Magical damage.</string>
-	<string name="skills.wizard.fireball.2">Launch a fireball that deals 10 Magical damage. Longer range and larger impact area.</string>
-	<string name="skills.wizard.fireball.3">Launch a fireball that deals 12 Magical damage. Longer range and larger impact area.</string>
-	<string name="skills.wizard.fireball.4">Launch a fireball that deals 14 Magical damage. Longer range and larger impact area.</string>
-	<string name="skills.wizard.fireball.5">Launch a fireball that deals 16 Magical damage. Longer range and larger impact area.</string>
-	<string name="skills.wizard.fireball.6">Launch a fireball that deals 18 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.1">Launch a fireball that deals 10 Magical damage.</string>
+	<string name="skills.wizard.fireball.2">Launch a fireball that deals 12 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.3">Launch a fireball that deals 14 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.4">Launch a fireball that deals 16 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.5">Launch a fireball that deals 18 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.6">Launch a fireball that deals 20 Magical damage. Longer range and larger impact area.</string>
 
 	<string name="skills.wizard.fire-breath">Fire Breath</string>
 	<string name="skills.wizard.fire-breath.create">The Wizard breathes fire in a forward cone dealing heavy Magical damage.</string>
@@ -1850,14 +1888,16 @@
 	<string name="item.book-of-enlightenment.name">Book of Enlightenment</string>
 	<string name="item.book-of-enlightenment.desc">+%exp%% Experience gained.</string>
 
-	<string name="item.boots-of-speed.name">Boots of Speed</string>
+	<string name="item.boots-of-speed.name">Right Boot of Speed</string>
 	<string name="item.boots-of-speed.desc">+%mspeed% Movement Speed.</string>
+
+	<string name="item.boots-of-speed-2.name">Left Boot of Speed</string>
 
 	<string name="item.broad-sword.name">Broad Sword</string>
 	<string name="item.broad-sword.desc">+%atk% Attack Power.</string>
 
 	<string name="item.cape-of-withdrawal.name">Cape of Withdrawal</string>
-	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% movement speed buff for %dur% seconds.</string>
+	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% Movement Speed bonus for %dur% seconds.</string>
 
 	<string name="item.circlet-of-willpower.name">Circlet of Willpower</string>
 	<string name="item.circlet-of-willpower.desc">When below %health%% Health, skills cost %scost%% less mana.</string>
@@ -1890,19 +1930,22 @@
 	<string name="item.great-helm.desc">+%armor% Armor.</string>
 
 	<string name="item.greaves-of-the-barbarian.name">Greaves of the Barbarian</string>
-	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy has a %chance%% chance of triggering a %mspeed%% Movement Speed buff for %dur% seconds.</string>
+	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy has a %chance%% chance of triggering a %mspeed%% Movement Speed bonus for %dur% seconds.</string>
 
 	<string name="item.heavy-gauntlets.name">Heavy Gauntlets</string>
 	<string name="item.heavy-gauntlets.desc">+%health% Health.</string>
 
 	<string name="item.lesser-sphere-of-life.name">Lesser Sphere of Life</string>
-	<string name="item.lesser-sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
+	<string name="item.lesser-sphere-of-life.desc">During Combo you gain +%hregen% Health Regen.</string>
 
 	<string name="item.lesser-sphere-of-mana.name">Lesser Sphere of Mana</string>
-	<string name="item.lesser-sphere-of-mana.desc">During combo you gain +%mregen% Mana Regen.</string>
+	<string name="item.lesser-sphere-of-mana.desc">During Combo you gain +%mregen% Mana Regen.</string>
 
 	<string name="item.lesser-sphere-of-nova.name">Lesser Sphere of Nova</string>
 	<string name="item.lesser-sphere-of-nova.desc">During Combo a lesser nova is unleashed every second dealing %dmg% Magical damage.</string>
+
+	<string name="item.lesser-sphere-of-time.name">Lesser Sphere of Time</string>
+	<string name="item.lesser-sphere-of-time.desc">Time to maintain Combo is increased by %dur% seconds.</string>
 
 	<string name="item.life-stone.name">Life Stone</string>
 	<string name="item.life-stone.desc">%chance%% chance to gain 1 health when killing an enemy.</string>
@@ -1914,7 +1957,7 @@
 	<string name="item.mage-robe.desc">+%mana% Mana.</string>
 
 	<string name="item.mana-stone.name">Mana Stone</string>
-	<string name="item.mana-stone.desc">%chance%% chance to gain 1 mana when killing an enemy.</string>
+	<string name="item.mana-stone.desc">%chance%% chance to gain 1 Mana when killing an enemy.</string>
 
 	<string name="item.markhams-purse.name">Markham's Purse</string>
 	<string name="item.markhams-purse.desc">%gain%% Gold Gain per item in your inventory.</string>
@@ -1992,7 +2035,7 @@
 	<string name="item.apothecarys-satchel.desc">Potions are %eff%% more effective.</string>
 
 	<string name="item.apothecarys-sphere.name">Apothecary's Sphere</string>
-	<string name="item.apothecarys-sphere.desc">Triggers a Combo when using the potion.</string>
+	<string name="item.apothecarys-sphere.desc">Triggers Combo when drinking your Potion.</string>
 
 	<string name="item.assassins-dagger.name">Assassin's Dagger</string>
 	<string name="item.assassins-dagger.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
@@ -2024,6 +2067,9 @@
 	<string name="item.full-plate-mail.name">Full Plate Mail</string>
 	<string name="item.full-plate-mail.desc">+%armor% Armor.</string>
 
+	<string name="item.gloves-of-warding.name">Gloves of Warding</string>
+	<string name="item.gloves-of-warding.desc">Provides a passive Block of %block% Magical damage with a cooldown of %cd% seconds.</string>
+
 	<string name="item.key-ring.name">Key Ring</string>
 	<string name="item.key-ring.desc">%chance%% chance of receiving an extra key when picking up keys.</string>
 
@@ -2052,10 +2098,10 @@
 	<string name="item.rapier-of-retaliation.desc">+%evasion%% Evasion. When evading an attack you gain a %dmg%% damage buff for %sec% seconds.</string>
 
 	<string name="item.reinforced-gloves.name">Reinforced Gloves</string>
-	<string name="item.reinforced-gloves.desc">Provides a passive block of %block% damage with a cooldown of %cd% seconds.</string>
+	<string name="item.reinforced-gloves.desc">Provides a passive Block of %block% Physical damage with a cooldown of %cd% seconds.</string>
 
 	<string name="item.ring-of-transmutation.name">Ring of Transmutation</string>
-	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
+	<string name="item.ring-of-transmutation.desc">Gain %mana%% Mana of Health lost.</string>
 
 	<string name="item.robe-of-arch-magi.name">Robe of the Arch-Magi</string>
 	<string name="item.robe-of-arch-magi.desc">+%spell% Skill Power and +%res% Resistance.</string>
@@ -2065,6 +2111,9 @@
 
 	<string name="item.seal-of-the-martyr.name">Seal of the Martyr</string>
 	<string name="item.seal-of-the-martyr.desc">Deal 1% more damage for each % Health missing.</string>
+
+	<string name="item.seal-of-souls.name">Seal of Souls</string>
+	<string name="item.seal-of-souls.desc">Deal %dmg%% more damage for each % Mana missing.</string>
 
 	<string name="item.shaftlocke-pickaxe.name">Shaftlocke Pickaxe</string>
 	<string name="item.shaftlocke-pickaxe.desc">%chance%% Ore gain.</string>
@@ -2080,6 +2129,12 @@
 
 	<string name="item.sphere-of-nova.name">Sphere of Nova</string>
 	<string name="item.sphere-of-nova.desc">During Combo a nova is unleashed every second dealing %dmg% Magical damage.</string>
+
+	<string name="item.sphere-of-time.name">Sphere of Time</string>
+	<string name="item.sphere-of-time.desc">Time to maintain Combo is increased by %dur% second.</string>
+
+	<string name="item.sphere-of-warriors.name">Sphere of Warriors</string>
+	<string name="item.sphere-of-warriors.desc">Kill requirement for getting combo is lowered by %num%.</string>
 
 	<string name="item.staff-of-unstable-casting.name">Staff of Unstable Casting</string>
 	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
@@ -2112,6 +2167,12 @@
 	<string name="item.armor-of-kings.name">Armor of Kings</string>
 	<string name="item.armor-of-kings.desc">+%armor% Armor.</string>
 
+	<string name="item.boots-of-freedom.name">Boots of Freedom</string>
+	<string name="item.boots-of-freedom.desc">Immunity to all slow effects.</string>
+
+	<string name="item.boots-of-the-giant.name">Boots of the Giant</string>
+	<string name="item.boots-of-the-giant.desc">Stun enemies for %stun% seconds when colliding with them. %health% Health.</string>
+
 	<string name="item.cape-of-the-flamewalker.name">Cape of the Flamewalker</string>
 	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage.</string>
 
@@ -2119,16 +2180,19 @@
 	<string name="item.curios-coffer.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
 
 	<string name="item.duelists-edge.name">Duelist's Edge</string>
-	<string name="item.duelists-edge.desc">+%evasion%% Evasion. When evading an attack you return %dmg% Physical damage to the attacker and applies bleeding.</string>
+	<string name="item.duelists-edge.desc">+%evasion%% Evasion. When evading an attack you return %dmg% Physical damage to the attacker and applies Bleeding.</string>
+
+	<string name="item.dukes-signet-ring.name">Duke's Signet Ring</string>
+	<string name="item.dukes-signet-ring.desc">Taking damage when below %cutoff%% Health will spawn an area that restores %heal%% of your max health. Lasts for %dur% seconds with a cooldown of %cd% seconds.</string>
 
 	<string name="item.earthsplitter.name">Earthsplitter</string>
-	<string name="item.earthsplitter.desc">%chance%% chance to release two earth spikes on your primary attack, dealing %dmg% Physical damage.</string>
+	<string name="item.earthsplitter.desc">%chance%% chance to release three earth spikes on your Primary Attack, dealing %dmg% Physical damage.</string>
 
 	<string name="item.flametongue.name">Flametongue</string>
-	<string name="item.flametongue.desc">+%dmg% Magical damage on Primary Attack. Primary attack also applies burning.</string>
+	<string name="item.flametongue.desc">+%dmg% Magical damage on Primary Attack. Primary Attack also applies burning.</string>
 
 	<string name="item.frostbrand.name">Frostbrand</string>
-	<string name="item.frostbrand.desc">+%dmg% Magical damage on Primary Attack.  Primary attack also applies freezing.</string>
+	<string name="item.frostbrand.desc">+%dmg% Magical damage on Primary Attack.  Primary Attack also applies freezing.</string>
 
 	<string name="item.greater-sphere-of-nova.name">Greater Sphere of Nova</string>
 	<string name="item.greater-sphere-of-nova.desc">During Combo a greater nova is unleashed every second dealing %dmg% Magical damage.</string>
@@ -2161,7 +2225,7 @@
 	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
 
 	<string name="item.stormcaller.name">Stormcaller</string>
-	<string name="item.stormcaller.desc">%chance%% chance to release a chain lightning on your primary attack, dealing %dmg% Magical damage.</string>
+	<string name="item.stormcaller.desc">%chance%% chance to release a chain lightning on your Primary Attack, dealing %dmg% Magical damage.</string>
 
 	<string name="item.sword-kings.name">Sword of Kings</string>
 	<string name="item.sword-kings.desc">+%atk% Attack Power.</string>
@@ -2176,26 +2240,29 @@
 	<!-- EPIC -->
 
 
-	<string name="item.boots-of-the-giant.name">Boots of the Giant</string>
-	<string name="item.boots-of-the-giant.desc">Stun enemies for %stun% seconds when colliding with them. %health% Health.</string>
-
 	<string name="item.crown-of-kings.name">Crown of Kings</string>
-	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
+	<string name="item.crown-of-kings.desc">+%bonus%% base Health & Mana.</string>
 
 	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
 	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
 
+	<string name="item.mask-of-bewilderment.name">Mask of Bewilderment</string>
+	<string name="item.mask-of-bewilderment.desc">Primary Attack applies confusion for %dur% seconds.</string>
+
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
-	<string name="item.ring-of-arcane-powers.desc">Skills cost %scost%% less mana.</string>
+	<string name="item.ring-of-arcane-powers.desc">Skills cost %scost%% less Mana.</string>
+
+	<string name="item.searing-sabatons.name">Searing Sabatons</string>
+	<string name="item.searing-sabatons.desc">Leaves a trail of fire while moving that lasts for %dur% seconds and does %dmg% Magical damage.</string>
 
 	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
-	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
+	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during Combo.</string>
 
 	<!-- LEGENDARY -->
 
 
 	<string name="item.descending-destruction.name">Descending Destruction</string>
-	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack.</string>
+	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack that deals 100 Hybrid damage and applies burning.</string>
 
 	<string name="item.medusas-charm.name">Medusas Charm</string>
 	<string name="item.medusas-charm.desc">Enemies you look at are slowed by %slow%%. Enemies affected by the gaze that hit you are stunned for %stun% seconds.</string>
@@ -2206,11 +2273,14 @@
 	<string name="item.soul-taker.name">Soul Taker</string>
 	<string name="item.soul-taker.desc">When you kill an enemy, a random enemy of the same type is also killed.</string>
 
+	<string name="item.sphere-of-heroes.name">Sphere of Heroes</string>
+	<string name="item.sphere-of-heroes.desc">Shoots a massive nova projectile when attacking with your Primary Attack during Combo.</string>
+
 	<!-- SETS -->
 
 
 	<string name="item.sets.fire-and-ice.name">Fire and Ice</string>
-	<string name="item.sets.fire-and-ice.desc">+%dmg% magical attack damage on primary attack</string>
+	<string name="item.sets.fire-and-ice.desc">+%dmg% Magical damage on Primary Attack</string>
 
 	<string name="item.sets.stones-of-midas.name">Stones of Midas</string>
 	<string name="item.sets.stones-of-midas.desc">+%gold% gold when killing an enemy</string>
@@ -2225,27 +2295,29 @@
 	<string name="item.sets.kings-regalia.desc">%speed%% faster attacks and skills</string>
 
 	<string name="item.sets.apothecarys-implements.name">Apothecary's Implements</string>
-	<string name="item.sets.apothecarys-implements.desc.1">+1 potion charge</string>
-	<string name="item.sets.apothecarys-implements.desc.2">%chance%% chance to refill a potion charge when killing an enemy</string>
+	<string name="item.sets.apothecarys-implements.desc.1">+1 Potion charge</string>
+	<string name="item.sets.apothecarys-implements.desc.2">%chance%% chance to refill a Potion charge when killing an enemy</string>
 
 	<string name="item.sets.journeymans-outfit.name">Journeyman's Outfit</string>
-	<string name="item.sets.journeymans-outfit.desc.1">+%armor% armor</string>
-	<string name="item.sets.journeymans-outfit.desc.2">+%attack% attack power</string>
+	<string name="item.sets.journeymans-outfit.desc.1">+%armor% Armor</string>
+	<string name="item.sets.journeymans-outfit.desc.2">+%attack% Attack Power</string>
 	<string name="item.sets.journeymans-outfit.desc.3">%reduction%% damage reduction</string>
 
 	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
-	<string name="item.sets.disciples-arcana.desc.1">+%res% resistance</string>
-	<string name="item.sets.disciples-arcana.desc.2">+%skill% skill power</string>
-	<string name="item.sets.disciples-arcana.desc.3">skills cost %cost%% less mana</string>
+	<string name="item.sets.disciples-arcana.desc.1">+%res% Resistance</string>
+	<string name="item.sets.disciples-arcana.desc.2">+%skill% Skill power</string>
+	<string name="item.sets.disciples-arcana.desc.3">skills cost %cost%% less Mana</string>
 
 	<string name="item.sets.spheres-of-power.name">Spheres of Power</string>
 	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
 	<string name="item.sets.spheres-of-power.desc.2">Combo nova</string>
 	<string name="item.sets.spheres-of-power.desc.3">Greater combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.4">Massive combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.5">Combo prevents lethal damage</string>
 
 	<string name="item.sets.tricksters-ensemble.name">Trickster's Ensemble</string>
-	<string name="item.sets.tricksters-ensemble.desc.1">Gain a movement speed bonus when evading</string>
-	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% evasion</string>
+	<string name="item.sets.tricksters-ensemble.desc.1">Gain a Movement Speed bonus when evading</string>
+	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% Evasion</string>
 	<string name="item.sets.tricksters-ensemble.desc.3">Trigger combo when evading</string>
 
 	<string name="item.sets.magic-missile.name">A Wizards Starting Kit</string>
@@ -2280,8 +2352,11 @@
 	<string name="drink.double-thriller.name">Double Thriller</string>
 	<string name="drink.double-thriller.desc">%pos%% damage dealt.\n%neg%% damage taken.</string>
 
+	<string name="drink.enchanted-slammer.name">Enchanted Slammer</string>
+	<string name="drink.enchanted-slammer.desc">%pos% Physical damage on Primary Attack.\nPrimary Attack costs %neg%% of your current mana.</string>
+
 	<string name="drink.homemade-hazard.name">Homemade Hazard</string>
-	<string name="drink.homemade-hazard.desc">%pos%% Critical Damage on your Primary attack.\n%neg%% damage taken.</string>
+	<string name="drink.homemade-hazard.desc">%pos%% Critical Damage on your Primary Attack.\n%neg%% damage taken.</string>
 
 	<string name="drink.ladys-blessing.name">Lady's Blessing</string>
 	<string name="drink.ladys-blessing.desc">%pos% Health Regen.\n%neg% Skill Power.</string>
@@ -2292,14 +2367,17 @@
 	<string name="drink.mellow-mist.name">Mellow Mist</string>
 	<string name="drink.mellow-mist.desc">%pos%% damage taken.\n%neg% Movement Speed.</string>
 
+	<string name="drink.mind-control.name">Mind Control</string>
+	<string name="drink.mind-control.desc">Immune to confusion.\nAll other debuffs last %neg%% longer.</string>
+
 	<string name="drink.on-the-run.name">On the Run</string>
 	<string name="drink.on-the-run.desc">%pos% Movement Speed.\n%neg%% Gold gain.</string>
 
 	<string name="drink.smelly-old-man.name">Smelly Old Man</string>
-	<string name="drink.smelly-old-man.desc">%pos% Mana Regen.\n%neg%% max Health.</string>
+	<string name="drink.smelly-old-man.desc">%pos% Mana Regen.\n%neg%% base Health.</string>
 
 	<string name="drink.starlight-stinger.name">Starlight Stinger</string>
-	<string name="drink.starlight-stinger.desc">%pos%% chance to score a Critical Hit with Skills.\n%neg%% max Mana.</string>
+	<string name="drink.starlight-stinger.desc">%pos%% chance to score a Critical Hit with Skills.\n%neg%% base Mana.</string>
 
 	<string name="drink.the-groovy-ghost.name">The Groovy Ghost</string>
 	<string name="drink.the-groovy-ghost.desc">%pos%% Evasion.\n%neg% Attack Power.</string>
@@ -2317,6 +2395,9 @@
 	<string name="drink.miners-delight.name">Miners Delight</string>
 	<string name="drink.miners-delight.desc">%pos%% Ore gain.\n%neg%% Gold gain.</string>
 
+	<string name="drink.overflowing-physique.name">Overflowing Physique</string>
+	<string name="drink.overflowing-physique.desc">+%pos%% base Health.\nLose %neg%% of your current Mana while moving.</string>
+
 	<string name="drink.last-stand.name">Last Stand</string>
 	<string name="drink.last-stand.desc">+%pos%% damage dealt and %neg%% damage taken while standing still.\n%mov%% Movement Speed.</string>
 
@@ -2329,13 +2410,25 @@
 
 
 	<string name="drink.crimson-death.name">Crimson Death</string>
-	<string name="drink.crimson-death.desc">%pos%% Lifesteal on all damage.\nLose health while moving.</string>
+	<string name="drink.crimson-death.desc">%pos%% Lifesteal on all damage.\nLose %neg%% of your current Health while moving.</string>
 
 	<string name="drink.hammer-time.name">Hammer Time</string>
 	<string name="drink.hammer-time.desc">%pos% Attack Power.\n%neg%% Armor.</string>
 
 	<string name="drink.incendiary-demise.name">Incendiary Demise</string>
 	<string name="drink.incendiary-demise.desc">%pos% Magical damage on Primary Attack.\nYou start burning when dealing damage with your Primary Attack.</string>
+
+	<string name="drink.kinetic-kiss.name">Kinetic Kiss</string>
+	<string name="drink.kinetic-kiss.desc">Gain %pos%% of your max Mana while moving.\nLose all your Mana when taking damage.</string>
+
+	<string name="drink.stumble-in-the-dark.name">Stumble in the Dark</string>
+	<string name="drink.stumble-in-the-dark.desc">%pos%% chance to score a Critical Hit on Primary Attack and Skills.\nPermanent Darkness.</string>
+
+	<string name="drink.stab-in-the-dark.name">Stab in the Dark</string>
+	<string name="drink.stab-in-the-dark.desc">%pos%% chance to score a Critical Hit on Primary Attack.\nYou receive Darkness for %neg% seconds when attacking with your Primary Attack.</string>
+
+	<string name="drink.spilled-blood.name">Spilled Blood</string>
+	<string name="drink.spilled-blood.desc">Primary Attack applies bleeding.\n%neg%% base Health.</string>
 
 	<string name="drink.the-mad-proposal.name">The Mad Proposal</string>
 	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Vertigo.</string>
@@ -2345,6 +2438,11 @@
 
 	<string name="drink.wicked-sickness.name">Wicked Sickness</string>
 	<string name="drink.wicked-sickness.desc">%pos%% damage dealt during Combo.\n%neg%% damage dealt while out of Combo.</string>
+
+	<string name="drink.frenetic-eruption.name">Frenetic Eruption</string>
+	<string name="drink.frenetic-eruption.desc">Taking damage when below %pos%% Health triggers Combo.\n%neg%% damage taken when out of Combo.</string>
+
+
 
 
 
@@ -2793,6 +2891,7 @@
 	<string name="bestiary.name.bosses.wraith_mage">Councilor of Magic</string>
 	<string name="bestiary.name.bosses.eye">Watcher</string>
 	<string name="bestiary.name.bosses.dragon">Thundersnow</string>
+	<string name="bestiary.name.bosses.vampire">Vampire Lord</string>
 	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
 	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
 	<string name="bestiary.name.spawner_bats">Rotten Stump</string>
@@ -2849,9 +2948,9 @@
 	<string name="bestiary.name.tick_1_small">Kid Tick</string>
 	<string name="bestiary.name.tick_1_small_exploding">Jumper</string>
 	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
-	<string name="bestiary.name.tower_battlement_archer_1">Manned Battlement</string>
-	<string name="bestiary.name.tower_battlement_archer_1_elite">Elite Manned Battlement</string>
-	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
+	<string name="bestiary.name.tower_battlement_archer_1">Manned Barricade</string>
+	<string name="bestiary.name.tower_battlement_archer_1_elite">Elite Manned Barricade</string>
+	<string name="bestiary.name.tower_battlement_empty">Empty Barricade</string>
 	<string name="bestiary.name.tower_beamo">Beamo Pillar</string>
 	<string name="bestiary.name.tower_flower_1">Man Eater</string>
 	<string name="bestiary.name.tower_flower_2">Big Man Eater</string>
@@ -2861,6 +2960,14 @@
 	<string name="bestiary.name.wisp_1">Blue Wisp</string>
 	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
 	<string name="bestiary.name.wisp_2">Red Wisp</string>
+	<string name="bestiary.name.ice_troll_melee">Ice Troll Warrior</string>
+	<string name="bestiary.name.ice_troll_shaman">Ice Troll Shaman</string>
+	<string name="bestiary.name.gargoyle_1">Stone Gargoyle</string>
+	<string name="bestiary.name.tower_ballista_javelin">Ballista</string>
+	<string name="bestiary.name.tower_ballista_splitshot">Splitshot Ballista</string>
+	<string name="bestiary.name.tower_ballista_trapper">Net Ballista</string>
+	<string name="bestiary.name.thrall">Thrall</string>
+	<string name="bestiary.name.thrall_leaper">Ravenous Thrall</string>
 
 	<!-- itemiary -->
 	<string name="itemiary.header.items">ITEMS</string>
@@ -2878,6 +2985,7 @@
 	<string name="guildhall.accomplishments.boss-3">THE THREE COUNCILORS</string>
 	<string name="guildhall.accomplishments.boss-4">WATCHER</string>
 	<string name="guildhall.accomplishments.boss-5">THUNDERSNOW</string>
+	<string name="guildhall.accomplishments.boss-6">VAMPIRE LORD</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
 	<string name="accomplishment.boss-1-killed-class.desc">Kill the Stone Guardian with %requirement% different classes.</string>
@@ -2893,6 +3001,9 @@
 
 	<string name="accomplishment.boss-5-killed-class.name">Restorers of Peace %lvl%</string>
 	<string name="accomplishment.boss-5-killed-class.desc">Kill the Thundersnow with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-6-killed-class.name">Deposers of Despots %lvl%</string>
+	<string name="accomplishment.boss-6-killed-class.desc">Kill the Vampire Lord with %requirement% different classes.</string>
 
 	<string name="accomplishment.aberration-killed.name">Exorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
@@ -3149,6 +3260,25 @@
 	<string name="materials.color.malachite">Malachite</string>
 	<string name="materials.color.hearth">Hearth</string>
 	<string name="materials.color.purple">Purple</string>
+	<string name="materials.color.fandango">Fandango</string>
+	<string name="materials.color.vermilion">Vermilion</string>
+	<string name="materials.color.frozen">Frozen</string>
+	<string name="materials.color.salmon">Salmon</string>
+	<string name="materials.color.lemon">Lemon</string>
+	<string name="materials.color.midnight">Midnight</string>
+	<string name="materials.color.ice">Ice</string>
+	<string name="materials.color.citrus">Citrus</string>
+	<string name="materials.color.silver">Silver</string>
+	<string name="materials.color.ruby">Ruby</string>
+	<string name="materials.color.hailstone">Hailstone</string>
+	<string name="materials.color.tar">Tar</string>
+	<string name="materials.color.eclipse">Eclipse</string>
+	<string name="materials.color.sunny">Sunny</string>
+	<string name="materials.color.frost">Frost</string>
+	<string name="materials.color.blood">Blood</string>
+	<string name="materials.color.darkside">Darkside</string>
+	<string name="materials.color.bumblebee">Bumblebee</string>
+	<string name="materials.color.glacier">Glacier</string>
 
 
 
