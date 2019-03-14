@@ -7,11 +7,18 @@
 	<string name="hud.character.character">CHARACTER</string>
 	<string name="hud.character.stats">STATS</string>
 	<string name="hud.character.title">%name% the %title%, a level %lvl% %class%</string>
+	<string name="hud.character.effects">EFFECTS</string>
 	<string name="hud.levelup">LEVEL UP!</string>
 	<string name="hud.potionrefill">REFILLED!</string>
 	<string name="hud.nokey">NO KEY!</string>
 	<string name="hud.newtitle.character">Class title gained: %title%</string>
 	<string name="hud.newtitle.guild">Guild title gained: %title%</string>
+	<string name="hud.newngp.town">Forsaken Tower NG+%ngp% unlocked!</string>
+	<string name="hud.newngp.char.first">Forsaken Tower completed!\nNew max level %level%.</string>
+	<string name="hud.newngp.char">Forsaken Tower NG+%ngp% completed!\nNew max level %level%.</string>
+	<string name="hud.newngp.town.desert">Pyramid of Prophecy NG+%ngp% unlocked!</string>
+	<string name="hud.newngp.char.desert.first">Pyramid of Prophecy completed!\nGained Nimbus!</string>
+	<string name="hud.newngp.char.desert">Pyramid of Prophecy NG+%ngp% completed!\nNimbus upgraded.</string>
 
 	<string name="class.paladin">Paladin</string>
 	<string name="class.paladin.desc">A powerful melee warrior with a lot of survivability.</string>
@@ -27,10 +34,13 @@
 	<string name="class.thief.disabled.desc">Thief locked.</string>
 	<string name="class.warlock">Warlock</string>
 	<string name="class.warlock.desc">A melee spell caster who can replenish health and mana.</string>
-	<string name="class.warlock.disabled.desc"></string>
 	<string name="class.wizard">Wizard</string>
 	<string name="class.wizard.desc">A glass cannon with immense amount of magical damage.</string>
 	<string name="class.wizard.disabled.desc">Wizard locked.</string>
+	<string name="class.gladiator">Gladiator</string>
+	<string name="class.gladiator.desc">A master disabler that employs hit-n-run tactics.</string>
+	<string name="class.gladiator.disabled.desc">Gladiator locked.</string>
+	<string name="class.gladiator.unlocked">Gladiator unlocked!</string>
 
 	<string name="playermenu.character.vitality">VITALITY</string>
 	<string name="playermenu.character.speedexp">SPEED / EXP</string>
@@ -50,6 +60,7 @@
 	<string name="playermenu.tooltip.exp.rate">Rate:</string>
 	<string name="playermenu.tooltip.potion.title">%num% / %total% CHARGES</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% HP\n+ %mana% MANA</string>
+	<string name="playermenu.tooltip.potion.djinn">Summons Nimbus when using your potion.\nNimbus deals %dmg% Magical damage and lasts for %ttl% seconds.</string>
 	<string name="playermenu.tooltip.tax">TAX</string>
 	<string name="playermenu.tooltip.exp.levelcap">Level Cap:</string>
 
@@ -72,19 +83,33 @@
 	<string name="playermenu.character.oregain">ORE GAIN</string>
 	<string name="playermenu.character.combat">COMBAT</string>
 	<string name="playermenu.character.critchance">CRIT CHANCE</string>
-	<string name="playermenu.character.critchance.description">Crit damage: %mul%%\nCrit chance: %chance%%\n%chances%\n\nSkill crit damage: %spell-mul%%\nSkill crit chance: %spell-chance%%\n%spell-chances%</string>
+	<string name="playermenu.character.critchance.description">Crit damage: %mul%%\n%muls%\nCrit chance: %chance%%\n%chances%\n\nSkill crit damage: %spell-mul%%\n%spell-muls%\nSkill crit chance: %spell-chance%%\n%spell-chances%</string>
 	<string name="playermenu.character.evadechance">EVADE CHANCE</string>
 	<string name="playermenu.character.chances">Crit chances</string>
 	<string name="playermenu.character.spellchances">Skill crit chances</string>
+	<string name="playermenu.character.luck">LUCK</string>
 	<string name="playermenu.character.lifesteal">LIFESTEAL</string>
 	<string name="playermenu.character.lifesteal.description">Primary Attack: %value%%\n%lists%\n\nSkills: %value-spell%%\n%lists-spell%</string>
 	<string name="playermenu.dead">%player% is dead.</string>
+
+	<string name="playermenu.effects.blessings">BLESSINGS</string>
+	<string name="playermenu.effects.drinks">DRINKS</string>
+	<string name="playermenu.effects.fountain">FOUNTAIN</string>
+	<string name="playermenu.effects.statues">STATUES</string>
+	<string name="playermenu.effects.misc">MISCELLANEOUS</string>
+	<string name="playermenu.effects.cursed">Cursed: %amount%</string>
+	<string name="playermenu.effects.cursed.tooltip">Become cursed and receive a %chance%% chance to miss on all attacks. You also have a %chance%% chance to take %damage%% critical damage from all sources.</string>
+
+	<string name="charinfo.ngp">Forsaken Tower: NG+%ngp%</string>
+	<string name="charinfo.ngp.desert">Pyramid of Prophecy: NG+%ngp%</string>
+	<string name="charinfo.arena.rank">Aridara Arena: Rank %rank%</string>
 
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
 	<string name="world.mines">OUTLOOK MINES</string>
 	<string name="world.tower">FORSAKEN TOWER</string>
 	<string name="world.floor">FLOOR %num%</string>
+	<string name="world.act">ACT %num%</string>
 	<string name="world.acts.0">MINES</string>
 	<string name="world.acts.1">PRISON</string>
 	<string name="world.acts.2">ARMORY</string>
@@ -93,6 +118,38 @@
 	<string name="world.acts.5">BATTLEMENTS</string>
 	<string name="world.acts.6">BRIDGE</string>
 	<string name="world.acts.7">TOP</string>
+	<string name="world.pop.acts.0">DESERT</string>
+	<string name="world.pop.acts.1">LOWER PYRAMID</string>
+	<string name="world.pop.acts.2">UPPER PYRAMID</string>
+	<string name="world.coliseum">ARIDARA ARENA</string>
+
+
+	<!-- Map names -->
+	<string name="level.boss.rock">OUTLOOK MINES - THE LIVING ROCK</string>
+	<string name="level.boss.rock.short">LIVING ROCK</string>
+	<string name="level.boss.warden">TOWER PRISON - THE WARDEN</string>
+	<string name="level.boss.warden.short">WARDEN 'NO MERCY'</string>
+	<string name="level.boss.wraith">TOWER ARMORY - THE THREE COUNCILORS</string>
+	<string name="level.boss.wraith.short">THREE COUNCILORS</string>
+	<string name="level.boss.eye">TOWER ARCHIVES - THE FREAK EYE</string>
+	<string name="level.boss.eye.short">WATCHER</string>
+	<string name="level.boss.vampire">TOWER CHAMBERS - THE VAMPIRE LORD</string>
+	<string name="level.boss.vampire.short">LORD</string>
+	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - THUNDERSNOW</string>
+	<string name="level.boss.thundersnow.short">THUNDERSNOW</string>
+	<string name="level.boss.crustworm">ARIDARA - A GIANT CRUSTWORM</string>
+	<string name="level.boss.crustworm.short">GIANT CRUSTWORM</string>
+	<string name="level.boss.iris">LOWER PYRAMID - THE LAST QUEEN</string>
+	<string name="level.boss.iris.short">QUEEN IRIS</string>
+	<string name="level.boss.nerys">UPPER PYRAMID - THE WISHMASTER</string>
+	<string name="level.boss.nerys.short">NERYS</string>
+
+	<string name="level.hellcube">THE TRAIL OF HEROES</string>
+	<string name="level.hellcube.short">THE HELLCUBE</string>
+	<string name="level.pyramid_midway">UPPER PYRAMID - MIDWAY</string>
+	<string name="level.pyramid_midway.short">MIDWAY</string>
+	<string name="level.plane_of_magic">THE PLANE OF SEMBLANCE</string>
+	<string name="level.plane_of_magic.short">SEMBLANCE</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">YOU DIED</string>
@@ -106,10 +163,10 @@
 	<string name="gameover.stats.enemieskilled">ENEMIES KILLED</string>
 	<string name="gameover.stats.killer">KILLED BY</string>
 	<string name="gameover.mock.0">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
-	<string name="gameover.mock.1">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
-	<string name="gameover.mock.2">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
-	<string name="gameover.mock.3">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
-	<string name="gameover.mock.4">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.1">YOU DIED A GRUESOME AND PAINFUL DEATH</string>
+	<string name="gameover.mock.2">YOU DIED ALONE, REMEMBERED BY NONE</string>
+	<string name="gameover.mock.3">YOUR APPALLING PERFORMANCE PAID OFF</string>
+	<string name="gameover.mock.4">YOU ENTERED AS NO ONE AND DIED AS SUCH</string>
 	<string name="gameover.sentence.unused-potion.none">You used all of your potions.</string>
 	<string name="gameover.sentence.unused-potion.plural">You had %num% potions left!</string>
 	<string name="gameover.sentence.unused-potion.one">You had 1 potion left!</string>
@@ -200,6 +257,9 @@
 	<string name="stats.boss-4-killed">Watcher killed</string>
 	<string name="stats.boss-5-killed">Thundersnow killed</string>
 	<string name="stats.boss-6-killed">Vampire Lord killed</string>
+	<string name="stats.boss-7-killed">Crustworm killed</string>
+	<string name="stats.boss-8-killed">Queen Iris killed</string>
+	<string name="stats.boss-9-killed">Nerys killed</string>
 	<string name="stats.aberration-killed">Aberrations killed</string>
 	<string name="stats.beast-killed">Beasts killed</string>
 	<string name="stats.construct-killed">Constructs killed</string>
@@ -233,6 +293,11 @@
 	<string name="stats.drinks-found">Drinks found</string>
 	<string name="stats.blueprints-found">Blueprints found</string>
 	<string name="stats.dyes-found">Dyes found</string>
+	<string name="stats.curses-received">Curses received</string>
+	<string name="stats.curses-removed">Curses removed</string>
+	<string name="stats.statue-upgrades-bought">Statue upgrades bought</string>
+	<string name="stats.arena-highest-rank">Highest arena rank</string>
+	<string name="stats.arena-fights">Arena skirmishes won</string>
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -244,6 +309,7 @@
 	<string name="misc.activeskill">\c7f7f7fActive skill\d</string>
 	<string name="misc.passiveskill">\c7f7f7fPassive skill\d</string>
 	<string name="misc.ngp">(NG+%ngp%)</string>
+	<string name="misc.ngp2">NG+%ngp%</string>
 
 	<string name="misc.elevator.question">Would you like to send down %ore% ore and %gold% gold (%tax%% tax)</string>
 	<string name="misc.elevator.gold">Gold</string>
@@ -263,6 +329,8 @@
 	<string name="item.diamond.red-small">DIAMOND</string>
 	<string name="item.diamond.gold">DIAMOND</string>
 	<string name="item.diamond.gold-small">DIAMOND</string>
+	<string name="item.potion.charge">POTION CHARGE</string>
+	<string name="item.potion.curse">-1 CURSE</string>
 
 	<string name="quality.common">Common</string>
 	<string name="quality.uncommon">Uncommon</string>
@@ -272,16 +340,18 @@
 
 	<!-- intro -->
 	<string name="intro.title">THE OUTLOOK</string>
-	<string name="intro.text">The Outlook, just below the Forsaken Tower. A previously abandoned mining town that with the help from your guild hopefully can be restored to its previous glory.\n\n(Quick help: Venture into the mines and collect Gold and Ore, use Ore to upgrade your town from the Town Hall, use Gold to buy items and player upgrades and use Skillpoints gained when level up to unlock new skills in the Guildhall. There's much more to explore and find, good luck.)</string>
+	<string name="intro.text">The Outlook, just below the Forsaken Tower. A previously abandoned mining town that with the help from your guild hopefully can be restored to its previous glory.\n\n(Quick help: Venture into the mines and collect Gold and Ore, use Ore to upgrade your town from the Town Hall, use Gold to buy items and player upgrades and use Skillpoints gained when level up to unlock new skills in the Guildhall. There's much more to explore and find. Good luck.)</string>
 	<string name="intro.continue">CONTINUE</string>
 
+	<!-- intro pop -->
+	<string name="intro.pop.title">CITY OF STONE</string>
+	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arisened. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
 
 	<!-- end of game -->
-
-
 	<string name="endofgame.town">CONTINUE</string>
 	<string name="endofgame.title">THE END</string>
 	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.</string>
+	<string name="endofgame.pop.text">A long time ago, when the Storm of Lifetimes was at its peak, Nerys and Nimbus crossed over from the Magic Planes. Nerys swallowed Nimbus and started to grant his own evil wishes, but he was eventually lured into an oil lamp by an old waning magician and hidden at the top of the pyramid. Over the years the pyramid would sink deeper and deeper into the desert until it was more or less forgotten.\n\nBy rubbing the lamp, you released the weakened Nerys and by slaying him you freed Nimbus. Nimbus will now be in your debt for all eternity. You can call upon him by drinking your potion.</string>
 
 	<string name="misc.yes">Yes</string>
 	<string name="misc.no">No</string>
@@ -305,12 +375,15 @@
 	<string name="levelend.ready">READY</string>
 	<string name="levelend.ok">CONTINUE</string>
 
+	<string name="levelcredits.prompt">%level% by %author%</string>
 
 	<string name="meta.info.elsewhere">This opens elsewhere...</string>
 	<string name="meta.info.happened">Something happened...</string>
 	<string name="meta.info.buttonstuck">Button is stuck…</string>
+	<string name="meta.info.potionunlocked">Potion unlocked!</string>
 	<string name="meta.info.combounlocked">Combo unlocked!</string>
 	<string name="meta.info.anvilunlocked">Magic Anvil unlocked!</string>
+	<string name="meta.info.bestiaryunlocked">Baltzar's Book of Monsters unlocked!</string>
 	<string name="meta.info.sequencecompleted">Sequence completed!</string>
 	<string name="meta.info.twomore">2 more to go…</string>
 	<string name="meta.info.onemore">1 more to go…</string>
@@ -319,6 +392,9 @@
 	<string name="meta.info.threatspawned">A great threat was spawned!</string>
 	<string name="meta.info.impspawned">An unexpected gift is waiting for you!</string>
 	<string name="meta.info.gatherparty">You must gather your party before venturing forth.</string>
+	<string name="meta.info.gatherparty.mummy">You must gather your party before opening the sarcofagus.</string>
+	<string name="meta.info.gatherparty.genie">You must gather your party before rubbing the lamp.</string>
+	<string name="meta.info.gatherparty.general">You must gather your party before proceeding with this.</string>
 	<string name="meta.info.ritual.gather">You must gather your party before starting the ritual.</string>
 	<string name="meta.info.ritual.start">…and the great abomination\n was summoned!</string>
 	<string name="meta.info.ritual.completed">Ritual sequence completed!</string>
@@ -353,6 +429,7 @@
 	<string name="random_stuff.deposit_gold">Do you want to send your gold to town?</string>
 	<string name="random_stuff.deposit_ore">Do you want to send your ore to town?</string>
 	<string name="random_stuff.rejuvenate">The imp healed you and refilled your potion!</string>
+	<string name="random_stuff.clear_curses">The imp purged you of your curses!</string>
 
 	<string name="random_buff.lower_hp">The inscription reads:\nSacrifice %amount%% max health. Do you agree?</string>
 	<string name="random_buff.lower_armor">The inscription reads:\nSacrifice %amount% armor. Do you agree?</string>
@@ -379,8 +456,79 @@
 	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
 	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
 	<string name="temp_buff.gold">The monolith imbues you with gold fever!</string>
+	<string name="temp_buff.attackspeed">The monolith imbues you with nimble limbs!</string>
+	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
+	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
 
-	<string name="levelcredits.prompt">%level% by %author%</string>
+	<string name="arena_buff.armor">PROTECTIVE POWERS</string>
+	<string name="arena_buff.damage">INCREDIBLE STRENGTH</string>
+	<string name="arena_buff.heal">VIGOROUS RESTORATION</string>
+	<string name="arena_buff.mana">ENDLESS POTENTIAL</string>
+	<string name="arena_buff.attackspeed">RAPID BLOWS</string>
+	<string name="arena_buff.luck">FORTUITOUS EVENTS</string>
+	<string name="arena_buff.movespeed">FLEET FEET</string>
+	<string name="arena_buff.sundering">SUNDERING STRIKES</string>
+
+	<string name="buff.armor.name">Protective Powers</string>
+	<string name="buff.armor.desc">Decreases damage taken by 50%.</string>
+	<string name="buff.damage.name">Incredible Strength</string>
+	<string name="buff.damage.desc">Increases damage by 200%.</string>
+	<string name="buff.heal.name">Vigourous Restoration</string>
+	<string name="buff.heal.desc">Gain 10 Health every 0.5 seconds.</string>
+	<string name="buff.mana.name">Endless Potential</string>
+	<string name="buff.mana.desc">Skills cost no mana.</string>
+	<string name="buff.attackspeed.name">Rapid Blows</string>
+	<string name="buff.attackspeed.desc">Attack speed increased by 50%.</string>
+	<string name="buff.luck.name">Fortuitous Events</string>
+	<string name="buff.luck.desc">+5 Luck.</string>
+	<string name="buff.movespeed.name">Fleet Feet</string>
+	<string name="buff.movespeed.desc">Movement speed increased by 50%.</string>
+	<string name="buff.sundering.name">Sundering Strikes</string>
+	<string name="buff.sundering.desc">All damage ignores 50% Armor and/or Resistance.</string>
+	<string name="buff.experience.name">Greater Insight</string>
+	<string name="buff.experience.desc">+100% Experience gain.</string>
+	<string name="buff.gold.name">Gold Fever</string>
+	<string name="buff.gold.desc">+100% Gold gain.</string>
+
+
+	<!-- Arena -->
+	<string name="endoftrials.title">ARIDARA ARENA</string>
+	<string name="endoftrials.completed">Skirmish completed!</string>
+	<string name="endoftrials.reward">SKIRMISH REWARD</string>
+	<string name="endoftrials.progress">PROGRESS TO THE NEXT RANK</string>
+	<string name="endoftrials.next">NEXT SKIRMISH</string>
+	<string name="endoftrials.town">BACK TO TOWN</string>
+	<string name="endoftrials.nopoints">No points received.</string>
+	<string name="endoftrials.levelup">Rank up! You are now rank %level%!</string>
+	<string name="endoftrials.pointsleft.plural">%points% points left until rank %rank%</string>
+	<string name="endoftrials.pointsleft.singular">1 point left until rank %rank%</string>
+	<string name="endoftrials.beginrank">BEGIN RANK %rank%</string>
+	<string name="endoftrials.crowd-message.1">...the crowd hated it!</string>
+	<string name="endoftrials.crowd-message.2">...nobody liked it.</string>
+	<string name="endoftrials.crowd-message.3">...but the crowd was mildly amused.</string>
+	<string name="endoftrials.crowd-message.4">...they loved it!</string>
+	<string name="endoftrials.crowd-message.5">...and the crowd goes wild!</string>
+
+	<string name="arena.wavecompleted">WAVE COMPLETED!</string>
+	<string name="arena.victory">VICTORY!</string>
+	<string name="arena.altar.buff">The Altar offers you a powerful boon!</string>
+	<string name="arena.altar.boulders">The Altar activates Rolling Boulders!</string>
+	<string name="arena.altar.bloodlust">The Altar activates Bloodlust!</string>
+	<string name="arena.altar.blizzard">The Altar activates Blizzard!</string>
+	<string name="arena.altar.darkness">The Altar activates Darkness!</string>
+	<string name="arena.altar.meteor">The Altar activates Meteor Shower!</string>
+	<string name="arena.altar.storm">The Altar activates Lightning Storm!</string>
+	<string name="arena.altar.tornado">The Altar activates Dust Devils!</string>
+	<string name="arena.altar.wind">The Altar activates Relentless Wind!</string>
+	<string name="arena.altar.gatherparty">You must gather your party to disable the event!</string>
+
+	<!-- Sarcophagus -->
+	<string name="sarcophagus.title">SARCOPHAGUS</string>
+	<string name="sarcophagus.line1">A foul stench greets you.</string>
+	<string name="sarcophagus.line2">There are a few items at the bottom of the tomb.</string>
+	<string name="sarcophagus.accept">ACCEPT</string>
+	<string name="sarcophagus.cursehelp">Become cursed and receive a %chance%% chance to miss on all attacks. You also have a %chance%% chance to take %damage%% critical damage from all sources.</string>
+
 
 	<!-- Colors Everyone -->
 	<string name="color.skin">Skin</string>
@@ -440,6 +588,7 @@
 	<string name="modifier.list.player.buffs">Buffs</string>
 	<string name="modifier.list.player.titles">Class titles</string>
 	<string name="modifier.list.player.tavern_drinks">Drinks</string>
+	<string name="modifier.list.player.statues">Statues</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -543,6 +692,8 @@
 	<string name="mainmenu.host.ngp">Start on NG+</string>
 	<string name="mainmenu.host.downscaling">Downscaling</string>
 	<string name="mainmenu.host.downscaling.description">Scales class title bonuses and hero level stats down to the current NG+.</string>
+	<string name="mainmenu.host.allowmodded">Allow modded profiles</string>
+	<string name="mainmenu.host.allowmodded.description">Allows players with modded profiles to join your lobby.</string>
 	<string name="mainmenu.serverlist.title">SERVERLIST</string>
 	<string name="mainmenu.serverlist.level-restriction.both">Required hero level: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">Minimum hero level: %min%</string>
@@ -553,7 +704,8 @@
 	<string name="mainmenu.serverlist.mods.one">1 mod</string>
 	<string name="mainmenu.serverlist.mods.plural">%num% mods</string>
 	<string name="mainmenu.serverlist.mods.dontmatch">Your enabled mods don't match!</string>
-	<string name="mainmenu.multiplayer.disabled">Multiplayer is currently unavailabe, try again later.</string>
+	<string name="mainmenu.serverlist.mod-restriction">Modded profiles are not allowed to join.</string>
+	<string name="mainmenu.multiplayer.disabled">Multiplayer is currently unavailable, try again later.</string>
 	<string name="mainmenu.multiplayer.disabled.mods">Multiplayer is disabled due to having an unpacked mod enabled.</string>
 
 	<!-- character selection -->
@@ -577,7 +729,7 @@
 	<string name="mainmenu.character.create.next">NEXT</string>
 
 	<!-- save slots -->
-	<string name="mainmenu.slots.title">Choose profile</string>
+	<string name="mainmenu.slots.title">CHOOSE PROFILE</string>
 	<string name="mainmenu.slots.create">Create a new profile</string>
 	<string name="mainmenu.slots.name">Profile %num%</string>
 	<string name="mainmenu.slots.clone">Clone this profile</string>
@@ -587,7 +739,7 @@
 	<string name="mainmenu.slots.delete">Delete this profile</string>
 	<string name="mainmenu.slots.delete.prompt">Really delete this town in profile %num%? It can not be recovered.</string>
 	<string name="mainmenu.slots.switch">Switch to this profile</string>
-	<string name="mainmenu.editslot.title">Select mods</string>
+	<string name="mainmenu.editslot.title">SELECT MODS</string>
 	<string name="mainmenu.editslot.saving">Profile is saving...</string>
 
 	<!-- options > controls -->
@@ -872,6 +1024,9 @@
 	<string name="menu.notifier.lostconnection">Connection lost.</string>
 	<string name="menu.notifier.joinfailed.mods">Failed to join lobby because you don't have the same mods enabled. The host has enabled %num%: %mods%</string>
 	<string name="menu.notifier.joinfailed.level">Failed to join lobby because the character is outside of the level requirements. (Minimum %min%, maximum %max%)</string>
+	<string name="menu.notifier.joinfailed.allowedmods">Failed to join lobby because the host has chosen not to allow modded profiles.</string>
+
+
 
 	<string name="misc.autosave">Autosave</string>
 	<string name="misc.timeletters.hours">h</string>
@@ -1047,17 +1202,14 @@
 	<string name="shop.blacksmith">SMITH BARRO</string>
 	<string name="shop.chapel">THE PREACHER</string>
 	<string name="shop.dungeonstore">SHADY OUTCAST MERCHANT</string>
+	<string name="shop.desertstore">DUBIOUS BEDOUIN TRADER</string>
 	<string name="shop.fountain">FOUNTAIN OF FORTUNE</string>
-	<string name="shop.generalstore">DARREN, THE SUPPLIER</string>
-	<string name="shop.guildhall">AAAAAAAAAAAAAAAA</string>
+	<string name="shop.generalstore">SUPPLIES</string>
 	<string name="shop.magicshop">MAGIC SHOP</string>
 	<string name="shop.skills">TRAINER CALHOUN</string>
-	<string name="shop.statues">CCCCCCCCCCCCCCCCCC</string>
+	<string name="shop.statues">SCULPTOR</string>
 	<string name="shop.townhall">PREFECT GREY</string>
-	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
-	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
 	<string name="shop.oretrader">OLIVER, THE ORE TRADER</string>
-	<string name="shop.tailor">THE TAILOR</string>
 
 	<string name="town.building.townhall">Town hall</string>
 	<string name="town.building.guildhall">Guild hall</string>
@@ -1087,6 +1239,9 @@
 	<string name="shop.townhall.townhall-5.name">Town Hall V</string>
 	<string name="shop.townhall.townhall-5.desc">Unlocks Tier 5 Buildings.</string>
 
+	<string name="shop.townhall.townhall.name">Town Hall %lvl%</string>
+	<string name="shop.townhall.townhall.desc">Unlocks Tier %num% Buildings.</string>
+
 	<string name="shop.townhall.apothecary-1.name">Apothecary I</string>
 	<string name="shop.townhall.apothecary-1.desc">Buy upgrades to your potion.</string>
 
@@ -1095,6 +1250,8 @@
 
 	<string name="shop.townhall.apothecary-3.name">Apothecary III</string>
 	<string name="shop.townhall.apothecary-3.desc">Buy upgrades to your potion and pickup effectiveness.</string>
+
+	<string name="shop.townhall.apothecary.name">Apothecary %lvl%</string>
 
 	<string name="shop.townhall.blacksmith-1.name">Blacksmith I</string>
 	<string name="shop.townhall.blacksmith-1.desc">Buy upgrades to your Weapons and Armor.</string>
@@ -1111,6 +1268,9 @@
 	<string name="shop.townhall.blacksmith-5.name">Blacksmith V</string>
 	<string name="shop.townhall.blacksmith-5.desc">Buy upgrades to your Weapons and Armor.</string>
 
+	<string name="shop.townhall.blacksmith.name">Blacksmith %lvl%</string>
+	<string name="shop.townhall.blacksmith.desc">Buy upgrades to your Weapons and Armor.</string>
+
 	<string name="shop.townhall.chapel-1.name">Chapel I</string>
 	<string name="shop.townhall.chapel-1.desc">Unlocks Priest. Donate money to receive a permanent blessing.</string>
 
@@ -1119,6 +1279,9 @@
 
 	<string name="shop.townhall.chapel-3.name">Chapel III</string>
 	<string name="shop.townhall.chapel-3.desc">Donate money to receive a permanent blessing.</string>
+
+	<string name="shop.townhall.chapel-4.name">Chapel IV</string>
+	<string name="shop.townhall.chapel-4.desc">Donate money to receive a permanent blessing.</string>
 
 	<string name="shop.townhall.fountain-1.name">Fountain I</string>
 	<string name="shop.townhall.fountain-1.desc">Customize your run by wishing for positive and negative effects.</string>
@@ -1140,6 +1303,9 @@
 
 	<string name="shop.townhall.generalstore-5.name">General Store V</string>
 	<string name="shop.townhall.generalstore-5.desc">Buy Keys and Items (2 common, 2 uncommon, 1 rare). Prices are 20% cheaper.</string>
+
+	<string name="shop.townhall.generalstore.name">General Store %lvl%</string>
+	<string name="shop.townhall.generalstore-6.desc">Buy Keys and Items (3 common, 2 uncommon, 1 rare). Prices are 25% cheaper.</string>
 
 	<string name="shop.townhall.guildhall-1.name">Guild Hall I</string>
 	<string name="shop.townhall.guildhall-1.desc">Upgrade your skills to Tier 1.</string>
@@ -1165,6 +1331,8 @@
 	<string name="shop.townhall.magicshop-3.name">Magic Shop III</string>
 	<string name="shop.townhall.magicshop-3.desc">Buy upgrades to your Skills and Resistance.</string>
 
+	<string name="shop.townhall.magicshop.name">Magic Shop %lvl%</string>
+
 	<string name="shop.townhall.oretrader-1.name">Ore Trader I</string>
 	<string name="shop.townhall.oretrader-1.desc">Buy and sell ore.</string>
 
@@ -1174,14 +1342,7 @@
 	<string name="shop.townhall.oretrader-3.name">Ore Trader III</string>
 	<string name="shop.townhall.oretrader-3.desc">Buy and sell ore. Better trade rates.</string>
 
-	<string name="shop.townhall.sculptor-1.name">Sculptor I</string>
-	<string name="shop.townhall.sculptor-1.desc">Build Level 1 statues for ore. 2 slots.</string>
-
-	<string name="shop.townhall.sculptor-2.name">Sculptor II</string>
-	<string name="shop.townhall.sculptor-2.desc">Build Level 2 statues for ore. 3 slots.</string>
-
-	<string name="shop.townhall.sculptor-3.name">Sculptor III</string>
-	<string name="shop.townhall.sculptor-3.desc">Build Level 3 status for ore. 4 slots.</string>
+	<string name="shop.townhall.oretrader.name">Ore Trader %lvl%</string>
 
 	<string name="shop.townhall.tavern-1.name">Tavern I</string>
 	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling. Buy up to 3 drinks.</string>
@@ -1204,6 +1365,8 @@
 	<string name="shop.townhall.treasury-4.name">Treasury IV</string>
 	<string name="shop.townhall.treasury-4.desc">50% tax rate at 25000 total gold.</string>
 
+	<string name="shop.townhall.treasury.name">Treasury %lvl%</string>
+	<string name="shop.townhall.treasury.desc">50% tax rate at %num% total gold.</string>
 
 	<!-- apothecary -->
 	<string name="shop.apothecary.charges.name">Potion Charges %lvl%</string>
@@ -1253,6 +1416,9 @@
 	<string name="shop.blacksmith.armor-10.name">Armor X</string>
 	<string name="shop.blacksmith.armor-10.desc">+50 to your Armor.</string>
 
+	<string name="shop.blacksmith.armor.name">Armor %lvl%</string>
+	<string name="shop.blacksmith.armor.desc">%amount% to your Armor.</string>
+
 	<string name="shop.blacksmith.weapon-1.name">Weapon I</string>
 	<string name="shop.blacksmith.weapon-1.desc">+5 to your Attack Power.</string>
 
@@ -1283,6 +1449,9 @@
 	<string name="shop.blacksmith.weapon-10.name">Weapon X</string>
 	<string name="shop.blacksmith.weapon-10.desc">+80 to your Attack Power.</string>
 
+	<string name="shop.blacksmith.weapon.name">Weapon %lvl%</string>
+	<string name="shop.blacksmith.weapon.desc">%amount% to your Attack Power.</string>
+
 	<string name="shop.blacksmith.criticalchance-1.name">Critical Chance I</string>
 	<string name="shop.blacksmith.criticalchance-1.desc">2.5% chance to crit on your Primary attack.</string>
 
@@ -1307,14 +1476,17 @@
 	<string name="shop.blacksmith.criticaldamage-3.name">Critical Damage III</string>
 	<string name="shop.blacksmith.criticaldamage-3.desc">Increases Critical Damage on your Primary attack to 3.5x.</string>
 
+	<string name="shop.blacksmith.criticaldamage.name">Critical Damage %lvl%</string>
+	<string name="shop.blacksmith.criticaldamage.desc">Increases Critical Damage on your Primary attack to %amount%.</string>
+
 	<string name="shop.blacksmith.movespeed-1.name">Boots I</string>
-	<string name="shop.blacksmith.movespeed-1.desc">+0.1 to your Move Speed</string>
+	<string name="shop.blacksmith.movespeed-1.desc">+0.1 to your Move Speed.</string>
 
 	<string name="shop.blacksmith.movespeed-2.name">Boots II</string>
-	<string name="shop.blacksmith.movespeed-2.desc">+0.2 to your Move Speed</string>
+	<string name="shop.blacksmith.movespeed-2.desc">+0.2 to your Move Speed.</string>
 
 	<string name="shop.blacksmith.movespeed-3.name">Boots III</string>
-	<string name="shop.blacksmith.movespeed-3.desc">+0.3 to your Move Speed</string>
+	<string name="shop.blacksmith.movespeed-3.desc">+0.3 to your Move Speed.</string>
 
 	<string name="shop.blacksmith.movespeed-4.name">Boots IV</string>
 	<string name="shop.blacksmith.movespeed-4.desc">+0.4 to your Move Speed</string>
@@ -1322,6 +1494,8 @@
 	<string name="shop.blacksmith.movespeed-5.name">Boots V</string>
 	<string name="shop.blacksmith.movespeed-5.desc">+0.5 to your Move Speed</string>
 
+	<string name="shop.blacksmith.movespeed.name">Boots %lvl%</string>
+	<string name="shop.blacksmith.movespeed.desc">%amount% to your Move Speed</string>
 
 
 	<!-- general store -->
@@ -1343,7 +1517,7 @@
 	<string name="shop.chapel.convert.prompt">Are you sure you want to convert?\n(All blessings will be reset)</string>
 
 	<string name="shop.chapel.path.attack.name">Path of the Warrior</string>
-	<string name="shop.chapel.path.attack.desc">Increases damage of your Primary attack by %attack%%.</string>
+	<string name="shop.chapel.path.attack.desc">Increases damage of your Primary Attack by %attack%%.</string>
 
 	<string name="shop.chapel.path.defense.name">Path of the Defender</string>
 	<string name="shop.chapel.path.defense.desc">Decreases damage taken by %taken%%.</string>
@@ -1364,7 +1538,7 @@
 	<string name="shop.chapel.blessing.resistance-pierce.desc">Magical damage ignore %pierce%% of the enemies Resistance.</string>
 
 	<string name="shop.chapel.symbol.attack-crit.name">Symbol of Force</string>
-	<string name="shop.chapel.symbol.attack-crit.desc">Increases Critical Damage on your Primary attack by %damage%%.</string>
+	<string name="shop.chapel.symbol.attack-crit.desc">Increases Critical Damage on your Primary Attack by %damage%%.</string>
 
 	<string name="shop.chapel.symbol.lifesteal.name">Symbol of Essence</string>
 	<string name="shop.chapel.symbol.lifesteal.desc">Gain %lsteal%% lifesteal on Primary Attack.</string>
@@ -1378,6 +1552,17 @@
 	<string name="shop.chapel.symbol.spell-crit.name">Symbol of Focus</string>
 	<string name="shop.chapel.symbol.spell-crit.desc">Increases Critical Damage of your Skills by %damage%%.</string>
 
+	<string name="shop.chapel.divine.hammer.name">Divine Hammer</string>
+	<string name="shop.chapel.divine.hammer.desc">Primary Attack throws a hammer in a forward direction dealing %dmg% Physical damage. Cooldown %cd% seconds.</string>
+
+	<string name="shop.chapel.divine.bomb.name">Divine Bomb</string>
+	<string name="shop.chapel.divine.bomb.desc">Primary Attack drops a bomb dealing %dmg% Physical damage. Cooldown %cd% second.</string>
+
+	<string name="shop.chapel.divine.blast.name">Divine Blast</string>
+	<string name="shop.chapel.divine.blast.desc">Primary Attack triggers an explosion dealing %dmg% Magical damage. Cooldown %cd% seconds.</string>
+
+	<string name="shop.chapel.divine.strike.name">Divine Strike</string>
+	<string name="shop.chapel.divine.strike.desc">Primary Attack fires a bolt at a random nearby enemy dealing %dmg% Magical damage. Cooldown %cd% seconds.</string>
 
 	<!-- magic shop -->
 	<string name="shop.magicshop.resistance-1.name">Resistance I</string>
@@ -1398,6 +1583,9 @@
 	<string name="shop.magicshop.resistance-6.name">Resistance VI</string>
 	<string name="shop.magicshop.resistance-6.desc">+30 to your Resistance.</string>
 
+	<string name="shop.magicshop.resistance.name">Resistance %lvl%</string>
+	<string name="shop.magicshop.resistance.desc">%amount% to your Resistance.</string>
+
 	<string name="shop.magicshop.spellpower-1.name">Skill Damage I</string>
 	<string name="shop.magicshop.spellpower-1.desc">+5 to your Skill Power.</string>
 
@@ -1416,6 +1604,9 @@
 	<string name="shop.magicshop.spellpower-6.name">Skill Damage VI</string>
 	<string name="shop.magicshop.spellpower-6.desc">+30 to your Skill Power.</string>
 
+	<string name="shop.magicshop.spellpower.name">Skill Damage %lvl%</string>
+	<string name="shop.magicshop.spellpower.desc">%amount% to your Skill Power.</string>
+
 	<string name="shop.magicshop.spellcritchance-1.name">Skill Crit Chance I</string>
 	<string name="shop.magicshop.spellcritchance-1.desc">5% chance to deal Critical Damage with Skills.</string>
 
@@ -1430,6 +1621,9 @@
 
 	<string name="shop.magicshop.spellcritdamage-2.name">Skill Crit Damage II</string>
 	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
+
+	<string name="shop.magicshop.spellcritdamage.name">Skill Crit Damage %lvl%</string>
+	<string name="shop.magicshop.spellcritdamage.desc">Increases Critical Damage of your Skills to %amount%.</string>
 
 	<!-- ore trader -->
 	<string name="shop.oretrader.ore-gold.name">Buy %ore% ore</string>
@@ -1473,7 +1667,7 @@
 	<string name="shop.skills.worth.attunements">Points spent on attunements.</string>
 
 	<!-- drinks -->
-	<string name="shop.drinks">TAPSTER RICHARD HAMMER</string>
+	<string name="shop.drinks">TAPSTER</string>
 	<string name="shop.drinks.message.enough">You've had enough!</string>
 
 
@@ -1488,6 +1682,98 @@
 	<string name="shop.forge.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
 	<string name="shop.forge.respec.tooltip.title">Respec</string>
 	<string name="shop.forge.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
+
+	<!-- bestiary -->
+	<string name="town.bestiary.title">BALTZAR'S BOOK OF MONSTERS</string>
+	<string name="town.bestiary.spent">Points spent on enemy attunement.</string>
+	<string name="town.bestiary.respec">RESPEC</string>
+	<string name="town.bestiary.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
+	<string name="town.bestiary.respec.tooltip.title">Respec</string>
+	<string name="town.bestiary.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
+	<string name="town.bestiary.attune">Attune</string>
+	<string name="town.bestiary.damage">Damage: %damage%%</string>
+	<string name="town.bestiary.damagereduction">Damage reduction: %reduction%%</string>
+
+	<!-- desert vendor -->
+	<string name="shop.desertstore.map.name">Map Piece</string>
+	<string name="shop.desertstore.map.desc">Shows the safest route to the Pyramid.</string>
+
+	<!-- statues -->
+	<string name="shop.statues.select.title">BUILD STATUE</string>
+	<string name="shop.statues.build">Build statue</string>
+	<string name="shop.statues.switch">Change statue</string>
+	<string name="shop.statues.remove">Remove statue</string>
+	<string name="shop.statues.upgrade">Upgrade statue</string>
+	<string name="shop.statues.upgrade.prompt">Are you sure you want to upgrade this statue for %cost% ore?</string>
+	<string name="shop.statues.upgrade.blueprint">Need a higher level blueprint before you can upgrade.</string>
+	<string name="shop.statues.level">\c7f7f7fLevel %level%\d</string>
+	<string name="shop.statues.firststatue">Spend %cost% ore to build the first level of this statue?</string>
+	<string name="statues.blueprint.title">Statue Design:</string>
+	<string name="statues.blueprint.level">%statue% Level %level%</string>
+
+
+	<string name="shop.statues.ice-mage.name">Ewran</string>
+	<string name="shop.statues.ice-mage.desc">%build%% chance to freeze enemies on Primary Attack.\nEach level of the statue increases damage done to frozen enemies by %upgrade%%.</string>
+	<string name="shop.statues.ice-mage.desc-upgrade">%upgrade%% damage done to frozen enemies.</string>
+	<string name="shop.statues.ice-mage.lore">During a warm summer night,\nshe froze Williamsons Pure\nLake so the King could move\nhis troops safely across.</string>
+
+	<string name="shop.statues.fire-mage.name">Wylmir</string>
+	<string name="shop.statues.fire-mage.desc">%build%% faster Skills.\nEach level of the statue adds %upgrade%% of the skill cost as damage to your Skills.</string>
+	<string name="shop.statues.fire-mage.desc-upgrade">%upgrade%% of the skill cost added as damage to your Skills.</string>
+	<string name="shop.statues.fire-mage.lore">Used his last breath to blaze\nthe caves and clean out the\ntrolls between Blackbarrow\nand Fallowfields.</string>
+
+	<string name="shop.statues.assassin.name">Phalarath</string>
+	<string name="shop.statues.assassin.desc">Lowers the health of an attacker by %build%% when evading.\nEach level of the statue increases damage done to disarmed and stunned enemies by %upgrade%%.</string>
+	<string name="shop.statues.assassin.desc-upgrade">%upgrade%% damage done to disarmed and stunned enemies.</string>
+	<string name="shop.statues.assassin.lore">Snuck in behind enemy lines and\ngutted pirate Captain Marius, this\nwould eventually stop the siege\nof Castle Hammerwatch.</string>
+
+	<string name="shop.statues.warrior.name">Bolgarth</string>
+	<string name="shop.statues.warrior.desc">Every 5th Primary Attack in Combo triggers a Combo Blast that deals %build% Magical damage.\nEach level of the statue increases time to maintain Combo by %upgrade% seconds.</string>
+	<string name="shop.statues.warrior.desc-upgrade">Increases time to maintain Combo by %upgrade% seconds.</string>
+	<string name="shop.statues.warrior.lore">Bolgarth's axe was known\nas the "Crimson Crescents",\nbecause it was always red\nby the blood of his enemies.</string>
+
+	<string name="shop.statues.paladin.name">Calis</string>
+	<string name="shop.statues.paladin.desc">%build%% chance to block most projectiles.\nEach level of the statue adds %upgrade%% of your Armor to Attack Power.</string>
+	<string name="shop.statues.paladin.desc-upgrade">%upgrade%% of your Armor added to Attack Power.</string>
+	<string name="shop.statues.paladin.lore">Raised from childhood to fight\nthe undead and protect the\nliving. Devoted his life to\nserve the people.</string>
+
+	<string name="shop.statues.priest.name">Cedric</string>
+	<string name="shop.statues.priest.desc">Picking up mana crystals increases your Mana Regen and Resistance by %build%% for 30 seconds.\nEach level of the statue adds %upgrade%% of your Resistance to Skill Power.</string>
+	<string name="shop.statues.priest.desc-upgrade">%upgrade%% of your Resistance added to Skill Power.</string>
+	<string name="shop.statues.priest.lore">Also known as "The Delayer\nof Death", at the peak of his\ncareer, the cemetery stood\nempty for many years.</string>
+
+	<string name="shop.statues.plague-doctor.name">Ozreth</string>
+	<string name="shop.statues.plague-doctor.desc">%build%% chance of enemies leaving a poison cloud when killed that lasts for %dur% seconds.\nEach level of the statue increases damage done to poisoned enemies by %upgrade%%.</string>
+	<string name="shop.statues.plague-doctor.desc-upgrade">%upgrade%% damage done to poisoned enemies.</string>
+	<string name="shop.statues.plague-doctor.lore">An outcast, master in death\nand decay who paid his debt\nto society by curing Queen\nOlivia at the darkest hour.</string>
+
+	<string name="shop.statues.ranger.name">Kyra</string>
+	<string name="shop.statues.ranger.desc">%build%% faster Primary Attack with a %chance%% chance to fire 2 arrows dealing %damage% Physical damage.\nEach level of the statue increases the base damage of the arrows by %upgrade%.</string>
+	<string name="shop.statues.ranger.desc-upgrade">Increases the base damage of the arrows by %upgrade%.</string>
+	<string name="shop.statues.ranger.lore">She who named her bow\nThe One String Harp, cause\nwhen it was plucked, her\nenemies would sing in agony.</string>
+
+	<!-- retired gladiator -->
+	<string name="retiredgladiator.title">RETIRED GLADIATOR</string>
+	<string name="retiredgladiator.available.left">You have</string>
+	<string name="retiredgladiator.available.right">available.</string>
+	<string name="retiredgladiator.upgrade.attack-power">+1 Attack Power</string>
+	<string name="retiredgladiator.upgrade.skill-power">+1 Skill Power</string>
+	<string name="retiredgladiator.upgrade.armor">+1 Armor</string>
+	<string name="retiredgladiator.upgrade.resistance">+1 Resistance</string>
+	<string name="retiredgladiator.upgrade">Upgrade to level %level%</string>
+	<string name="retiredgladiator.respec">RETRAIN</string>
+	<string name="retiredgladiator.respec.prompt">Are you sure you want to retrain? You will get all tokens back.</string>
+
+	<!-- arena -->
+	<string name="town.coliseum.title">ARIDARA ARENA</string>
+	<string name="town.coliseum.description">The Arena far out in Aridara, where people go for two reasons. The glory of winning in combat, or the excitement of watching others fight for their lives.\n\n(You are fighting for the crowds amusement and will be rewarded with sword tokens and other riches based on their happiness.)</string>
+	<string name="town.coliseum.rank">RANK</string>
+	<string name="town.coliseum.progress">PROGRESS</string>
+	<string name="town.coliseum.progress.tooltip">Gain 5 sword tokens\n to rank up.</string>
+	<string name="town.coliseum.start">START</string>
+
+
+
 
 
 
@@ -1867,6 +2153,58 @@
 	<string name="skills.wizard.scorched-earth.2">All Wizards skills leave a burning danger area that deal 16 Magical damage per second. The duration of the danger areas are doubled.</string>
 
 
+	<!-- Gladiator -->
+	<string name="skills.gladiator.trident">Trident</string>
+	<string name="skills.gladiator.trident.create">A powerful melee attack that can be triggered in quick succession by expending stacks.</string>
+	<string name="skills.gladiator.trident.1">Melee attack that deals 12 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 5 stacks.</string>
+	<string name="skills.gladiator.trident.2">Melee attack that deals 14 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 7 stacks.</string>
+	<string name="skills.gladiator.trident.3">Melee attack that deals 16 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 9 stacks.</string>
+	<string name="skills.gladiator.trident.4">Melee attack that deals 18 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 11 stacks.</string>
+	<string name="skills.gladiator.trident.5">Melee attack that deals 20 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 13 stacks.</string>
+	<string name="skills.gladiator.trident.6">Melee attack that deals 22 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 15 stacks.</string>
+
+	<string name="skills.gladiator.net">Crippling Net</string>
+	<string name="skills.gladiator.net.create">Throws a net that disarms and slows enemies. At higher levels enemies take more damage while netted.</string>
+	<string name="skills.gladiator.net.1">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown.</string>
+	<string name="skills.gladiator.net.2">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 20% more damage when netted.</string>
+	<string name="skills.gladiator.net.3">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 40% more damage when netted.</string>
+	<string name="skills.gladiator.net.4">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 60% more damage when netted.</string>
+	<string name="skills.gladiator.net.5">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 80% more damage when netted.</string>
+	<string name="skills.gladiator.net.6">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 100% more damage when netted.</string>
+
+	<string name="skills.gladiator.planned-attack">Planned Attack</string>
+	<string name="skills.gladiator.planned-attack.create">Guaranteed critical hit when expending a stack of \caac8ffTrident\d.</string>
+	<string name="skills.gladiator.planned-attack.1">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 2 seconds. Maximum 3 stacks.</string>
+	<string name="skills.gladiator.planned-attack.2">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1.75 seconds. Maximum 4 stacks.</string>
+	<string name="skills.gladiator.planned-attack.3">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1.5 seconds. Maximum 5 stacks.</string>
+	<string name="skills.gladiator.planned-attack.4">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1.25 seconds. Maximum 6 stacks.</string>
+	<string name="skills.gladiator.planned-attack.5">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1 second. Maximum 7 stacks.</string>
+
+	<string name="skills.gladiator.riposte">Riposte</string>
+	<string name="skills.gladiator.riposte.create">Blocks incoming damage for a very short time after attacking with \caac8ffTrident\d.</string>
+	<string name="skills.gladiator.riposte.1">Blocks 20% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+	<string name="skills.gladiator.riposte.2">Blocks 40% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+	<string name="skills.gladiator.riposte.3">Blocks 60% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+	<string name="skills.gladiator.riposte.4">Blocks 80% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+
+	<string name="skills.gladiator.gladius">Spinning Gladius</string>
+	<string name="skills.gladiator.gladius.create">Throws a gladius in a forward direction that starts spinning in place on impact dealing Magical damage.</string>
+	<string name="skills.gladiator.gladius.1">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 32 Magical damage per second.</string>
+	<string name="skills.gladiator.gladius.2">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 64 Magical damage per second.</string>
+	<string name="skills.gladiator.gladius.3">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 96 Magical damage per second.</string>
+	<string name="skills.gladiator.gladius.4">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 128 Magical damage per second.</string>
+
+	<string name="skills.gladiator.pit-fighters">Pit Fighters</string>
+	<string name="skills.gladiator.pit-fighters.create">Call upon a group of pit fighters to fight at your side for a short time.</string>
+	<string name="skills.gladiator.pit-fighters.1">Call upon a group of pit fighters to fight at your side for 15 seconds. The pit fighters have 400 Health, 10 Armor and 10 Resistance. They attack with shortswords dealing 20 Physical damage.</string>
+	<string name="skills.gladiator.pit-fighters.2">Call upon a group of pit fighters to fight at your side for 15 seconds. The pit fighters have 500 Health, 20 Armor and 20 Resistance. They attack with shortswords dealing 35 Physical damage.</string>
+	<string name="skills.gladiator.pit-fighters.3">Call upon a group of pit fighters to fight at your side for 15 seconds. The pit fighters have 600 Health, 30 Armor and 30 Resistance. They attack with shortswords dealing 50 Physical damage.</string>
+
+	<string name="skills.gladiator.strength-in-numbers">Strength in Numbers</string>
+	<string name="skills.gladiator.strength-in-numbers.create">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d.</string>
+	<string name="skills.gladiator.strength-in-numbers.1">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 1.</string>
+	<string name="skills.gladiator.strength-in-numbers.2">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 2.</string>
+
 
 
 	<!-- ITEMS -->
@@ -1905,11 +2243,14 @@
 	<string name="item.chainmail.name">Chainmail</string>
 	<string name="item.chainmail.desc">+%armor% Armor.</string>
 
+	<string name="item.coated-arrow.name">Coated Arrow</string>
+	<string name="item.coated-arrow.desc">%chance%% chance to poison enemies for %dur% seconds on Primary Attack.</string>
+
 	<string name="item.cowl-of-protection.name">Cowl of Protection</string>
 	<string name="item.cowl-of-protection.desc">%chance%% chance to Block %block% Magical damage.</string>
 
 	<string name="item.curios-box.name">Curio's Box</string>
-	<string name="item.curios-box.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+	<string name="item.curios-box.desc">%stats% Health and Mana. %power% Attack and Skill Power. %armor% Armor and Resistance.</string>
 
 	<string name="item.defenders-halberd.name">Defender's Halberd</string>
 	<string name="item.defenders-halberd.desc">Disarm enemies for %dur% seconds when hit.</string>
@@ -1950,6 +2291,9 @@
 	<string name="item.life-stone.name">Life Stone</string>
 	<string name="item.life-stone.desc">%chance%% chance to gain 1 health when killing an enemy.</string>
 
+	<string name="item.lucky-charm.name">Lucky Charm</string>
+	<string name="item.lucky-charm.desc">%luck% Luck. +%gain%% Gold Gain.</string>
+
 	<string name="item.mail-of-thorns.name">Mail of Thorns</string>
 	<string name="item.mail-of-thorns.desc">Returns %return% Physical damage to the attacker when hit.</string>
 
@@ -1973,6 +2317,9 @@
 
 	<string name="item.monster-pamphlet-undead.name">Monster Pamphlet: Undead</string>
 	<string name="item.monster-pamphlet-undead.desc">Increase damage done to Undead by %dmg%%. Undead give %exp%% more experience.</string>
+
+	<string name="item.pot-helm.name">Pot Helm</string>
+	<string name="item.pot-helm.desc">%chance%% to block most projectiles.</string>
 
 	<string name="item.ring-health.name">Ring of Health</string>
 	<string name="item.ring-health.desc">+%hregen% Health Regen.</string>
@@ -2028,6 +2375,9 @@
 	<string name="item.adventurers-garb.name">Adventurer's Garb</string>
 	<string name="item.adventurers-garb.desc">+%health% Health and +%mana% Mana.</string>
 
+	<string name="item.apothecarys-flask.name">Apothecary's Flask</string>
+	<string name="item.apothecarys-flask.desc">%num% Potion charges.</string>
+
 	<string name="item.apothecarys-mortar-pestle.name">Apothecary's Mortar & Pestle</string>
 	<string name="item.apothecarys-mortar-pestle.desc">Potions increase Armor and Magical Resistance with %eff%% for 5s.</string>
 
@@ -2046,6 +2396,12 @@
 	<string name="item.bloodthirst-ring.name">Bloodthirst Ring</string>
 	<string name="item.bloodthirst-ring.desc">%lsteal%% Lifesteal on Primary Attack.</string>
 
+	<string name="item.blowgun.name">Blowgun</string>
+	<string name="item.blowgun.desc">Shoots %num% poison darts at nearby random enemies when casting a Skill. %cd% second cooldown.</string>
+
+	<string name="item.bracers-of-quickness.name">Bracers of Quickness</string>
+	<string name="item.bracers-of-quickness.desc">Increases Attack speed by %num%%.</string>
+
 	<string name="item.claymore.name">Claymore</string>
 	<string name="item.claymore.desc">+%atk% Attack Power and +%dmg% Physical damage on Primary Attack.</string>
 
@@ -2053,7 +2409,7 @@
 	<string name="item.cloak-of-many-pockets.desc">%gold%% Gold Gain.</string>
 
 	<string name="item.curios-case.name">Curio's Case</string>
-	<string name="item.curios-case.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+	<string name="item.curios-case.desc">%stats% Health and Mana. %power% Attack and Skill Power. %armor% Armor and Resistance.</string>
 
 	<string name="item.elven-bow.name">Elven Bow</string>
 	<string name="item.elven-bow.desc">+%atk% Attack Power.</string>
@@ -2071,7 +2427,10 @@
 	<string name="item.gloves-of-warding.desc">Provides a passive Block of %block% Magical damage with a cooldown of %cd% seconds.</string>
 
 	<string name="item.key-ring.name">Key Ring</string>
-	<string name="item.key-ring.desc">%chance%% chance of receiving an extra key when picking up keys.</string>
+	<string name="item.key-ring.desc">When picking up a key you have a %chance%% chance to receive another random key.</string>
+
+	<string name="item.lucky-horseshoe.name">Lucky Horseshoe</string>
+	<string name="item.lucky-horseshoe.desc">%luck% Luck. %mspeed% Movement Speed.</string>
 
 	<string name="item.greater-ring-rejuvenation.name">Greater Ring of Rejuvenation</string>
 	<string name="item.greater-ring-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
@@ -2090,6 +2449,9 @@
 
 	<string name="item.monster-manual-undead.name">Monster Manual: Undead</string>
 	<string name="item.monster-manual-undead.desc">Increase damage done to Undead by %dmg%%. Undead give %exp%% more experience.</string>
+
+	<string name="item.necklace-of-prowess.name">Necklace of Prowess</string>
+	<string name="item.necklace-of-prowess.desc">Increases Skill speed by %num%%.</string>
 
 	<string name="item.old-map.name">Old Map</string>
 	<string name="item.old-map.desc">Removes fog of war from the map.</string>
@@ -2122,10 +2484,10 @@
 	<string name="item.spiked-boots.desc">Deal %dmg% Physical damage when colliding with enemies.</string>
 
 	<string name="item.sphere-of-life.name">Sphere of Life</string>
-	<string name="item.sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
+	<string name="item.sphere-of-life.desc">During Combo you gain +%hregen% Health Regen.</string>
 
 	<string name="item.sphere-of-mana.name">Sphere of Mana</string>
-	<string name="item.sphere-of-mana.desc">During combo you gain +%mregen% Mana Regen.</string>
+	<string name="item.sphere-of-mana.desc">During Combo you gain +%mregen% Mana Regen.</string>
 
 	<string name="item.sphere-of-nova.name">Sphere of Nova</string>
 	<string name="item.sphere-of-nova.desc">During Combo a nova is unleashed every second dealing %dmg% Magical damage.</string>
@@ -2176,8 +2538,11 @@
 	<string name="item.cape-of-the-flamewalker.name">Cape of the Flamewalker</string>
 	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage.</string>
 
+	<string name="item.chakram.name">Chakram</string>
+	<string name="item.chakram.desc">Unleash a chakram when using a skill dealing %dmg% Physical damage. %cd% seconds cooldown.</string>
+
 	<string name="item.curios-coffer.name">Curio's Coffer</string>
-	<string name="item.curios-coffer.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+	<string name="item.curios-coffer.desc">%stats% Health and Mana. %power% Attack and Skill Power. %armor% Armor and Resistance.</string>
 
 	<string name="item.duelists-edge.name">Duelist's Edge</string>
 	<string name="item.duelists-edge.desc">+%evasion%% Evasion. When evading an attack you return %dmg% Physical damage to the attacker and applies Bleeding.</string>
@@ -2198,10 +2563,13 @@
 	<string name="item.greater-sphere-of-nova.desc">During Combo a greater nova is unleashed every second dealing %dmg% Magical damage.</string>
 
 	<string name="item.greater-sphere-of-regen.name">Greater Sphere of Regen</string>
-	<string name="item.greater-sphere-of-regen.desc">During combo you gain +%hregen% Health Regen and +%mregen% Mana Regen.</string>
+	<string name="item.greater-sphere-of-regen.desc">During Combo you gain +%hregen% Health Regen and +%mregen% Mana Regen.</string>
 
 	<string name="item.heartseeker.name">Heartseeker</string>
 	<string name="item.heartseeker.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
+
+	<string name="item.lucky-hat.name">Lucky Hat</string>
+	<string name="item.lucky-hat.desc">%luck% Luck.</string>
 
 	<string name="item.magebane.name">Magebane</string>
 	<string name="item.magebane.desc">%chance%% chance to lower enemies Resistance by %res%% for %sec% seconds on Primary Attack.</string>
@@ -2215,11 +2583,32 @@
 	<string name="item.markhams-wand.name">Markham's Wand</string>
 	<string name="item.markhams-wand.desc">%gain% Skill Power per item in your inventory.</string>
 
+	<string name="item.queens-cuirass.name">Queen's Cuirass</string>
+	<string name="item.queens-cuirass.desc">+%armor% Armor.</string>
+
+	<string name="item.queens-dagger.name">Queen's Dagger</string>
+	<string name="item.queens-dagger.desc">+%atk% Attack Power.</string>
+
+	<string name="item.queens-jewel.name">Queen's Jewel</string>
+	<string name="item.queens-jewel.desc">+%spell% Skill Power.</string>
+
+	<string name="item.queens-necklace.name">Queen's Necklace</string>
+	<string name="item.queens-necklace.desc">+%res% Resistance.</string>
+
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
 
+	<string name="item.seal-of-rage.name">Seal of Rage</string>
+	<string name="item.seal-of-rage.desc">%speed%% Attack speed for each % Health missing.</string>
+
 	<string name="item.shieldbreaker.name">Shieldbreaker</string>
 	<string name="item.shieldbreaker.desc">%chance%% chance to lower enemies Armor by %armor%% for %sec% seconds on Primary Attack.</string>
+
+	<string name="item.skullsmasher.name">Skullsmasher</string>
+	<string name="item.skullsmasher.desc">Every %hit%th Primary Attack hit triggers an explosion on impact dealing 30 Physical damage.</string>
+
+	<string name="item.spreading-corruption.name">Spreading Corruption</string>
+	<string name="item.spreading-corruption.desc">Primary Attack applies a debuff for %dur% seconds that jumps to a new enemy when the original target is killed. Affected enemies take %dmg%% more damage.</string>
 
 	<string name="item.staff-of-volatile-casting.name">Staff of Volatile Casting</string>
 	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
@@ -2249,6 +2638,12 @@
 	<string name="item.mask-of-bewilderment.name">Mask of Bewilderment</string>
 	<string name="item.mask-of-bewilderment.desc">Primary Attack applies confusion for %dur% seconds.</string>
 
+	<string name="item.phoenix-feather.name">Phoenix Feather</string>
+	<string name="item.phoenix-feather.desc">Automatically triggers a Potion charge on a damage instance that would kill you.</string>
+
+	<string name="item.queens-tiara.name">Queen's Tiara</string>
+	<string name="item.queens-tiara.desc">+%bonus%% base Health & Mana.</string>
+
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
 	<string name="item.ring-of-arcane-powers.desc">Skills cost %scost%% less Mana.</string>
 
@@ -2276,60 +2671,72 @@
 	<string name="item.sphere-of-heroes.name">Sphere of Heroes</string>
 	<string name="item.sphere-of-heroes.desc">Shoots a massive nova projectile when attacking with your Primary Attack during Combo.</string>
 
+	<string name="item.wand-of-chaos.name">Wand of Chaos</string>
+	<string name="item.wand-of-chaos.desc">Every %time% seconds a powerful bolt is fired at a random target in range dealing heavy damage.</string>
+
 	<!-- SETS -->
 
 
 	<string name="item.sets.fire-and-ice.name">Fire and Ice</string>
-	<string name="item.sets.fire-and-ice.desc">+%dmg% Magical damage on Primary Attack</string>
+	<string name="item.sets.fire-and-ice.desc">+%dmg% Magical damage on Primary Attack.</string>
 
 	<string name="item.sets.stones-of-midas.name">Stones of Midas</string>
-	<string name="item.sets.stones-of-midas.desc">+%gold% gold when killing an enemy</string>
+	<string name="item.sets.stones-of-midas.desc">+%gold% gold when killing an enemy.</string>
 
 	<string name="item.sets.monster-brochure.name">Monster Brochure</string>
-	<string name="item.sets.monster-brochure.desc">+%dmg%% total damage</string>
+	<string name="item.sets.monster-brochure.desc">+%dmg%% total damage.</string>
 
 	<string name="item.sets.monster-encyclopedia.name">Monster Encyclopedia</string>
-	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% total damage</string>
+	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% total damage.</string>
 
 	<string name="item.sets.kings-regalia.name">Kings Regalia</string>
-	<string name="item.sets.kings-regalia.desc">%speed%% faster attacks and skills</string>
+	<string name="item.sets.kings-regalia.desc">%speed%% Attack and Skill speed.</string>
 
 	<string name="item.sets.apothecarys-implements.name">Apothecary's Implements</string>
-	<string name="item.sets.apothecarys-implements.desc.1">+1 Potion charge</string>
-	<string name="item.sets.apothecarys-implements.desc.2">%chance%% chance to refill a Potion charge when killing an enemy</string>
+	<string name="item.sets.apothecarys-implements.desc.1">+1 Potion charge.</string>
+	<string name="item.sets.apothecarys-implements.desc.2">%chance%% chance to refill a Potion charge when killing an enemy.</string>
 
 	<string name="item.sets.journeymans-outfit.name">Journeyman's Outfit</string>
-	<string name="item.sets.journeymans-outfit.desc.1">+%armor% Armor</string>
-	<string name="item.sets.journeymans-outfit.desc.2">+%attack% Attack Power</string>
-	<string name="item.sets.journeymans-outfit.desc.3">%reduction%% damage reduction</string>
+	<string name="item.sets.journeymans-outfit.desc.1">+%armor% Armor.</string>
+	<string name="item.sets.journeymans-outfit.desc.2">+%attack% Attack Power.</string>
+	<string name="item.sets.journeymans-outfit.desc.3">%reduction%% damage reduction.</string>
 
 	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
-	<string name="item.sets.disciples-arcana.desc.1">+%res% Resistance</string>
-	<string name="item.sets.disciples-arcana.desc.2">+%skill% Skill power</string>
-	<string name="item.sets.disciples-arcana.desc.3">skills cost %cost%% less Mana</string>
+	<string name="item.sets.disciples-arcana.desc.1">+%res% Resistance.</string>
+	<string name="item.sets.disciples-arcana.desc.2">+%skill% Skill Power.</string>
+	<string name="item.sets.disciples-arcana.desc.3">skills cost %cost%% less Mana.</string>
 
 	<string name="item.sets.spheres-of-power.name">Spheres of Power</string>
-	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
-	<string name="item.sets.spheres-of-power.desc.2">Combo nova</string>
-	<string name="item.sets.spheres-of-power.desc.3">Greater combo nova</string>
-	<string name="item.sets.spheres-of-power.desc.4">Massive combo nova</string>
-	<string name="item.sets.spheres-of-power.desc.5">Combo prevents lethal damage</string>
+	<string name="item.sets.spheres-of-power.desc.1">Lesser Combo nova.</string>
+	<string name="item.sets.spheres-of-power.desc.2">Combo nova.</string>
+	<string name="item.sets.spheres-of-power.desc.3">Greater Combo nova.</string>
+	<string name="item.sets.spheres-of-power.desc.4">Massive Combo nova.</string>
+	<string name="item.sets.spheres-of-power.desc.5">Combo prevents lethal damage.</string>
 
 	<string name="item.sets.tricksters-ensemble.name">Trickster's Ensemble</string>
-	<string name="item.sets.tricksters-ensemble.desc.1">Gain a Movement Speed bonus when evading</string>
-	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% Evasion</string>
-	<string name="item.sets.tricksters-ensemble.desc.3">Trigger combo when evading</string>
+	<string name="item.sets.tricksters-ensemble.desc.1">Gain a Movement Speed bonus when evading.</string>
+	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% Evasion.</string>
+	<string name="item.sets.tricksters-ensemble.desc.3">Trigger Combo when evading.</string>
 
 	<string name="item.sets.magic-missile.name">A Wizards Starting Kit</string>
-	<string name="item.sets.magic-missile.desc.1">Unleash 1 magic missile when using a skill.</string>
-	<string name="item.sets.magic-missile.desc.2">Unleash %num% magic missiles when using a skill.</string>
+	<string name="item.sets.magic-missile.desc.1">Unleash 1 magic missile when casting a Skill.</string>
+	<string name="item.sets.magic-missile.desc.2">Unleash %num% magic missiles when casting a Skill.</string>
 
 	<string name="item.sets.curios-collection.name">Curio's Collection</string>
-	<string name="item.sets.curios-collection.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+	<string name="item.sets.curios-collection.desc">%stats% Health and Mana. %power% Attack and Skill Power. %armor% Armor and Resistance.</string>
 
 	<string name="item.sets.markhams-mastery.name">Markham's Mastery</string>
-	<string name="item.sets.markhams-mastery.desc.1">%gain% Armor & Resistance per item in your inventory.</string>
-	<string name="item.sets.markhams-mastery.desc.2">%gain%% faster attacks and skills per item in your inventory.</string>
+	<string name="item.sets.markhams-mastery.desc.1">%gain% Armor and Resistance per item in your inventory.</string>
+	<string name="item.sets.markhams-mastery.desc.2">%gain%% Attack and Skill speed per item in your inventory.</string>
+
+	<string name="item.sets.boots-of-speed.name">Boots of Speed</string>
+
+	<string name="item.sets.queens-radiance.name">Queen's Radiance</string>
+	<string name="item.sets.queens-radiance.desc">%curses% Curses.</string>
+
+	<string name="item.sets.seals-of-torment.name">Seals of Torment</string>
+	<string name="item.sets.seals-of-torment.desc">%faster%% Skill speed for each % Health missing.</string>
+
 
 
 
@@ -2387,7 +2794,7 @@
 
 
 	<string name="drink.a-fools-errand.name">A Fool's Errand</string>
-	<string name="drink.a-fools-errand.desc">%pos%% Gold gain.\n%neg% Health Regen while standing still.</string>
+	<string name="drink.a-fools-errand.desc">%pos%% Gold gain.\nHealth Regen set to %neg%.</string>
 
 	<string name="drink.elemental-bruiser.name">Elemental Bruiser</string>
 	<string name="drink.elemental-bruiser.desc">%pos%% Skill damage.\n%neg%% Skill cost.</string>
@@ -2399,30 +2806,38 @@
 	<string name="drink.overflowing-physique.desc">+%pos%% base Health.\nLose %neg%% of your current Mana while moving.</string>
 
 	<string name="drink.last-stand.name">Last Stand</string>
-	<string name="drink.last-stand.desc">+%pos%% damage dealt and %neg%% damage taken while standing still.\n%mov%% Movement Speed.</string>
+	<string name="drink.last-stand.desc">%pos%% damage dealt and %pos2%% damage taken while standing still.\n%neg%% damage taken while moving.</string>
 
 	<string name="drink.the-last-sin.name">The Last Sin</string>
-	<string name="drink.the-last-sin.desc">%pos%% Critical Damage with Skills\n%neg% Mana Regen.</string>
+	<string name="drink.the-last-sin.desc">%pos%% Critical Damage with Skills.\n%neg% Mana Regen.</string>
 
+	<string name="drink.the-cranky-clergyman.name">The Cranky Clergyman</string>
+	<string name="drink.the-cranky-clergyman.desc">%pos% Resistance.\n%neg%% Skill Speed.</string>
+
+	<string name="drink.slumbering-giant.name">Slumbering Giant</string>
+	<string name="drink.slumbering-giant.desc">%pos% Attack Power.\n%neg%% Attack Speed.</string>
+
+	<string name="drink.the-safe-bet.name">The Safe Bet</string>
+	<string name="drink.the-safe-bet.desc">%pos%% Armor and Resistance.\n%neg% Luck.</string>
+
+	<string name="drink.the-outlook-special.name">The Outlook Special</string>
+	<string name="drink.the-outlook-special.desc">Ore pickups trigger a %pos%% damage reduction buff that lasts for %pos2% seconds.\n%neg%% Ore Gain.</string>
 
 
 	<!-- RARE -->
 
 
 	<string name="drink.crimson-death.name">Crimson Death</string>
-	<string name="drink.crimson-death.desc">%pos%% Lifesteal on all damage.\nLose %neg%% of your current Health while moving.</string>
+	<string name="drink.crimson-death.desc">%pos%% Lifesteal on Primary Attack.\nLose %neg%% of your current Health while moving.</string>
 
 	<string name="drink.hammer-time.name">Hammer Time</string>
-	<string name="drink.hammer-time.desc">%pos% Attack Power.\n%neg%% Armor.</string>
+	<string name="drink.hammer-time.desc">%pos% Attack Power.\nLose %neg%% of your current Health while standing still.</string>
 
 	<string name="drink.incendiary-demise.name">Incendiary Demise</string>
 	<string name="drink.incendiary-demise.desc">%pos% Magical damage on Primary Attack.\nYou start burning when dealing damage with your Primary Attack.</string>
 
 	<string name="drink.kinetic-kiss.name">Kinetic Kiss</string>
 	<string name="drink.kinetic-kiss.desc">Gain %pos%% of your max Mana while moving.\nLose all your Mana when taking damage.</string>
-
-	<string name="drink.stumble-in-the-dark.name">Stumble in the Dark</string>
-	<string name="drink.stumble-in-the-dark.desc">%pos%% chance to score a Critical Hit on Primary Attack and Skills.\nPermanent Darkness.</string>
 
 	<string name="drink.stab-in-the-dark.name">Stab in the Dark</string>
 	<string name="drink.stab-in-the-dark.desc">%pos%% chance to score a Critical Hit on Primary Attack.\nYou receive Darkness for %neg% seconds when attacking with your Primary Attack.</string>
@@ -2434,19 +2849,19 @@
 	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Vertigo.</string>
 
 	<string name="drink.unbalanced-essence.name">Unbalanced Essence</string>
-	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\n%neg%% Resistance.</string>
+	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\nLose %neg%% of your current Mana when casting a Skill.</string>
 
 	<string name="drink.wicked-sickness.name">Wicked Sickness</string>
 	<string name="drink.wicked-sickness.desc">%pos%% damage dealt during Combo.\n%neg%% damage dealt while out of Combo.</string>
 
 	<string name="drink.frenetic-eruption.name">Frenetic Eruption</string>
-	<string name="drink.frenetic-eruption.desc">Taking damage when below %pos%% Health triggers Combo.\n%neg%% damage taken when out of Combo.</string>
+	<string name="drink.frenetic-eruption.desc">%pos%% chance of triggering Combo when scoring Critical Hits.\n%neg%% damage taken when out of Combo.</string>
 
+	<string name="drink.evil-infusion.name">Evil Infusion</string>
+	<string name="drink.evil-infusion.desc">%pos%% Lifesteal on Skills.\nLose %neg%% of your current Health when casting a Skill.</string>
 
-
-
-
-
+	<string name="drink.perpetual-desire.name">Perpetual Desire</string>
+	<string name="drink.perpetual-desire.desc">All pickups activate Combo.\n%neg%% Skill cost while out of Combo.</string>
 
 
 
@@ -2482,9 +2897,6 @@
 	<string name="fountain.effect.reduced_trap_damage.name">Gentle Traps</string>
 	<string name="fountain.effect.reduced_trap_damage.description">Traps deal 50% less damage.</string>
 
-	<string name="fountain.effect.better_loot.name">Quality Loot</string>
-	<string name="fountain.effect.better_loot.description"></string>
-
 	<string name="fountain.effect.no_towers.name">Toppled Towers</string>
 	<string name="fountain.effect.no_towers.description">All towers are destroyed.</string>
 
@@ -2509,8 +2921,10 @@
 	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
 	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
 
-	<string name="fountain.effect.rare_item.name">Rare Reward</string>
-	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
+	<string name="fountain.effect.ace_chests.name">Ace Chests</string>
+	<string name="fountain.effect.ace_chests.description">Higher chance of Ace Chests spawning.</string>
+
+
 
 
 	<!-- BAD -->
@@ -2534,11 +2948,8 @@
 	<string name="fountain.effect.random_earthquakes.name">Earthquakes</string>
 	<string name="fountain.effect.random_earthquakes.description">Random earthquakes will occur.</string>
 
-	<string name="fountain.effect.enemy_invasion.name">Enemy Invasion</string>
-	<string name="fountain.effect.enemy_invasion.description"></string>
-
 	<string name="fountain.effect.no_dropped_loot.name">Empty Pockets</string>
-	<string name="fountain.effect.no_dropped_loot.description">Enemies will not drop any loot.</string>
+	<string name="fountain.effect.no_dropped_loot.description">Bosses and enemies will not drop any loot.</string>
 
 	<string name="fountain.effect.no_secrets.name">Sealed Cracks</string>
 	<string name="fountain.effect.no_secrets.description">No secrets will spawn.</string>
@@ -2575,6 +2986,9 @@
 
 	<string name="fountain.effect.no_class_titles.name">One Man Guild</string>
 	<string name="fountain.effect.no_class_titles.description">You gain no bonuses from class titles.</string>
+
+	<string name="fountain.effect.no_elevators.name">Miners' Strike</string>
+	<string name="fountain.effect.no_elevators.description">Elevators are unusable.</string>
 
 
 
@@ -2620,6 +3034,20 @@
 	<string name="dialogue.town.npc.generic.man2.4Ra">You some kind\nof shill or what?</string>
 	<string name="dialogue.town.npc.generic.man2.4Rb">Don't count your\ncards in here son!</string>
 
+	<!-- NPC Man3 Desert -->
+
+	<string name="dialogue.town.npc.generic.man3.1Ra">Danger lurks\namong the dunes.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rb">Scorpions and\nvenomous\nsnakes roam\nthe desert.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rc">Don't get lost out\nthere - the desert\nwill eat you alive.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rd">Some parts of the\ndesert see a lot\nof dust devils\nthis time a year.</string>
+	<string name="dialogue.town.npc.generic.man3.1Re">The desert is actually\npretty well charted.\nGetting one of the\nmaps will make your\ntraveling much safer.</string>
+
+	<!-- NPC Man4 Quarry -->
+
+	<string name="dialogue.town.npc.generic.man4.1Ra">Not much of a\ncity anymore,\nbut it once was.</string>
+	<string name="dialogue.town.npc.generic.man4.1Rb">When the quarry was\nactive, this little camp\nwas actually a fairly\nlarge city.</string>
+	<string name="dialogue.town.npc.generic.man4.1Rc">I know some geologist\nfound more ore down\nsouth, but it's gonna\nbe years before people\nreturn to mine here.</string>
+
 	<!-- NPC Woman2 Census -->
 
 	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
@@ -2634,9 +3062,27 @@
 	<string name="dialogue.town.npc.generic.woman2.1i">RESERVED</string>
 	<string name="dialogue.town.npc.generic.woman2.1j">RESERVED</string>
 
+	<!-- NPC Woman3 Desert -->
 
+	<string name="dialogue.town.npc.generic.woman3.1Ra">Some distance out in the\ndesert, close to the pyramid,\nthat's where the crustworms\nhave been most active.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rb">Many opportunists have fallen\ntrying to find an entrance to\nthe now exposed pyramid.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rc">It is said the last queen\nof the desert people, Iris,\nwas shamelessly buried in\nthe lower parts of the pyramid.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rd">To reach the upper\nparts of the pyramid,\none needs to get past\nThe Chamber of the Asp.</string>
 
+	<!-- NPC Pali -->
 
+	<string name="dialogue.town.npc.generic.pali.name">The Visitor</string>
+	<string name="dialogue.town.npc.generic.pali.1a">Like the great djinns and the\nnot so smart elementals... (1)</string>
+	<string name="dialogue.town.npc.generic.pali.1b">...Palis, like myself, could also be\ndragged into the rift and forced\ninto your world - for us it's a\nblessing, for them a bane. (2)</string>
+	<string name="dialogue.town.npc.generic.pali.1c">In our world we are slaves\nunder the djinns and watched\nover by the elementals...(3)</string>
+	<string name="dialogue.town.npc.generic.pali.1d">...We are experts in curing\ndiseases and ailments and\nlove to help out where we can. (4)</string>
+	<string name="dialogue.town.npc.generic.pali.1e">Here in your world we hide in\ndeep meditation, the side effect\nhowever, is that if the sleep is\ndisturbed...(5)</string>
+	<string name="dialogue.town.npc.generic.pali.1f">...so much energy is\nreleased that we might get\nsucked back into the rift which\nusually means something else\ngets thrown out. (6)</string>
+
+	<!-- NPC Woman2 Census -->
+
+	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
+	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
 	<string name="dialogue.town.npc.generic.guard.1a">If you enter,\nthere's no\nturning back.</string>
 	<string name="dialogue.town.npc.generic.guard.1b">The entrance\nwill be barred\nfrom behind you.</string>
 
@@ -2662,11 +3108,6 @@
 	<string name="dialogue.town.npc.generic.ace1.6Ra">Sadly killing the dragon\nis a task for no man, you\nshould just stay here in\ntown, safe - like me.</string>
 	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
-
-
-
-
-
 	<!-- Mayor1 -->
 	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
 	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to its old glory. (1)</string>
@@ -2686,8 +3127,6 @@
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
 
-
-
 	<!-- Guard Marlod 1 -->
 	<string name="dialogue.town.npc.mayor_guard1.name">Guard Marlod</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Ra">Can you enter the mines\nand help us clear it out?</string>
@@ -2706,9 +3145,15 @@
 	<string name="dialogue.town.npc.shopkeep.name">Darren, the Supplier</string>
 	<string name="dialogue.town.npc.shopkeep.1Ra">Hey, name's Darren Epps.\nIt's all about supply and demand\nand right now the demand is high\nand supply is low, so better pay up.</string>
 
+	<!-- Oba the Trader -->
+	<string name="dialogue.town.npc.shopkeep.desert.name">Oba, the Trader</string>
+	<string name="dialogue.town.npc.shopkeep.desert.1Ra">What a pleasant surprise!\nFeel free to browse around\nmy wares. Perhaps there's\nsomething you'd like to buy?</string>
 
-
-
+	<!-- Mr Bookman -->
+	<string name="dialogue.town.npc.mrbookman.name">Henry</string>
+	<string name="dialogue.town.npc.mrbookman.1Ra">I usually send my books to\nthe library of the Sun Temple.</string>
+	<string name="dialogue.town.npc.mrbookman.1Rb">All these storms have made it\nimpossible for me to send\naway my books for others to enjoy.</string>
+	<string name="dialogue.town.npc.mrbookman.1Rc">Seems Finn is the only one that dares\nto take people out with his wagon.\nCrazy with all these dust devils around.</string>
 
 	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
 
@@ -2736,9 +3181,6 @@
 	<string name="dialogue.town.npc.thief.3b">But I have no ore,\nperhaps you can provide\nsome to Prefect Grey? (2)</string>
 	<string name="dialogue.town.npc.thief.4">Why don't you try your\nluck in any of our fine\ngames? But don't get\ntoo attached will ya?</string>
 
-
-
-
 	<string name="dialogue.town.npc.wizard.name">Elzbet</string>
 	<string name="dialogue.town.npc.wizard.1Ra">I see...</string>
 	<string name="dialogue.town.npc.wizard.1Rb">Finally...</string>
@@ -2748,6 +3190,45 @@
 	<string name="dialogue.town.npc.wizard.3a">Thanks for rescuing\nme, but we still need\nto restore the shop.\nTalk to the prefect\nabout that perhaps?</string>
 	<string name="dialogue.town.npc.wizard.3b">Prefect Grey might\nnot want to allocate\nresources to repair\nthis building until\nthe Town Hall is at\na better stage.</string>
 	<string name="dialogue.town.npc.wizard.4">I'll gladly help a fellow\nspellcaster out, but I\nkinda need to charge\nyou for it, ok?</string>
+
+	<!-- Beastmaster -->
+	<string name="dialogue.town.npc.beastmaster.name">Baltzar, the Beastmaster</string>
+	<string name="dialogue.town.npc.beastmaster.1Ra">I left my big Book of Monsters\nin the Tower Archives, it contains \nvery valuable information about \nthe dangerous fauna around here.</string>
+
+	<!-- Arena Wagon NPC -->
+	<string name="dialogue.town.npc.wagon.name">Finn</string>
+	<string name="dialogue.town.npc.wagon.1Ra">I'll gladly take any hero past\nthe desert to The Arena.\nJust hop on the wagon!</string>
+
+	<!-- Arena Gladiator NPC -->
+	<string name="dialogue.town.npc.gladiator.name">Marius the Gladiator</string>
+	<string name="dialogue.town.npc.gladiator.1Ra">I'll train anyone who\nmade a name for\nthemselves in The\nArena and have the\ntokens to prove just that.</string>
+
+	<!-- Richard Hammer -->
+	<string name="dialogue.town.npc.tapster.name">Richard, the Tapster</string>
+	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
+
+	<!-- Book - Ancient History -->
+	<string name="dialogue.town.book.ancienthistory.name">Ancient History v. III</string>
+	<string name="dialogue.town.book.ancienthistory.1a">Page 3\n...cheered by the people\nand praised by the nobles... (1)</string>
+	<string name="dialogue.town.book.ancienthistory.1b">Page 15\n...laws that restricted\nand controlled people's\nevery move were soon\nquickly passed... (2)</string>
+	<string name="dialogue.town.book.ancienthistory.1c">Page 40\n...forced snakes\ndown their throats... (3)</string>
+	<string name="dialogue.town.book.ancienthistory.1d">Page 75\n...during the coup, Iris was captured\nand forced down from her throne\nroom, which at that time was known\nas Iris' Court... (4)</string>
+	<string name="dialogue.town.book.ancienthistory.1e">Still at page 75\n...she was imprisoned inside The\nChamber of the Asp where she\nlater died and was placed in a\nsarcophagus... (5)</string>
+
+	<!-- Book - Legends -->
+	<string name="dialogue.town.book.legends2.name">Legends and Whatnot 2</string>
+	<string name="dialogue.town.book.legends2.1a">Page 19\n...and Elmore picked up the lamp and placed it inside the throne room, he knew that no one would want to enter this place, as it was cursed and damned. The idea was to return for it later... (1)</string>
+	<string name="dialogue.town.book.legends2.1b">Still at page 19\n...As he and his loyal assistant were\nabout to leave, Elmore slipped and\ndied in horrible pain, his assistant\nmanaged to flee out just to see the\npyramid sink behind him... (2)</string>
+
+	<!-- Book - Henry' Geo -->
+	<string name="dialogue.town.book.geography.name">Henrys Geography for Kids</string>
+	<string name="dialogue.town.book.geography.1a">Page 253\n...an unfortunate side effect\nof all this has been that the\ngiant crustworms that usually\nlive much further down... (1)</string>
+	<string name="dialogue.town.book.geography.1b">Still at page 253\n...have started to move closer\nto the surface, several people\nhave been eaten alive in\nreally horrible worm attacks... (2)</string>
+
+	<!-- Elevator -->
+	<string name="dialogue.town.npc.elevator.name">Konrad</string>
+	<string name="dialogue.town.npc.elevator.1a">The Outlook Express\ntakes you down to\nthe City of Stone.</string>
+	<string name="dialogue.town.npc.elevator.error">The Outlook Express is\ncurrently not accessible.\n\n(REQUIRES PYRAMID\nOF PROPHECY DLC!)</string>
 
 	<!-- Signs -->
 	<string name="dialogue.sign.chapel">Chapter\nof Light</string>
@@ -2760,6 +3241,21 @@
 	<string name="dialogue.doll.normal">Looks\nplain</string>
 	<string name="dialogue.doll.armor">Looks\narmored</string>
 	<string name="dialogue.doll.magic">Looks\nmagical</string>
+	<string name="dialogue.doll.fragile">Looks\nfragile</string>
+	<string name="dialogue.sign.west">West</string>
+	<string name="dialogue.sign.east">East</string>
+	<string name="dialogue.sign.north">North</string>
+	<string name="dialogue.sign.outlook">The Outlook</string>
+	<string name="dialogue.sign.cityofstone">City of Stone</string>
+	<string name="dialogue.sign.suntemple">Sun Temple</string>
+	<string name="dialogue.sign.suntemple2">East: Sun Temple\nWest: City of Stone</string>
+	<string name="dialogue.sign.tavern-desert">The Refreshing\nChisel</string>
+	<string name="dialogue.sign.dont">Don't disturb!</string>
+	<string name="dialogue.sign.express-down">Down: City of Stone</string>
+	<string name="dialogue.sign.express-up">Up: The Outlook</string>
+
+	<string name="dialogue.sign.arena.name">ARIDARA ARENA</string>
+	<string name="dialogue.sign.arena.desc">Fight like a true\nchamp and win\ngreat prizes,\neveryone is\nwelcome to try!</string>
 
 	<!-- Player -->
 	<string name="dialogue.player.mines_entrance.1Ra">It's barred...</string>
@@ -2776,10 +3272,21 @@
 	<string name="dialogue.player.books.1">This collection\nof books is not\nvery impressive.</string>
 
 	<string name="dialogue.player.theduke">Looks like Duke\nDelany died in\nhorrible agony.</string>
+	<string name="dialogue.player.combo.1">The pedistal\nlooks empty?</string>
+	<string name="dialogue.player.combo.2">Just a purple\ncombo sphere.</string>
 
-	<!-- Richard Hammer -->
-	<string name="dialogue.town.npc.tapster.name">Richard, the Tapster</string>
-	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
+	<string name="dialogue.player.view">What a view!</string>
+	<string name="dialogue.player.quarry">The quarry seems abandoned...</string>
+
+	<string name="dialogue.player.desert.east.day1">I will die of thirst\nbefore even getting\nclose to the Sun Temple.</string>
+	<string name="dialogue.player.desert.east.day2">I don't wanna get stuck\nin one of them storms,\nget lost and die.</string>
+	<string name="dialogue.player.desert.east.night1">I really don't want\nto walk that far\nduring the night...</string>
+	<string name="dialogue.player.desert.east.night2">Walking that far\nduring night time\ncould be dangerous!</string>
+	<string name="dialogue.player.desert.deadguy.1Ra">I sure don't wanna\nend up like this fella!</string>
+	<string name="dialogue.player.desert.deadguy.1Rb">This guy probably\nhad a good life, but\nin the end it never\nreally worked out.</string>
+	<string name="dialogue.player.desert.deadguy.1Rc">He should have bought\na proper map, could\nhave saved him some\ngrief and starvation.</string>
+
+	<string name="dialogue.player.desert.minerazed">A razed mine\nentrance...</string>
 
 
 
@@ -2802,7 +3309,7 @@
 	<string name="guildhall.stats.healthregen">+%amount% Health regen to all heroes</string>
 	<string name="guildhall.stats.manaregen">+%amount% Mana regen to all heroes</string>
 	<string name="guildhall.stats.goldgain">+%amount% Gold gained by all heroes</string>
-
+	<string name="guildhall.stats.critmul">+%amount% Crit damage to all heroes</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2875,6 +3382,13 @@
 	<string name="titles.wizard-6">Magus</string>
 	<string name="titles.wizard-7">Battlemage</string>
 	<string name="titles.wizard-8">Archmage</string>
+
+	<string name="titles.gladiator-3">Scrapper</string>
+	<string name="titles.gladiator-4">Pit Fighter</string>
+	<string name="titles.gladiator-5">Challenger</string>
+	<string name="titles.gladiator-6">Defeater</string>
+	<string name="titles.gladiator-7">Hero</string>
+	<string name="titles.gladiator-8">Idol</string>
 
 	<!-- bestiary -->
 	<string name="bestiary.type.beast">BEASTS</string>
@@ -2969,6 +3483,43 @@
 	<string name="bestiary.name.thrall">Thrall</string>
 	<string name="bestiary.name.thrall_leaper">Ravenous Thrall</string>
 
+
+	<string name="bestiary.name.bosses.sandworm">Giant Crustworm</string>
+	<string name="bestiary.name.bosses.mummy">Queen Iris</string>
+	<string name="bestiary.name.bosses.djinn">Nerys</string>
+	<string name="bestiary.name.spawner_mummy_1">Coffin</string>
+	<string name="bestiary.name.spawner_mummy_1_ranged">Coffin</string>
+	<string name="bestiary.name.spawner_mummy_2">Coffin</string>
+	<string name="bestiary.name.spawner_mummy_2_ranged">Coffin</string>
+	<string name="bestiary.name.spawner_spider">Spider Nest</string>
+	<string name="bestiary.name.djinn_ranged">Sphere Djinn</string>
+	<string name="bestiary.name.djinn_melee">Wave Djinn</string>
+	<string name="bestiary.name.elemental_sand">Sand Elemental</string>
+	<string name="bestiary.name.golem_sand">Sand Lurker</string>
+	<string name="bestiary.name.high_priest_blue">Priest of Ice</string>
+	<string name="bestiary.name.high_priest_green">Priest of Magic</string>
+	<string name="bestiary.name.high_priest_red">Priest of Fire</string>
+	<string name="bestiary.name.mummy_1">Mummy</string>
+	<string name="bestiary.name.mummy_2">Mummy</string>
+	<string name="bestiary.name.mummy_ranged_1">Khopesh Mummy</string>
+	<string name="bestiary.name.mummy_ranged_2">Khopesh Mummy</string>
+	<string name="bestiary.name.mummy_1_mb">Big Mummy</string>
+	<string name="bestiary.name.scarab">Scarab</string>
+	<string name="bestiary.name.scarab_small">Kid Scarab</string>
+	<string name="bestiary.name.scorpion_1">Scorpion</string>
+	<string name="bestiary.name.scorpion_1_elite">Scorpion Elite</string>
+	<string name="bestiary.name.scorpion_1_mb">Massive Scorpion</string>
+	<string name="bestiary.name.sentinel_mb">Sentinel High Priest</string>
+	<string name="bestiary.name.sentinel_melee">Sentinel Melee</string>
+	<string name="bestiary.name.sentinel_ranged">Sentinel Ranged</string>
+	<string name="bestiary.name.snake_1">Mamba</string>
+	<string name="bestiary.name.snake_2">Adder</string>
+	<string name="bestiary.name.snake_3">Asp</string>
+	<string name="bestiary.name.spider_1">Spitter</string>
+	<string name="bestiary.name.spider_2">Webber</string>
+	<string name="bestiary.name.tower_pyramid_laser">Sun Prism</string>
+	<string name="bestiary.name.tower_pyramid_rock">Rock Prism</string>
+
 	<!-- itemiary -->
 	<string name="itemiary.header.items">ITEMS</string>
 	<string name="itemiary.header.drinks">DRINKS</string>
@@ -2986,6 +3537,9 @@
 	<string name="guildhall.accomplishments.boss-4">WATCHER</string>
 	<string name="guildhall.accomplishments.boss-5">THUNDERSNOW</string>
 	<string name="guildhall.accomplishments.boss-6">VAMPIRE LORD</string>
+	<string name="guildhall.accomplishments.boss-7">GIANT CRUSTWORM</string>
+	<string name="guildhall.accomplishments.boss-8">QUEEN IRIS</string>
+	<string name="guildhall.accomplishments.boss-9">NERYS</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
 	<string name="accomplishment.boss-1-killed-class.desc">Kill the Stone Guardian with %requirement% different classes.</string>
@@ -3004,6 +3558,15 @@
 
 	<string name="accomplishment.boss-6-killed-class.name">Deposers of Despots %lvl%</string>
 	<string name="accomplishment.boss-6-killed-class.desc">Kill the Vampire Lord with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-7-killed-class.name">Lurker of the Desert %lvl%</string>
+	<string name="accomplishment.boss-7-killed-class.desc">Kill the Giant Crustworm with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-8-killed-class.name">Entombed Beauty %lvl%</string>
+	<string name="accomplishment.boss-8-killed-class.desc">Kill Queen Iris with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-9-killed-class.name">Lure of the Lamp %lvl%</string>
+	<string name="accomplishment.boss-9-killed-class.desc">Kill Nerys with %requirement% different classes.</string>
 
 	<string name="accomplishment.aberration-killed.name">Exorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
@@ -3098,6 +3661,9 @@
 	<string name="accomplishment.max-level-wizard.name">Arcane League %lvl%</string>
 	<string name="accomplishment.max-level-wizard.desc">Reach level %requirement% with a Wizard.</string>
 
+	<string name="accomplishment.max-level-gladiator.name">Gladiatorial School %lvl%</string>
+	<string name="accomplishment.max-level-gladiator.desc">Reach level %requirement% with a Gladiator.</string>
+
 	<string name="accomplishment.lifesteal-amount.name">Blood Hunters %lvl%</string>
 	<string name="accomplishment.lifesteal-amount.desc">Gain %requirement% health by lifestealing.</string>
 
@@ -3164,6 +3730,18 @@
 	<string name="accomplishment.drinks-consumed.name">Quenchers %lvl%</string>
 	<string name="accomplishment.drinks-consumed.desc">Consume %requirement% tavern drinks.</string>
 
+	<string name="accomplishment.statue-upgrades-bought.name">Sculptors %lvl%</string>
+	<string name="accomplishment.statue-upgrades-bought.desc">Buy %requirement% statue upgrades.</string>
+
+	<string name="accomplishment.curses-removed.name">Purgers %lvl%</string>
+	<string name="accomplishment.curses-removed.desc">Remove %requirement% curses.</string>
+
+	<string name="accomplishment.arena-highest-rank.name">Trials of the Arena %lvl%</string>
+	<string name="accomplishment.arena-highest-rank.desc">Reach rank %requirement% in the arena.</string>
+
+	<string name="accomplishment.arena-fights.name">Combatants %lvl%</string>
+	<string name="accomplishment.arena-fights.desc">Win %requirement% arena skirmishes.</string>
+
 
 
 	<!-- Tailor -->
@@ -3215,6 +3793,12 @@
 	<string name="materials.wizard.category.1">Robe</string>
 	<string name="materials.wizard.category.2">Trim</string>
 	<string name="materials.wizard.category.3">Staff</string>
+
+	<!-- gladiator -->
+	<string name="materials.gladiator.category.1">Tunic</string>
+	<string name="materials.gladiator.category.2">Helmet</string>
+	<string name="materials.gladiator.category.3">Plume</string>
+	<string name="materials.gladiator.category.4">Arm Guard</string>
 
 	<!-- colors -->
 	<string name="materials.color.skin.shade.1">Shade 1</string>
@@ -3279,6 +3863,58 @@
 	<string name="materials.color.darkside">Darkside</string>
 	<string name="materials.color.bumblebee">Bumblebee</string>
 	<string name="materials.color.glacier">Glacier</string>
+	<string name="materials.color.byzantine">Byzantine</string>
+	<string name="materials.color.mossy">Mossy</string>
+	<string name="materials.color.flame">Flame</string>
+	<string name="materials.color.prism">Prism</string>
+	<string name="materials.color.phantom">Phantom</string>
+	<string name="materials.color.sand">Sand</string>
+	<string name="materials.color.leathered">Leathered</string>
+	<string name="materials.color.elven">Elven</string>
+	<string name="materials.color.metallic">Metallic</string>
+	<string name="materials.color.solaire">Solaire</string>
+	<string name="materials.color.banshee">Banshee</string>
+	<string name="materials.color.jungle">Jungle</string>
+	<string name="materials.color.coagulation">Coagulation</string>
+	<string name="materials.color.darkness">Darkness</string>
+	<string name="materials.color.bright">Bright</string>
+	<string name="materials.color.resurrected">Resurrected</string>
+	<string name="materials.color.desert">Desert</string>
+	<string name="materials.color.liana">Liana</string>
+	<string name="materials.color.gore">Gore</string>
+	<string name="materials.color.ghost">Ghost</string>
+	<string name="materials.color.mahogany">Mahogany</string>
+	<string name="materials.color.rivulet">Rivulet</string>
+	<string name="materials.color.spectre">Spectre</string>
+
+
+	<!-- colors -->
+	<string name="player.voice.default">Default</string>
+	<string name="player.voice.female-1">Female 1</string>
+	<string name="player.voice.female-2">Female 2</string>
+	<string name="player.voice.male-1">Male 1</string>
+	<string name="player.voice.male-2">Male 2</string>
+
+
+
+	<!-- New -->
+
+	<string name="world.coliseum.rank">ARIDARA ARENA, RANK %rank%</string>
+
+	<string name="meta.info.rift.midway">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 3 Curses)</string>
+	<string name="meta.info.rift.1">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 5 Curses)</string>
+	<string name="meta.info.rift.2">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 7 Curses)</string>
+	<string name="meta.info.rift.3">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 9 Curses)</string>
+
+	<string name="fountain.effect.slower_enemies.name">Sluggish Adversaries</string>
+	<string name="fountain.effect.slower_enemies.description">Enemy movement speed decreased by 33%.</string>
+
+	<string name="item.sets.spheres-of-power.desc.6">%dmg%% damage in Combo.</string>
+
+	<string name="materials.color.skin.shade.5">Shade 5</string>
+
+
+
 
 
 
