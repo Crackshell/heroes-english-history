@@ -3913,8 +3913,10 @@
 
 	<string name="materials.color.skin.shade.5">Shade 5</string>
 
+	<!-- New 03/13/2019 -->
 
-
+	<string name="stats.max-level-gladiator">Highest Gladiator Level</string>
+	<string name="meta.info.sequencefailed">Sequence failed!</string>
 
 
 
