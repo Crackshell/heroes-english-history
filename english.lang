@@ -41,6 +41,9 @@
 	<string name="class.gladiator.desc">A master disabler that employs hit-n-run tactics.</string>
 	<string name="class.gladiator.disabled.desc">Gladiator locked.</string>
 	<string name="class.gladiator.unlocked">Gladiator unlocked!</string>
+	<string name="class.witch_hunter">Witch Hunter</string>
+	<string name="class.witch_hunter.desc">A user of an assortment of tools, that hunts its prey with meticulous planning and strategy</string>
+	<string name="class.witch_hunter.disabled.desc">Witch Hunter DLC needed.</string>
 
 	<string name="playermenu.character.vitality">VITALITY</string>
 	<string name="playermenu.character.speedexp">SPEED / EXP</string>
@@ -122,7 +125,7 @@
 	<string name="world.pop.acts.1">LOWER PYRAMID</string>
 	<string name="world.pop.acts.2">UPPER PYRAMID</string>
 	<string name="world.coliseum">ARIDARA ARENA</string>
-
+	<string name="world.coliseum.rank">ARIDARA ARENA, RANK %rank%</string>
 
 	<!-- Map names -->
 	<string name="level.boss.rock">OUTLOOK MINES - THE LIVING ROCK</string>
@@ -200,6 +203,7 @@
 	<string name="stats.category.3adventuring">Adventuring</string>
 	<string name="stats.category.4town">Town</string>
 	<string name="stats.category.5items">Items</string>
+	<string name="stats.category.6pets">Companions</string>
 
 	<string name="stats.interface.session">This Run</string>
 	<string name="stats.interface.total">Since Start</string>
@@ -298,6 +302,18 @@
 	<string name="stats.statue-upgrades-bought">Statue upgrades bought</string>
 	<string name="stats.arena-highest-rank">Highest arena rank</string>
 	<string name="stats.arena-fights">Arena skirmishes won</string>
+	<string name="stats.max-level-gladiator">Highest Gladiator Level</string>
+	<string name="stats.pets-gold-collected">Gold collected</string>
+	<string name="stats.pets-ore-collected">Ore collected</string>
+	<string name="stats.pets-units-traveled">Units traveled</string>
+	<string name="stats.blood-altar">Blood rites taken</string>
+	<string name="stats.max-blood-altar">Blood rites max</string>
+	<string name="stats.items-crafted-dungeon">Magic furnaces used</string>
+	<string name="stats.item-dealer">Items gained by gambling</string>
+	<string name="stats.item-dealer-lost">Items lost by gambling</string>
+	<string name="stats.max-level-witch_hunter">Highest Witch Hunter Level</string>
+	<string name="stats.shrines-used">Monoliths used</string>
+
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -345,7 +361,7 @@
 
 	<!-- intro pop -->
 	<string name="intro.pop.title">CITY OF STONE</string>
-	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arisened. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
+	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arose. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
 
 	<!-- end of game -->
 	<string name="endofgame.town">CONTINUE</string>
@@ -385,6 +401,7 @@
 	<string name="meta.info.anvilunlocked">Magic Anvil unlocked!</string>
 	<string name="meta.info.bestiaryunlocked">Baltzar's Book of Monsters unlocked!</string>
 	<string name="meta.info.sequencecompleted">Sequence completed!</string>
+	<string name="meta.info.sequencefailed">Sequence failed!</string>
 	<string name="meta.info.twomore">2 more to go…</string>
 	<string name="meta.info.onemore">1 more to go…</string>
 	<string name="meta.info.passage">A secret passage has been revealed…</string>
@@ -420,6 +437,10 @@
 	<string name="meta.info.ritual.y2">Chapter II\nMalign Transformation</string>
 	<string name="meta.info.ritual.y3">Chapter III\nMalign Transformation</string>
 	<string name="meta.info.ritual.y4">Chapter IV\nMalign Transformation</string>
+	<string name="meta.info.rift.midway">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 3 Curses)</string>
+	<string name="meta.info.rift.1">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 5 Curses)</string>
+	<string name="meta.info.rift.2">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 7 Curses)</string>
+	<string name="meta.info.rift.3">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 9 Curses)</string>
 
 	<string name="random_stuff.give_item">The imp gave you an item!</string>
 	<string name="random_stuff.give_ore">The imp gave you some ore!</string>
@@ -456,7 +477,7 @@
 	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
 	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
 	<string name="temp_buff.gold">The monolith imbues you with gold fever!</string>
-	<string name="temp_buff.attackspeed">The monolith imbues you with nimble limbs!</string>
+	<string name="temp_buff.attackspeed">The monolith imbues you with rapid blows!</string>
 	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
 	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
 
@@ -529,6 +550,36 @@
 	<string name="sarcophagus.accept">ACCEPT</string>
 	<string name="sarcophagus.cursehelp">Become cursed and receive a %chance%% chance to miss on all attacks. You also have a %chance%% chance to take %damage%% critical damage from all sources.</string>
 
+	<!-- Blood Altar -->
+	<string name="bloodaltar.title">BLOOD ALTAR</string>
+	<string name="bloodaltar.prompt">Will you offer 10% of your max Health to the altar? You will receive a random buff that lasts until death.</string>
+	<string name="bloodaltar.yes">BLEED ME!</string>
+	<string name="bloodaltar.no">NEVER!</string>
+	<string name="bloodaltar.reward.prompt">The altar rewards you with:\n%name%</string>
+	<string name="bloodaltar.buff.attack.name">Blood Rite of the Beast</string>
+	<string name="bloodaltar.buff.attack.desc">%amount% Attack Power</string>
+	<string name="bloodaltar.buff.skill.name">Blood Rite of the Chosen</string>
+	<string name="bloodaltar.buff.skill.desc">%amount% Skill Power</string>
+	<string name="bloodaltar.buff.armor.name">Blood Rite of the Immortal</string>
+	<string name="bloodaltar.buff.armor.desc">%amount% Armor</string>
+	<string name="bloodaltar.buff.resistance.name">Blood Rite of the Fey</string>
+	<string name="bloodaltar.buff.resistance.desc">%amount% Resistance</string>
+	<string name="bloodaltar.buff.hregen.name">Blood Rite of the Order</string>
+	<string name="bloodaltar.buff.hregen.desc">%amount% Health Regen</string>
+	<string name="bloodaltar.buff.mregen.name">Blood Rite of the Crone</string>
+	<string name="bloodaltar.buff.mregen.desc">%amount% Mana Regen</string>
+
+	<!-- Item Dealer -->
+	<string name="itemdealer.title">UNSCRUPULOUS GAMBLER</string>
+	<string name="itemdealer.prompt">Select some items and roll the dice.</string>
+	<string name="itemdealer.close">CLOSE</string>
+	<string name="itemdealer.tooltip.title">Roll the dice</string>
+	<string name="itemdealer.tooltip.single">Bet 1 item for a random new one.</string>
+	<string name="itemdealer.tooltip.plural">Bet %num% items for a random new one.</string>
+
+
+
+
 
 	<!-- Colors Everyone -->
 	<string name="color.skin">Skin</string>
@@ -589,6 +640,7 @@
 	<string name="modifier.list.player.titles">Class titles</string>
 	<string name="modifier.list.player.tavern_drinks">Drinks</string>
 	<string name="modifier.list.player.statues">Statues</string>
+	<string name="modifier.list.player.bloodaltar">Blood Rites</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -667,6 +719,9 @@
 	<string name="rg_pixel_perfect">PIXEL PERFECT RENDERING</string>
 	<string name="rg_pixel_perfect.help">Gives a more true low-res look, but may cause stuttering.</string>
 
+	<string name="dlc.pop">Pyramid of Prophecy</string>
+	<string name="dlc.wh">Witch Hunter</string>
+
 
 
 	<!-- MENU -->
@@ -707,6 +762,7 @@
 	<string name="mainmenu.serverlist.mod-restriction">Modded profiles are not allowed to join.</string>
 	<string name="mainmenu.multiplayer.disabled">Multiplayer is currently unavailable, try again later.</string>
 	<string name="mainmenu.multiplayer.disabled.mods">Multiplayer is disabled due to having an unpacked mod enabled.</string>
+	<string name="mainmenu.serverlist.mods-allowed">Mods allowed</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">CHOOSE HERO</string>
@@ -1132,22 +1188,23 @@
 	<string name="mods.help.modded">Profiles remain tagged as modded even after all mods are disabled.</string>
 	<string name="shop.modding">KELLY THE MODDER</string>
 
+	<string name="g_menustyle">MENU STYLE</string>
+	<string name="g_menustyle.help">Changes the menu style.</string>
 
+	<string name="mainmenu.menustyles.title">MENU STYLES</string>
+	<string name="mainmenu.menustyles.style.automatic">Automatic</string>
+	<string name="mainmenu.menustyles.style.default">Forsaken Tower</string>
+	<string name="mainmenu.menustyles.style.random">Random</string>
+	<string name="mainmenu.menustyles.style.pop">Pyramid of Prophecy</string>
+	<string name="mainmenu.menustyles.style.wh">Witch Hunter</string>
+	<string name="menu.store">Check out all of our games!</string>
+	<string name="menu.store.pop">Buy Pyramid of Prophecy DLC!</string>
+	<string name="menu.store.pop.owned">Pyramid of Prophecy DLC already owned!</string>
+	<string name="menu.store.wh">Buy the Witch Hunter DLC!</string>
+	<string name="menu.store.wh.owned">Witch Hunter DLC already owned!</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<string name="g_pet_alpha">COMPANION ALPHA</string>
+	<string name="g_pet_alpha.help">Transparency of companions.</string>
 
 
 
@@ -1682,6 +1739,7 @@
 	<string name="shop.forge.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
 	<string name="shop.forge.respec.tooltip.title">Respec</string>
 	<string name="shop.forge.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
+	<string name="shop.dungeonforge.title">MAGIC FURNACE</string>
 
 	<!-- bestiary -->
 	<string name="town.bestiary.title">BALTZAR'S BOOK OF MONSTERS</string>
@@ -1752,14 +1810,19 @@
 	<string name="shop.statues.ranger.desc-upgrade">Increases the base damage of the arrows by %upgrade%.</string>
 	<string name="shop.statues.ranger.lore">She who named her bow\nThe One String Harp, cause\nwhen it was plucked, her\nenemies would sing in agony.</string>
 
+	<string name="shop.statues.red-priest.name">Daran</string>
+	<string name="shop.statues.red-priest.desc">Damage dealt to enemies that are burning has a %build%% chance to also inflict bleeding.\nEach level of the statue increases damage done to burning enemies by %upgrade%%.</string>
+	<string name="shop.statues.red-priest.desc-upgrade">%upgrade%% damage done to burning enemies.</string>
+	<string name="shop.statues.red-priest.lore">Daran, a red priest,\ndrew evil out of heathens\nwith holy fire and\nbloodsucking maggots</string>
+
 	<!-- retired gladiator -->
 	<string name="retiredgladiator.title">RETIRED GLADIATOR</string>
 	<string name="retiredgladiator.available.left">You have</string>
 	<string name="retiredgladiator.available.right">available.</string>
 	<string name="retiredgladiator.upgrade.attack-power">+1 Attack Power</string>
 	<string name="retiredgladiator.upgrade.skill-power">+1 Skill Power</string>
-	<string name="retiredgladiator.upgrade.armor">+1 Armor</string>
-	<string name="retiredgladiator.upgrade.resistance">+1 Resistance</string>
+	<string name="retiredgladiator.upgrade.armor">+0.5 Armor</string>
+	<string name="retiredgladiator.upgrade.resistance">+0.5 Resistance</string>
 	<string name="retiredgladiator.upgrade">Upgrade to level %level%</string>
 	<string name="retiredgladiator.respec">RETRAIN</string>
 	<string name="retiredgladiator.respec.prompt">Are you sure you want to retrain? You will get all tokens back.</string>
@@ -1771,9 +1834,36 @@
 	<string name="town.coliseum.progress">PROGRESS</string>
 	<string name="town.coliseum.progress.tooltip">Gain 5 sword tokens\n to rank up.</string>
 	<string name="town.coliseum.start">START</string>
+	<string name="town.coliseum.switches">SWITCHES</string>
+	<string name="town.coliseum.switches.title">SWITCHES</string>
+	<string name="arena.switches.faster_waves">Faster spawns</string>
+	<string name="arena.switches.faster_waves.desc">Enemies spawn with a higher frequency.</string>
+	<string name="arena.switches.five_waves">Shorter skirmish</string>
+	<string name="arena.switches.five_waves.desc">Skirmishes are two waves shorter.</string>
+	<string name="arena.switches.faster_enemies">Faster enemies</string>
+	<string name="arena.switches.faster_enemies.desc">Enemies have increased movement speed.</string>
 
-
-
+	<!-- companions -->
+	<string name="town.pets.title">SIMON THE SHOWMAN</string>
+	<string name="town.pets.pet">COMPANIONS</string>
+	<string name="town.pets.skin">SKINS</string>
+	<string name="town.pets.settings">SETTINGS</string>
+	<string name="town.pets.restriction.class">Requires Class: %class%</string>
+	<string name="town.pets.restriction.dlc">Requires DLC: %dlc%</string>
+	<string name="town.pets.none">None</string>
+	<string name="town.pets.settings.gold.name">Collect Gold</string>
+	<string name="town.pets.settings.gold.desc">Your companion will pickup gold for you.</string>
+	<string name="town.pets.settings.ore.name">Collect Ore</string>
+	<string name="town.pets.settings.ore.desc">Your companion will pickup ore for you.</string>
+	<string name="pets.imp.name">Imp</string>
+	<string name="pets.imp-blue.name">Blue Imp</string>
+	<string name="pets.imp-red.name">Red Imp</string>
+	<string name="pets.scarab.name">Scarab</string>
+	<string name="pets.scarab-gold.name">Crimson Scarab</string>
+	<string name="pets.scarab-beetle.name">Beetle</string>
+	<string name="pets.raven.name">Raven</string>
+	<string name="pets.raven-black.name">Black Raven</string>
+	<string name="pets.raven-magpie.name">Magpie</string>
 
 
 
@@ -1847,12 +1937,12 @@
 
 	<string name="skills.priest.holy-light">Holy Light</string>
 	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
-	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 17 Magical damage and will heal allies 2 health + 1% of max health.</string>
-	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 3 health + 1% of max health.</string>
-	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 31 Magical damage and will heal allies for 4 health + 1% of max health.</string>
-	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 38 Magical damage and will heal allies for 5 health + 1% of max health.</string>
-	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 45 Magical damage and will heal allies for 6 health + 1% of max health.</string>
-	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 52 Magical damage and will heal allies for 7 health + 1% of max health.</string>
+	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 17 Magical damage and will heal allies for 2 health + 2% of max health.</string>
+	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 4 health + 2% of max health.</string>
+	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 31 Magical damage and will heal allies for 6 health + 2% of max health.</string>
+	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 38 Magical damage and will heal allies for 8 health + 2% of max health.</string>
+	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 45 Magical damage and will heal allies for 10 health + 2% of max health.</string>
+	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 52 Magical damage and will heal allies for 12 health + 2% of max health.</string>
 
 	<string name="skills.priest.divine-protection">Divine Protection</string>
 	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
@@ -1930,10 +2020,10 @@
 	<string name="skills.ranger.grasping-roots.4">Immobilize all enemies around the Ranger for 5 seconds. Enemies caught by the roots have their Armor reduced by 25%.</string>
 
 	<string name="skills.ranger.powershot">Powershot</string>
-	<string name="skills.ranger.powershot.create">The Ranger charges a powerful arrow that deals heavy Magical damage to all enemies in its path.</string>
-	<string name="skills.ranger.powershot.1">Charges an arrow that deals up to 100 Magical damage. The arrow ignores 50% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
-	<string name="skills.ranger.powershot.2">Charges an arrow that deals up to 200 Magical damage. The arrow ignores 50% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
-	<string name="skills.ranger.powershot.3">Charges an arrow that deals up to 300 Magical damage. The arrow ignores 50% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+	<string name="skills.ranger.powershot.create">The Ranger charges up and fires three powerful arrows that deal heavy Magical damage to all enemies in their path.</string>
+	<string name="skills.ranger.powershot.1">Charges up three arrows that deal up to 80 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
+	<string name="skills.ranger.powershot.2">Charges up three arrows that deal up to 160 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
+	<string name="skills.ranger.powershot.3">Charges up three arrows that deal up to 240 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
@@ -2075,11 +2165,11 @@
 	<string name="skills.warlock.extended-domain.5">Extends the effective range of all Warlock's skills by 75%.</string>
 
 	<string name="skills.warlock.soul-cleaver">Soul Cleaver</string>
-	<string name="skills.warlock.soul-cleaver.create">Enemies affected by Soul Consumption will spread damage to nearby enemies.</string>
-	<string name="skills.warlock.soul-cleaver.1">Enemies affected by Soul Consumption will spread 20% of the damage taken to nearby enemies.</string>
-	<string name="skills.warlock.soul-cleaver.2">Enemies affected by Soul Consumption will spread 30% of the damage taken to nearby enemies.</string>
-	<string name="skills.warlock.soul-cleaver.3">Enemies affected by Soul Consumption will spread 40% of the damage taken to nearby enemies.</string>
-	<string name="skills.warlock.soul-cleaver.4">Enemies affected by Soul Consumption will spread 50% of the damage taken to nearby enemies.</string>
+	<string name="skills.warlock.soul-cleaver.create">Enemies affected by Soul Consumption will spread damage to nearby enemies. Affected enemies also have a chance to spread Soul Consumption when killed.</string>
+	<string name="skills.warlock.soul-cleaver.1">Enemies affected by Soul Consumption will spread 50% of the damage taken to nearby enemies. Affected enemies also have a 20% chance to spread Soul Consumption when killed.</string>
+	<string name="skills.warlock.soul-cleaver.2">Enemies affected by Soul Consumption will spread 50% of the damage taken to nearby enemies. Affected enemies also have a 40% chance to spread Soul Consumption when killed.</string>
+	<string name="skills.warlock.soul-cleaver.3">Enemies affected by Soul Consumption will spread 50% of the damage taken to nearby enemies. Affected enemies also have a 60% chance to spread Soul Consumption when killed.</string>
+	<string name="skills.warlock.soul-cleaver.4">Enemies affected by Soul Consumption will spread 50% of the damage taken to nearby enemies. Affected enemies also have a 80% chance to spread Soul Consumption when killed.</string>
 
 	<string name="skills.warlock.summon-gargoyle">Summon Gargoyle</string>
 	<string name="skills.warlock.summon-gargoyle.create">Summons a stationary gargoyle that fires bolts of lightning at nearby enemies. Can be linked with nearby gargoyles to create a static link dealing damage and stunning enemies.</string>
@@ -2206,6 +2296,58 @@
 	<string name="skills.gladiator.strength-in-numbers.2">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 2.</string>
 
 
+	<string name="skills.witch_hunter.repeater-crossbow">Repeater Crossbow</string>
+	<string name="skills.witch_hunter.repeater-crossbow.create">Fires 4 bolts in quick succession dealing Physical damage that ignores some Armor.</string>
+	<string name="skills.witch_hunter.repeater-crossbow.1">Fires 4 bolts in quick succession. Each bolt deal 5 Physical damage that ignores 5% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+	<string name="skills.witch_hunter.repeater-crossbow.2">Fires 4 bolts in quick succession. Each bolt deal 8 Physical damage that ignores 10% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+	<string name="skills.witch_hunter.repeater-crossbow.3">Fires 4 bolts in quick succession. Each bolt deal 11 Physical damage that ignores 15% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+	<string name="skills.witch_hunter.repeater-crossbow.4">Fires 4 bolts in quick succession. Each bolt deal 14 Physical damage that ignores 20% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+	<string name="skills.witch_hunter.repeater-crossbow.5">Fires 4 bolts in quick succession. Each bolt deal 17 Physical damage that ignores 25% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+	<string name="skills.witch_hunter.repeater-crossbow.6">Fires 4 bolts in quick succession. Each bolt deal 20 Physical damage that ignores 30% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+
+	<string name="skills.witch_hunter.flaming-hound">Flaming Hounds</string>
+	<string name="skills.witch_hunter.flaming-hound.create">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing Magical damage which is increased by 50% with each bounce.</string>
+	<string name="skills.witch_hunter.flaming-hound.1">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 10 Magical damage which is increased by 50% with each bounce.</string>
+	<string name="skills.witch_hunter.flaming-hound.2">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 15 Magical damage which is increased by 50% with each bounce.</string>
+	<string name="skills.witch_hunter.flaming-hound.3">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 20 Magical damage which is increased by 50% with each bounce.</string>
+	<string name="skills.witch_hunter.flaming-hound.4">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 25 Magical damage which is increased by 50% with each bounce.</string>
+	<string name="skills.witch_hunter.flaming-hound.5">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 30 Magical damage which is increased by 50% with each bounce.</string>
+	<string name="skills.witch_hunter.flaming-hound.6">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 35 Magical damage which is increased by 50% with each bounce.</string>
+
+	<string name="skills.witch_hunter.fanatic-zeal">Fanatic Zeal</string>
+	<string name="skills.witch_hunter.fanatic-zeal.create">Generates stacks when casting Skills which grant a critical hit chance to all of the Witch Hunter's attacks and skills.</string>
+	<string name="skills.witch_hunter.fanatic-zeal.1">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 2.5% for each stack. Maximum 4 stacks, each stack lasts 4 seconds.</string>
+	<string name="skills.witch_hunter.fanatic-zeal.2">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 2.5% for each stack. Maximum 5 stacks, each stack lasts 5 seconds.</string>
+	<string name="skills.witch_hunter.fanatic-zeal.3">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 2.5% for each stack. Maximum 6 stacks, each stack lasts 6 seconds.</string>
+	<string name="skills.witch_hunter.fanatic-zeal.4">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 2.5% for each stack. Maximum 7 stacks, each stack lasts 7 seconds.</string>
+	<string name="skills.witch_hunter.fanatic-zeal.5">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 2.5% for each stack. Maximum 8 stacks, each stack lasts 8 seconds.</string>
+
+	<string name="skills.witch_hunter.murder-of-crows">A Murder of Crows</string>
+	<string name="skills.witch_hunter.murder-of-crows.create">Unleashes a Murder of Crows when taking damage that defend the Witch Hunter.</string>
+	<string name="skills.witch_hunter.murder-of-crows.1">Unleashes 5 Crows when taking damage that defend the Witch Hunter. 10 second cooldown.</string>
+	<string name="skills.witch_hunter.murder-of-crows.2">Unleashes 7 Crows when taking damage that defend the Witch Hunter. 9 second cooldown.</string>
+	<string name="skills.witch_hunter.murder-of-crows.3">Unleashes 9 Crows when taking damage that defend the Witch Hunter. 8 second cooldown.</string>
+	<string name="skills.witch_hunter.murder-of-crows.4">Unleashes 11 Crows when taking damage that defend the Witch Hunter. 7 second cooldown.</string>
+
+	<string name="skills.witch_hunter.brand">Branding Ward</string>
+	<string name="skills.witch_hunter.brand.create">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take Magical damage and are branded.</string>
+	<string name="skills.witch_hunter.brand.1">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 40 Magical damage and are branded for 3 seconds. Branded enemies take 100% more damage. Max 4 wards placed at a time.</string>
+	<string name="skills.witch_hunter.brand.2">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 60 Magical damage and are branded for 4 seconds. Branded enemies take 100% more damage. Max 6 wards placed at a time.</string>
+	<string name="skills.witch_hunter.brand.3">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 80 Magical damage and are branded for 5 seconds. Branded enemies take 100% more damage. Max 8 wards placed at a time.</string>
+	<string name="skills.witch_hunter.brand.4">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 100 Magical damage and are branded for 6 seconds. Branded enemies take 100% more damage. Max 10 wards placed at a time.</string>
+
+	<string name="skills.witch_hunter.pyre">Witch Pyre</string>
+	<string name="skills.witch_hunter.pyre.create">Places a pyre on the ground that burns nearby enemies. Enemies that hit the pyre ignite an explosion, dealing Magical damage in the area.</string>
+	<string name="skills.witch_hunter.pyre.1">Places a pyre on the ground that lasts for 7.5 seconds. The pyre has 300 Health, 10 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 40 Magical damage. Enemies close to the pyre also start burning.</string>
+	<string name="skills.witch_hunter.pyre.2">Places a pyre on the ground that lasts for 7.5 seconds. The pyre has 500 Health, 20 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 80 Magical damage. Enemies close to the pyre also start burning.</string>
+	<string name="skills.witch_hunter.pyre.3">Places a pyre on the ground that lasts for 7.5 seconds. The pyre has 700 Health, 30 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 120 Magical damage. Enemies close to the pyre also start burning.</string>
+
+	<string name="skills.witch_hunter.searing-torch">Searing Torch</string>
+	<string name="skills.witch_hunter.searing-torch.create">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing Magical damage and applying burning.</string>
+	<string name="skills.witch_hunter.searing-torch.1">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 60 Magical damage and applying burning.</string>
+	<string name="skills.witch_hunter.searing-torch.2">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 120 Magical damage and applying burning.</string>
+
+
 
 	<!-- ITEMS -->
 
@@ -2271,7 +2413,7 @@
 	<string name="item.great-helm.desc">+%armor% Armor.</string>
 
 	<string name="item.greaves-of-the-barbarian.name">Greaves of the Barbarian</string>
-	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy has a %chance%% chance of triggering a %mspeed%% Movement Speed bonus for %dur% seconds.</string>
+	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy triggers a %mspeed%% Movement Speed bonus for %dur% seconds.</string>
 
 	<string name="item.heavy-gauntlets.name">Heavy Gauntlets</string>
 	<string name="item.heavy-gauntlets.desc">+%health% Health.</string>
@@ -2295,7 +2437,7 @@
 	<string name="item.lucky-charm.desc">%luck% Luck. +%gain%% Gold Gain.</string>
 
 	<string name="item.mail-of-thorns.name">Mail of Thorns</string>
-	<string name="item.mail-of-thorns.desc">Returns %return% Physical damage to the attacker when hit.</string>
+	<string name="item.mail-of-thorns.desc">+%armor% Armor. Returns %return% Physical damage to the attacker when hit.</string>
 
 	<string name="item.mage-robe.name">Mage Robe</string>
 	<string name="item.mage-robe.desc">+%mana% Mana.</string>
@@ -2393,6 +2535,9 @@
 	<string name="item.blood-dagger.name">Blood Dagger</string>
 	<string name="item.blood-dagger.desc">+%chance%% chance to gain 5 health when hitting with your Primary Attack.</string>
 
+	<string name="item.bloodletter.name">Bloodletter</string>
+	<string name="item.bloodletter.desc">%chance%% chance to apply bleeding on enemies for %dur% seconds on Primary Attack. %dmg%% damage done to enemies that are bleeding.</string>
+
 	<string name="item.bloodthirst-ring.name">Bloodthirst Ring</string>
 	<string name="item.bloodthirst-ring.desc">%lsteal%% Lifesteal on Primary Attack.</string>
 
@@ -2435,6 +2580,9 @@
 	<string name="item.greater-ring-rejuvenation.name">Greater Ring of Rejuvenation</string>
 	<string name="item.greater-ring-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
 
+	<string name="item.holy-symbol.name">Symbol of Zeal</string>
+	<string name="item.holy-symbol.desc">When killing an enemy you have a %chance%% chance to drop a symbol on the ground that gives you a %crit%% Skill crit chance for %dur% seconds. The symbol lasts for %dur2% seconds and have a cooldown of %cd% seconds.</string>
+
 	<string name="item.markhams-stone.name">Markham's Stone</string>
 	<string name="item.markhams-stone.desc">%gain%% Ore Gain per item in your inventory.</string>
 
@@ -2455,6 +2603,9 @@
 
 	<string name="item.old-map.name">Old Map</string>
 	<string name="item.old-map.desc">Removes fog of war from the map.</string>
+
+	<string name="item.pendant-of-penance.name">Pendant of Penance</string>
+	<string name="item.pendant-of-penance.desc">You deal %dmg%% damage when affected by debuffs.</string>
 
 	<string name="item.rapier-of-retaliation.name">Rapier of Retaliation</string>
 	<string name="item.rapier-of-retaliation.desc">+%evasion%% Evasion. When evading an attack you gain a %dmg%% damage buff for %sec% seconds.</string>
@@ -2563,10 +2714,13 @@
 	<string name="item.greater-sphere-of-nova.desc">During Combo a greater nova is unleashed every second dealing %dmg% Magical damage.</string>
 
 	<string name="item.greater-sphere-of-regen.name">Greater Sphere of Regen</string>
-	<string name="item.greater-sphere-of-regen.desc">During Combo you gain +%hregen% Health Regen and +%mregen% Mana Regen.</string>
+	<string name="item.greater-sphere-of-regen.desc">During Combo you gain +%hregen%% Health Regen and +%mregen%% Mana Regen.</string>
 
 	<string name="item.heartseeker.name">Heartseeker</string>
 	<string name="item.heartseeker.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
+
+	<string name="item.judgement.name">Judgement</string>
+	<string name="item.judgement.desc">%dmg% Physical damage on Primary Attack. Every %atk% Primary Attack hit lowers the health of the target by %dec%%.</string>
 
 	<string name="item.lucky-hat.name">Lucky Hat</string>
 	<string name="item.lucky-hat.desc">%luck% Luck.</string>
@@ -2638,6 +2792,9 @@
 	<string name="item.mask-of-bewilderment.name">Mask of Bewilderment</string>
 	<string name="item.mask-of-bewilderment.desc">Primary Attack applies confusion for %dur% seconds.</string>
 
+	<string name="item.lantern-of-light.name">Lantern of Light</string>
+	<string name="item.lantern-of-light.desc">Immune to Darkness. Shines a light in a forward cone that reduces enemies Resistance by %res%%.</string>
+
 	<string name="item.phoenix-feather.name">Phoenix Feather</string>
 	<string name="item.phoenix-feather.desc">Automatically triggers a Potion charge on a damage instance that would kill you.</string>
 
@@ -2660,7 +2817,7 @@
 	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack that deals 100 Hybrid damage and applies burning.</string>
 
 	<string name="item.medusas-charm.name">Medusas Charm</string>
-	<string name="item.medusas-charm.desc">Enemies you look at are slowed by %slow%%. Enemies affected by the gaze that hit you are stunned for %stun% seconds.</string>
+	<string name="item.medusas-charm.desc">Enemies you look at are slowed by %slow%% and have their Armor reduced by %armor%%. Enemies affected by the gaze that hit you are stunned for %stun% seconds.</string>
 
 	<string name="item.spirit-cloak.name">Spirit Cloak</string>
 	<string name="item.spirit-cloak.desc">When taking damage you turn invulnerable for %dur% seconds, with a cooldown of %sec% seconds.</string>
@@ -2712,6 +2869,7 @@
 	<string name="item.sets.spheres-of-power.desc.3">Greater Combo nova.</string>
 	<string name="item.sets.spheres-of-power.desc.4">Massive Combo nova.</string>
 	<string name="item.sets.spheres-of-power.desc.5">Combo prevents lethal damage.</string>
+	<string name="item.sets.spheres-of-power.desc.6">%dmg%% damage in Combo.</string>
 
 	<string name="item.sets.tricksters-ensemble.name">Trickster's Ensemble</string>
 	<string name="item.sets.tricksters-ensemble.desc.1">Gain a Movement Speed bonus when evading.</string>
@@ -2737,6 +2895,8 @@
 	<string name="item.sets.seals-of-torment.name">Seals of Torment</string>
 	<string name="item.sets.seals-of-torment.desc">%faster%% Skill speed for each % Health missing.</string>
 
+	<string name="item.sets.instruments-of-exorcism.name">Instruments of Exorcism</string>
+	<string name="item.sets.instruments-of-exorcism.desc">%dmg%% damage done to Aberrations and Undead.</string>
 
 
 
@@ -2823,6 +2983,12 @@
 	<string name="drink.the-outlook-special.name">The Outlook Special</string>
 	<string name="drink.the-outlook-special.desc">Ore pickups trigger a %pos%% damage reduction buff that lasts for %pos2% seconds.\n%neg%% Ore Gain.</string>
 
+	<string name="drink.the-hairy-magus.name">The Hairy Magus</string>
+	<string name="drink.the-hairy-magus.desc">You gain %pos%% of your current Mana when scoring critical hits with Skills.\n%neg%% Skill cost.</string>
+
+	<string name="drink.primal-fury.name">Primal Fury</string>
+	<string name="drink.primal-fury.desc">%pos%% Attack speed in Combo.\nNo Mana Regen in Combo.</string>
+
 
 	<!-- RARE -->
 
@@ -2863,6 +3029,11 @@
 	<string name="drink.perpetual-desire.name">Perpetual Desire</string>
 	<string name="drink.perpetual-desire.desc">All pickups activate Combo.\n%neg%% Skill cost while out of Combo.</string>
 
+	<string name="drink.markhams-moonshine.name">Markham's Moonshine</string>
+	<string name="drink.markhams-moonshine.desc">%pos%% damage per item in your inventory. Spheres count twice.\nCombo is disabled.</string>
+
+	<string name="drink.caustic-touch.name">Caustic Touch</string>
+	<string name="drink.caustic-touch.desc">Damage dealt by Skills also applies poison.\nYou become poisoned when casting a Skill.</string>
 
 
 
@@ -2924,8 +3095,8 @@
 	<string name="fountain.effect.ace_chests.name">Ace Chests</string>
 	<string name="fountain.effect.ace_chests.description">Higher chance of Ace Chests spawning.</string>
 
-
-
+	<string name="fountain.effect.slower_enemies.name">Sluggish Adversaries</string>
+	<string name="fountain.effect.slower_enemies.description">Enemy movement speed decreased by 33%.</string>
 
 	<!-- BAD -->
 
@@ -3079,10 +3250,6 @@
 	<string name="dialogue.town.npc.generic.pali.1e">Here in your world we hide in\ndeep meditation, the side effect\nhowever, is that if the sleep is\ndisturbed...(5)</string>
 	<string name="dialogue.town.npc.generic.pali.1f">...so much energy is\nreleased that we might get\nsucked back into the rift which\nusually means something else\ngets thrown out. (6)</string>
 
-	<!-- NPC Woman2 Census -->
-
-	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
-	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
 	<string name="dialogue.town.npc.generic.guard.1a">If you enter,\nthere's no\nturning back.</string>
 	<string name="dialogue.town.npc.generic.guard.1b">The entrance\nwill be barred\nfrom behind you.</string>
 
@@ -3310,6 +3477,7 @@
 	<string name="guildhall.stats.manaregen">+%amount% Mana regen to all heroes</string>
 	<string name="guildhall.stats.goldgain">+%amount% Gold gained by all heroes</string>
 	<string name="guildhall.stats.critmul">+%amount% Crit damage to all heroes</string>
+	<string name="guildhall.stats.critmulspell">+%amount% Skill Crit damage to all heroes</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -3389,6 +3557,13 @@
 	<string name="titles.gladiator-6">Defeater</string>
 	<string name="titles.gladiator-7">Hero</string>
 	<string name="titles.gladiator-8">Idol</string>
+
+	<string name="titles.witch_hunter-3">Devotee</string>
+	<string name="titles.witch_hunter-4">Missionary</string>
+	<string name="titles.witch_hunter-5">Advocate</string>
+	<string name="titles.witch_hunter-6">Adjudicator</string>
+	<string name="titles.witch_hunter-7">Inquisitor</string>
+	<string name="titles.witch_hunter-8">Fanatic</string>
 
 	<!-- bestiary -->
 	<string name="bestiary.type.beast">BEASTS</string>
@@ -3742,6 +3917,24 @@
 	<string name="accomplishment.arena-fights.name">Combatants %lvl%</string>
 	<string name="accomplishment.arena-fights.desc">Win %requirement% arena skirmishes.</string>
 
+	<string name="accomplishment.max-level-witch_hunter.name">Fanatic Brotherhood %lvl%</string>
+	<string name="accomplishment.max-level-witch_hunter.desc">Reach level %requirement% with a Witch Hunter.</string>
+
+	<string name="accomplishment.items-crafted-dungeon.name">Item Forgers %lvl%</string>
+	<string name="accomplishment.items-crafted-dungeon.desc">Craft %requirement% items using the Magic Furnace.</string>
+
+	<string name="accomplishment.item-dealer.name">Item Gamblers %lvl%</string>
+	<string name="accomplishment.item-dealer.desc">Gain %requirement% items by item gambling.</string>
+
+	<string name="accomplishment.blood-altar.name">Blood Rites %lvl%</string>
+	<string name="accomplishment.blood-altar.desc">Take %requirement% blood rites.</string>
+
+	<string name="accomplishment.shrines-used.name">Ancient Powers %lvl%</string>
+	<string name="accomplishment.shrines-used.desc">Activate %requirement% monoliths.</string>
+
+	<string name="accomplishment.pets-gold-collected.name">Companions %lvl%</string>
+	<string name="accomplishment.pets-gold-collected.desc">Have your companion collect %requirement% gold.</string>
+
 
 
 	<!-- Tailor -->
@@ -3800,11 +3993,18 @@
 	<string name="materials.gladiator.category.3">Plume</string>
 	<string name="materials.gladiator.category.4">Arm Guard</string>
 
+	<!-- witch hunter -->
+	<string name="materials.witch_hunter.category.1">Hat</string>
+	<string name="materials.witch_hunter.category.2">Coat</string>
+	<string name="materials.witch_hunter.category.3">Pauldrons</string>
+	<string name="materials.witch_hunter.category.4">Crossbow</string>
+
 	<!-- colors -->
 	<string name="materials.color.skin.shade.1">Shade 1</string>
 	<string name="materials.color.skin.shade.2">Shade 2</string>
 	<string name="materials.color.skin.shade.3">Shade 3</string>
 	<string name="materials.color.skin.shade.4">Shade 4</string>
+	<string name="materials.color.skin.shade.5">Shade 5</string>
 	<string name="materials.color.blonde">Blonde</string>
 	<string name="materials.color.brown">Brown</string>
 	<string name="materials.color.black">Black</string>
@@ -3886,7 +4086,21 @@
 	<string name="materials.color.mahogany">Mahogany</string>
 	<string name="materials.color.rivulet">Rivulet</string>
 	<string name="materials.color.spectre">Spectre</string>
-
+	<string name="materials.color.rapunzel">Rapunzel</string>
+	<string name="materials.color.dryad">Dryad</string>
+	<string name="materials.color.charcoal">Charcoal</string>
+	<string name="materials.color.imperial">Imperial</string>
+	<string name="materials.color.majestic">Majestic</string>
+	<string name="materials.color.firefly">Firefly</string>
+	<string name="materials.color.hunter">Hunter</string>
+	<string name="materials.color.shimmer">Shimmer</string>
+	<string name="materials.color.flamingo">Flamingo</string>
+	<string name="materials.color.scourge">Scourge</string>
+	<string name="materials.color.regal">Regal</string>
+	<string name="materials.color.serpent">Serpent</string>
+	<string name="materials.color.noble">Noble</string>
+	<string name="materials.color.amaranth">Amaranth</string>
+	<string name="materials.color.royal">Royal</string>
 
 	<!-- colors -->
 	<string name="player.voice.default">Default</string>
@@ -3894,29 +4108,6 @@
 	<string name="player.voice.female-2">Female 2</string>
 	<string name="player.voice.male-1">Male 1</string>
 	<string name="player.voice.male-2">Male 2</string>
-
-
-
-	<!-- New -->
-
-	<string name="world.coliseum.rank">ARIDARA ARENA, RANK %rank%</string>
-
-	<string name="meta.info.rift.midway">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 3 Curses)</string>
-	<string name="meta.info.rift.1">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 5 Curses)</string>
-	<string name="meta.info.rift.2">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 7 Curses)</string>
-	<string name="meta.info.rift.3">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 9 Curses)</string>
-
-	<string name="fountain.effect.slower_enemies.name">Sluggish Adversaries</string>
-	<string name="fountain.effect.slower_enemies.description">Enemy movement speed decreased by 33%.</string>
-
-	<string name="item.sets.spheres-of-power.desc.6">%dmg%% damage in Combo.</string>
-
-	<string name="materials.color.skin.shade.5">Shade 5</string>
-
-	<!-- New 03/13/2019 -->
-
-	<string name="stats.max-level-gladiator">Highest Gladiator Level</string>
-	<string name="meta.info.sequencefailed">Sequence failed!</string>
 
 
 
